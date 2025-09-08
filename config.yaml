@@ -75,19 +75,19 @@ Params:
   sponsors: []
   importantDates:    
    - id: abstract_submission
-     date: "April 10, 2024, 23:59 UTC"
+     date: "TBA"
    - id: paper_submission
-     date: "April 12, 2024, 23:59 UTC"
+     date: "TBA"
    - id: notification_of_acceptance
-     date: "May 27, 2024, 23:59 UTC"
+     date: "TBA"
    - id: revised_version_due
-     date: "June 7, 2024, 23:59 UTC"
+     date: "TBA"
    - id: camera_ready_due
-     date: "June 14, 2024, 23:59 UTC"
+     date: "TBA"
    - id: graduate_school
-     date: "June 22-23, 2024"
+     date: "June 29-30, 2026"
    - id: conference
-     date: "June 24-26, 2024"
+     date: "July 01-03, 2026"
   chairs:
   - id: conference_co_chairs
     items: 

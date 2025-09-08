@@ -29,16 +29,16 @@ languages:
     ___
     "
     
-    sponsorPlea: "if you would like to become a sponsor of SGP 2024."
+    sponsorPlea: "if you would like to become a sponsor of SGP 2026."
     submitNow: "Begin your submission now."
 menu:
   main:
     - name: submit
       url: /submit/
       weight: 10
-    - name: program
-      url: /program/
-      weight: 20
+   #- name: program
+   #  url: /program/
+   #  weight: 20
     - name: registration
       url: /registration/ 
       weight: 30

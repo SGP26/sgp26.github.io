@@ -1,6 +1,6 @@
-baseURL: "https://sgp2024.github.io/"
+baseURL: "https://sgp2026.github.io/"
 languageCode: en-us
-title: SGP 2024 - Symposium on Geometry Processing 2024
+title: SGP 2026 - Symposium on Geometry Processing 2026
 theme: minimalConference
 languages:
   en:

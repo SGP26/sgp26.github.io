@@ -48,9 +48,9 @@ menu:
     - name: organization
       url: /organization/
       weight: 50
-    - name: awards
-      url: /awards/
-      weight: 60
+   #- name: awards
+   #  url: /awards/
+   #  weight: 60
     - name: previous_sgps
       url: /past/
       weight: 70

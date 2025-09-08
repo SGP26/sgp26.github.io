@@ -1,4 +1,4 @@
-# Hugo website for SGP 2023
+# Hugo website for SGP 2026
 
 > :warning: **_Do not edit `docs/` directly_**
 
@@ -10,11 +10,11 @@ On your local machine, install hugo
 
 Then clone this repository
 
-    git clone https://github.com/sgp2024/sgp2024.github.io.git
+    git clone https://github.com/sgp2026/sgp2026.github.io.git
 
 Change into this directory
 
-    cd sgp2024.github.io
+    cd sgp2026.github.io
 
 Run the hugo server in the background while you're testing your edits:
 

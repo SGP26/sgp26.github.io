@@ -82,28 +82,28 @@ Params:
   chairs:
   - id: conference_co_chairs
     items: 
-      - name: "Justin Solomon"
-        email: "jsolomon@mit.edu"
-        affiliation: "MIT"
-      - name: "Mina Konaković Luković"
-        email: "minakl@mit.edu"
-        affiliation: "MIT"
+      - name: "David Bommes"
+        email: "david.bommes@unibe.ch"
+        affiliation: "University of Bern"
+      - name: "TBA"
+        email: ""
+        affiliation: ""
   - id: technical_program_co_chairs
     items: 
-      - name: "Ruizhen Hu"
-        email: "ruizhen.hu@gmail.com"
-        affiliation: "Shenzhen University"
-      - name: "Sylvain Lefebvre"
-        email: "sylvain.lefebvre@inria.fr"
-        affiliation: "INRIA"
+     #- name: "Ruizhen Hu"
+     #  email: "ruizhen.hu@gmail.com"
+     #  affiliation: "Shenzhen University"
+     #- name: "Sylvain Lefebvre"
+     #  email: "sylvain.lefebvre@inria.fr"
+     #  affiliation: "INRIA"
   - id: graduate_school_co_chairs 
     items: 
-      - name: "Silvia Sellán"
-        email: "sgsellan@cs.toronto.edu"
-        affiliation: "University of Toronto"
-      - name: "Edward Chien"
-        email: "edchien@bu.edu"
-        affiliation: "Boston University"
+     #- name: "Silvia Sellán"
+     #  email: "sgsellan@cs.toronto.edu"
+     #  affiliation: "University of Toronto"
+     #- name: "Edward Chien"
+     #  email: "edchien@bu.edu"
+     #  affiliation: "Boston University"
 
 #  - id: awards_chair
 #    items: 

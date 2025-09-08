@@ -55,8 +55,8 @@ menu:
       url: /past/
       weight: 70
 Params:
-  sponsorContact: "jsolomon@mit.edu"
-  submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2024"
+  sponsorContact: "sgp2026-admin@list.inf.unibe.ch"
+  submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2026"
   events: 
     - id: "conference_location"
     - id: "graduate_school"

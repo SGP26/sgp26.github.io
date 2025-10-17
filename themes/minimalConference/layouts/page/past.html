@@ -5,10 +5,10 @@
 <h2>{{T "previous_sgps"}}</h2>
 
 {{ $flags := .Site.Params.flagEmojis }}
-<ul class=committee-list>
-{{ range .Site.Params.pastEvents }}
+<ul>
+{{ range .Params.pastEvents }}
       <li>
-        <span style="display:inline-block;min-width:140px;">{{ index $flags .country }}&nbsp;{{ .city }}</span>
+        <span style="display:inline-block;min-width:10em;">{{ index $flags .country }}&nbsp;{{ .city }}</span>
         <a href={{ .url }}>SGP {{ .year }}</a> on {{ .date }} 
       </li>
 {{ end }} 

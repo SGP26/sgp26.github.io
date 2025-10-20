@@ -85,25 +85,22 @@ Params:
       - name: "David Bommes"
         email: "david.bommes@unibe.ch"
         affiliation: "University of Bern"
-      - name: "TBA"
-        email: ""
-        affiliation: ""
   - id: technical_program_co_chairs
     items: 
-     #- name: "Ruizhen Hu"
-     #  email: "ruizhen.hu@gmail.com"
-     #  affiliation: "Shenzhen University"
-     #- name: "Sylvain Lefebvre"
-     #  email: "sylvain.lefebvre@inria.fr"
-     #  affiliation: "INRIA"
+      - name: "Melina Skouras"
+        email: "melina.skouras@inria.fr"
+        affiliation: "Inria Grenoble Rhône-Alpes"
+      - name: "Marco Livesu"
+        affiliation: "CNR IMATI"
+        email: "marco.livesu@gmail.com"
   - id: graduate_school_co_chairs 
     items: 
-     #- name: "Silvia Sellán"
-     #  email: "sgsellan@cs.toronto.edu"
-     #  affiliation: "University of Toronto"
-     #- name: "Edward Chien"
-     #  email: "edchien@bu.edu"
-     #  affiliation: "Boston University"
+      - name: "Marc Gillespie"
+        email: "mark.gillespie@inria.fr"
+        affiliation: "École Polytechnique" # University of Utah starting Fall 2026?
+      - name: "Ruben Wiersma"
+        email: "ruben.wiersma@inf.ethz.ch"
+        affiliation: "ETH Zurich"
 
 #  - id: awards_chair
 #    items: 

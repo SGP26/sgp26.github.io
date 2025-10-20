@@ -63,7 +63,17 @@ Params:
       date: "June 29-30, 2026"
     - id: "conference"
       date: "July 01-03, 2026"
-  sponsors: []
+  sponsors:
+    - name: ""
+      id: "bronze"
+      items:
+        - name: "University of Bern"
+          logo: "images/sponsors/ub_Logo_english_2019_RGB_ger.png"
+    - name: "Software Award Sponsor"
+      id: "bronze"
+      items:
+        - name: "GeometryFactory"
+          logo: "images/sponsors/geometryfactory.png"
   importantDates:    
    - id: abstract_submission
      date: "TBA"

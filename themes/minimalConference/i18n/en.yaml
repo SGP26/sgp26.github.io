@@ -1,7 +1,5 @@
 - id: sponsors
   translation: "Sponsors"
-- id: conference_location
-  translation: "The conference will be located at the Massachusetts Institute of Technology, Cambridge, MA, USA."
 - id: graduate_school
   translation: "Graduate School"
 - id: conference
@@ -52,6 +50,8 @@
   translation: "Organizational Team"
 - id: conference_co_chairs
   translation: "Conference co‑Chairs"
+- id: conference_chair
+  translation: "Conference Chair"
 - id: technical_program_co_chairs
   translation: "Technical Program co‑Chairs"
 - id: graduate_school_co_chairs

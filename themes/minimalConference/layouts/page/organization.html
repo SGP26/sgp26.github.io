@@ -5,7 +5,7 @@
 <h2>2024 {{T "organizational_team"}}</h2>
 
 <table class=chairs-table>
-  {{range .Site.Params.chairs}}
+  {{range .Params.chairs}}
   <tr>
   <td class=chairs-name>
     {{T .id }}
@@ -25,7 +25,7 @@
 </table>
 
 {{ $flags := .Site.Params.flagEmojis }}
-{{ range .Site.Params.committees }}
+{{ range .Params.committees }}
 <h2> {{T .id }} </h2>
 
   {{ if (not (isset . "members")) | or (eq .members "") }}

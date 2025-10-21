@@ -27,7 +27,7 @@ chairs:
         affiliation: "ETH Zurich"
 committees:
     - id: technical_papers_committee
-      members:
+      members_prelim:
           - name: Marc Alexa
             affiliation: "TU Berlin"
             country: "Germany"
@@ -299,7 +299,7 @@ committees:
             affiliation: "University of Bern"
             country: "Switzerland"
     - id: awards_committee
-      members:     
+      members_prelim:
         - name: "Marc Alexa"
           email: "firstname.lastname at tu-berlin.de"
           affiliation: "Technische Universität Berlin"    

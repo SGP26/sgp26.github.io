@@ -1,9 +1,13 @@
+- id: year
+  translation: "2026"
 - id: sponsors
   translation: "Sponsors"
 - id: graduate_school
   translation: "Graduate School"
 - id: conference
   translation: "Conference"
+- id: about
+  translation: "About"
 - id: submit
   translation: "Submit"
 - id: program

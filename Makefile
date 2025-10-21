@@ -1,4 +1,4 @@
 .PHONY: server
 
 server:
-	hugo server -D
+	hugo server --openBrowser --printI18nWarnings

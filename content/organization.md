@@ -19,7 +19,7 @@ chairs:
         email: "marco.livesu@gmail.com"
   - id: graduate_school_co_chairs 
     items: 
-      - name: "Marc Gillespie"
+      - name: "Mark Gillespie"
         email: "mark.gillespie@inria.fr"
         affiliation: "École Polytechnique" # University of Utah starting Fall 2026?
       - name: "Ruben Wiersma"

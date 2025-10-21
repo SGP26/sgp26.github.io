@@ -34,9 +34,9 @@ Params:
   events: 
     #- id: "conference_location"
     - id: "graduate_school"
-      date: "June 29-30, 2026"
+      date: "June 29–30, 2026"
     - id: "conference"
-      date: "July 01-03, 2026"
+      date: "July 01–03, 2026"
   sponsors:
     - name: ""
       id: "bronze"
@@ -48,7 +48,7 @@ Params:
       items:
         - name: "GeometryFactory"
           logo: "images/sponsors/geometryfactory.png"
-  importantDates:    
+  importantDates:
    - id: abstract_submission
      date: "TBA"
    - id: paper_submission

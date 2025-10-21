@@ -17,50 +17,15 @@
 
 
 <p id=about>
-{{ .Site.Params.about | markdownify  }} 
-</p>
 {{ .Content }}
+</p>
 
 
 <!--
-<h2>Video</h2>
-<div class=video-container>
-<iframe src="https://www.youtube.com/embed/zIvxeT2saLw?controls=0&autoplay=1&loop=1&modestbranding=1&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscpoe; picture-in-picture; fullscreen" allowfullscreen></iframe>
-</div>
-
 {{- partial "important-dates.html" . -}}
 -->
 
-<h3>{{T "sponsors" }}</h3>
-<table class=fixed-table>
-{{range .Site.Params.sponsors }}
-<tr>
-  {{ $scn := .id }}
-<td class=sponsor-category>{{ .name}}</td>
-<td>
-  <ul id={{.id}}-sponsor-list>
-{{range .items}}
-    <li>
-      {{ if ((isset . "logo")) | and (not (eq .logo "")) }}
-      <img class="logo_{{ $scn }}" src="{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
-        {{ if ((isset . "logoDisclaimer")) | and (not (eq .logoDisclaimer "")) }}
-        <div class=logoDisclaimer>{{ .logoDisclaimer }}</div>
-        {{end}}
-      {{ end}}
-    </li>
-{{end}}
-{{range .items}}
-    <li>
-      {{ if (not (isset . "logo")) | or (eq .logo "") }}
-      {{ .name }}
-      {{ end}}
-    </li>
-{{end}}
-  </ul>
-</td>
-</tr>
-{{end}}
-</table>
+{{- partial "sponsors.html" . -}}
 
 <!--
 <h2> {{T "poster" }}</h2>
@@ -70,11 +35,5 @@
 </div>
 -->
 
-
-
-<p class=single-line>
-<a href="mailto:{{ .Site.Params.sponsorContact}}">{{T "contact_us" }}</a> 
-{{.Site.Params.sponsorPlea }}
-</p>
 
 {{ end }}

@@ -1,0 +1,36 @@
+
+<h2>{{T "sponsors" }}</h2>
+<table class=fixed-table>
+{{range .Site.Params.sponsors }}
+<tr>
+  {{ $scn := .id }}
+<td class=sponsor-category>{{ .name}}</td>
+<td>
+  <ul id={{.id}}-sponsor-list>
+{{range .items}}
+    <li>
+      {{ if ((isset . "logo")) | and (not (eq .logo "")) }}
+      <img class="logo_{{ $scn }}" src="{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
+        {{ if ((isset . "logoDisclaimer")) | and (not (eq .logoDisclaimer "")) }}
+        <div class=logoDisclaimer>{{ .logoDisclaimer }}</div>
+        {{end}}
+      {{ end}}
+    </li>
+{{end}}
+{{range .items}}
+    <li>
+      {{ if (not (isset . "logo")) | or (eq .logo "") }}
+      {{ .name }}
+      {{ end}}
+    </li>
+{{end}}
+  </ul>
+</td>
+</tr>
+{{end}}
+</table>
+
+<p class=single-line>
+<a href="mailto:{{ .Site.Params.sponsorContact}}">{{T "contact_us" }}</a> 
+if you would like to become a sponsor of SGP 2026.
+</p>

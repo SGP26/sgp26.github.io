@@ -132,7 +132,12 @@ Note that the posters will be presented at the conference but will not be publis
 
 Poster submissions should include a 2-page abstract that summarizes the poster content and is formatted according to the Author’s guidelines.
 
-Submissions should be made electronically through the Submission and Review Management (SRMv2) system: https://srmv2.eg.org/COMFy/Conference/SGP_2026P 
+Submissions should be made electronically through the Submission and Review Management (SRMv2) system.
+The submission URL will be announced here.
+<!-- TODO: poster submission url -->
+<!--
+: https://srmv2.eg.org/COMFy/Conference/SGP_2026P 
+-->
 
 The submission process is not anonymous.
 

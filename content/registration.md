@@ -19,6 +19,9 @@ Letters for visa applications will be provided upon request after registration.
 
 ## Rates
 
+TBA
+
+<!--
 {{<rawhtml>}}
 <table>
   <thead>
@@ -101,3 +104,4 @@ Letters for visa applications will be provided upon request after registration.
 
 A presenter of each accepted paper will receive the discount code to register with Early Bird rate even after 10 May. 
 
+-->

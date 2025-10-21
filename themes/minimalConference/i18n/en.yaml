@@ -20,6 +20,8 @@
   translation: "Getting Here"
 - id: accommodation
   translation: "Accommodation"
+- id: social_event
+  translation: "Social Event"
 - id: social_events
   translation: "Social Events"
 - id: local_info

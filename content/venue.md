@@ -1,6 +1,6 @@
 ---
 title: "Venue"
-layout: "simple-static"
+layout: "venue"
 type: "page"
 ---
 

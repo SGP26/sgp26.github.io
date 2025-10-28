@@ -8,8 +8,9 @@
 <ul>
 {{ range .Params.pastEvents }}
       <li>
-        <span style="display:inline-block;min-width:10em;">{{ index $flags .country }}&nbsp;{{ .city }}</span>
-        <a href={{ .url }}>SGP {{ .year }}</a> on {{ .date }} 
+          <span style="display:inline-block;min-width:2.7em;">
+          <a href={{ .url }}>{{ .year }}</a>:<!--{{ .date }}, --> 
+          </span> {{ index $flags .country }}&nbsp;{{ .city }}
       </li>
 {{ end }} 
 </ul>

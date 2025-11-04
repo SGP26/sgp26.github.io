@@ -76,6 +76,7 @@
   --titlefont: torontoSubway, sans-serif;
   --headerfont: var(--titlefont);
   --logoMaxWidth: 500px; 
+  --border-rad: 5px;
   
   --planet-background: #f2f7f7;
   --planet-menu-bg: #266375;
@@ -138,6 +139,8 @@ img#banner
   background-color: var(--planet-menu-bg);
   max-width: 100%;
   border-top:1px solid #fcfcfc;
+  border-radius: 0px 0px var(--border-rad) var(--border-rad);
+  box-shadow: 0px .15rem .15rem rgba(0.5,0.5,0.5,0.3);
 }
 
 #nav-border #nav a
@@ -448,7 +451,8 @@ div#events
   font-size: 1.5em;
   text-align: center;
   text-align-last: center;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px var(--border-rad) var(--border-rad);
+  box-shadow: 0px .15rem .15rem rgba(0.5,0.5,0.5,0.3);
   line-height: 90%;
 }
 div#events p
@@ -801,7 +805,7 @@ td.teaserColumn
 {
   background-color: var(--light-blue);
   max-width: 100%;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px var(--border-rad) var(--border-rad);
 }
 
 #program-banner #program-nav a

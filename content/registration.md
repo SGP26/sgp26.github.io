@@ -8,11 +8,11 @@ type: "page"
 ## Registration
 
 The registration includes access to full conference program, graduate school, and social events.
-{{<comment>}}
+<!--
 Free coffee mug (while supplies last) to early bird registrants. Additional mug can be purchased onsite for $15.
 
 {{/*Use the following link to register: [sgp-2024.eventbrite.com](https://www.eventbrite.com/e/sgp-2024-tickets-860146460217?aff=oddtdtcreator) */}}
-{{</comment>}}
+-->
 
 Letters for visa applications will be provided upon request after registration. 
 

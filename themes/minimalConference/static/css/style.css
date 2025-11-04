@@ -148,7 +148,7 @@ img#banner
 #nav-border #nav a
 {
   font-family: var(--headerfont);
-  font-size: 1.1em;
+  font-size: 14pt;
   color: #f3f3f3;
 }
 
@@ -448,9 +448,10 @@ div#events
   background-color: #76a9ad;
   color: #f3f3f3;
   font-family: var(--headerfont);
-  font-size: 12pt;
+  font-size: 14pt;
   text-align: center;
   text-align-last: center;
+  padding: .2em;
   border-radius: 0px 0px var(--border-rad) var(--border-rad);
   box-shadow: 0px .15rem .15rem rgba(0.5,0.5,0.5,0.3);
   /*line-height: 90%;*/
@@ -680,7 +681,7 @@ button
   background-color: inherit;
   border: none;
   font-family: var(--headerfont);
-  font-size: 1.1em;
+  font-size: 14pt;
   color: var(--dark-blue);
 }
 div.graduate-school-text-container

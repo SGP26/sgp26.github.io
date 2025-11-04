@@ -1,21 +1,18 @@
 <div id=banner-outer>
 <div id=banner-container>
     <a href={{ .Site.BaseURL | relLangURL }}>
-
-        {{ partial "picture" (dict
-        "src" "assets/images/bern.jpg"
-        "ctx" .
-        "alt" "Test image"
-        "sizes" "100vw"
-        "widths" (slice 400 800 1200 2000 4000)
-        ) }}
-
         <div id="banner-text">
-            <h1>Symposium on Geometry Processing</h1>
+            <h1>Symposium&nbsp;on Geometry&nbsp;Processing</h1>
             <h2>1. – 3. July</h2>
             <h2>Bern, Switzerland</h2>
         </div>
-
+        {{ partial "picture" (dict
+        "src" "assets/images/bern.jpg"
+        "ctx" .
+        "alt" "Photo of Bernks old town"
+        "sizes" "100vw"
+        "widths" (slice 400 800 1200 2000 4000)
+        ) }}
     </a>
 </div>
 </div>

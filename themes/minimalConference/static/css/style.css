@@ -28,7 +28,12 @@ body
   background-color: var(--planet-background);
   color: var(--dark-blue);
   font-size: 12pt;
-  margin: auto;
+  margin: 0pt;
+  padding: 0pt;
+}
+html {
+  margin: 0pt;
+  padding: 0pt;
 }
 
 table
@@ -50,7 +55,6 @@ a:hover
 #banner-outer
 {
   width: 100%;
-  background-color: var(--planet-background);
 }
 #banner-container
 {
@@ -58,32 +62,42 @@ a:hover
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+    position: relative;
 }
 
-#banner-container picture,
+#banner-container {
+    max-width: 60rem;
+}
 #banner-container img
 {
+    position: absolute;
+    top: 0px;
+    left:0px;
   height: 100%;
   width: 100%;
+  z-index: -1;
+  /*
   min-width: 100%;
   min-height: 100%;
+  */
   filter: brightness(85%);
-  background-color: var(--planet-background);
+  object-fit: cover;
 }
 
 #banner-container a {
     text-decoration: none;
     position: relative;
     display: block;
+    min-height: clamp(150px, 100vw/2.35, 400px);
+
 }
 
 #banner-text {
-    position: absolute;
     top: 1em;
     right: 1em;
     z-index: 10;
-    width: 90%;
     align: right;
+    margin-right: 1.5em;
 }
 
 
@@ -92,15 +106,15 @@ a:hover
     text-align: right;
     color: white;
     margin: 0.2em auto;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7)4
 }
 
 #banner-text h1 {
-    font-size: 24pt;
+    font-size: clamp(20pt, 7vw, 50pt);
 }
 
 #banner-text h2 {
-    font-size: 12pt;
+    font-size: clamp(10pt, 3.5vw, 25pt);
 }
 
 /* navigation bar */
@@ -151,7 +165,7 @@ a:hover
 }
 #simple-static
 {
-  padding-top: 25px;
+  padding-top: 1.0em;
 }
 
 
@@ -232,7 +246,7 @@ div#footer-text-container
 */
 
 /* still not perfectly hugging the bottom... */
-div#footer p
+footer p
 {
   margin: 0;
   display: block;
@@ -474,13 +488,14 @@ ul.past-sgps
 ul.committee-list
 {
   min-width: 200px;
-  column-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  column-width: 25em;
+  margin:auto;
+  display: block;
 }
 
 ul.committee-list li
 {
+    /*
   webkit-column-break-inside: avoid;
           page-break-inside: avoid;
                break-inside: avoid;
@@ -488,7 +503,10 @@ ul.committee-list li
   text-indent: -24px;
   margin-left: 0;
   margin-right: 0;
+  */
   text-align: left;
+  max-width: 24em;
+  display: list-item;
 }
 
 ul.committee-list li table

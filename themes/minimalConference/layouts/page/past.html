@@ -9,8 +9,8 @@
 {{ range .Params.pastEvents }}
       <li>
           <span style="display:inline-block;min-width:2.7em;">
-          <a href={{ .url }}>{{ .year }}</a>:<!--{{ .date }}, --> 
-          </span> {{ index $flags .country }}&nbsp;{{ .city }}
+          <a href={{ .url }}>{{ .year }}</a>:<!--{{ .date }}, -->
+          </span>{{ if .country }}{{ index $flags .country }}&nbsp;{{ end }}{{ .city }}
       </li>
 {{ end }} 
 </ul>

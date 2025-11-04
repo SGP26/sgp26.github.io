@@ -60,13 +60,15 @@ a:hover
   margin-right: auto;
 }
 
-img#banner
+#banner-container picture,
+#banner-container img
 {
   height: 100%;
   width: 100%;
   min-width: 100%;
   min-height: 100%;
   filter: brightness(85%);
+  background-color: var(--planet-background);
 }
 
 #banner-container a {

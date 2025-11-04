@@ -1,9 +1,15 @@
 <div id=banner-outer>
 <div id=banner-container>
     <a href={{ .Site.BaseURL | relLangURL }}>
-        {{ $image := resources.Get "images/bern.jpg" }}
-        {{ $image := $image.Resize "2048x" }}
-        <img id=banner src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+
+        {{ partial "picture" (dict
+        "src" "assets/images/bern.jpg"
+        "ctx" .
+        "alt" "Test image"
+        "sizes" "100vw"
+        "widths" (slice 400 800 1200 2000 4000)
+        ) }}
+
         <div id="banner-text">
             <h1>Symposium on Geometry Processing</h1>
             <h2>1. – 3. July</h2>

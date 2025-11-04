@@ -4,16 +4,19 @@
 
 
 
-## Example workflow
+## Installation
 
-On your local machine, [install hugo](https://gohugo.io/installation/).
+On your local machine, [install hugo](https://gohugo.io/installation/) and go.
+(We need go to use the `responsive-images` module (and maybe more in the future).
 
-- MacOS: `brew install hugo`
+- MacOS: `brew install hugo go`
 
 Run the hugo server in the background while you're testing your edits:
 
     make server
 
+
+## Project structure
 Hugo is helping us have a "fancy" website, but it means things are a bit more
 scattered. The goal is to push the layout/style related things into
 `themes/minimalConference/*` and the content related items into

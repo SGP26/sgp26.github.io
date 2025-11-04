@@ -1,6 +1,6 @@
 ---
 title: "Registration"
-layout: "registration"
+layout: "simple-static"
 type: "page"
 ---
 

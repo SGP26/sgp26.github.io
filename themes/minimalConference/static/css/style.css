@@ -462,10 +462,14 @@ p#about
   text-align-last: center;
 }
 
-ul
+.sgp-past-year {
+    display:inline-block;
+    min-width:2.7em;
+}
+ul.past-sgps
 {
   width: 100%;
-  column-width: 400px;
+  column-width: 12.5em;
 }
 ul.committee-list
 {

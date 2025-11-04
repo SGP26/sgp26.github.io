@@ -5,12 +5,13 @@
 <h2>{{T "previous_sgps"}}</h2>
 
 {{ $flags := .Site.Data.flagEmojis }}
-<ul>
+<ul class="past-sgps">
 {{ range .Params.pastEvents }}
       <li>
-          <span style="display:inline-block;min-width:2.7em;">
+          <span class="sgp-past-year">
           <a href={{ .url }}>{{ .year }}</a>:<!--{{ .date }}, -->
-          </span>{{ if .country }}{{ index $flags .country }}&nbsp;{{ end }}{{ .city }}
+          </span>
+          <span classs="sgp-past-place">{{ if .country }}{{ index $flags .country }}&nbsp;{{ end }}{{ .city }}</span>
       </li>
 {{ end }} 
 </ul>

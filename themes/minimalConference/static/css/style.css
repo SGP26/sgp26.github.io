@@ -153,6 +153,8 @@ img#banner
 {
   position: relative;
   min-height: 100vh;
+  max-width: 60rem;
+  margin:auto;
 }
 
 #content-wrap

@@ -134,6 +134,10 @@ img#banner
 
 /* navigation bar */
 
+.nav {
+    line-height: 1.0;
+}
+
 #nav-border
 {
   background-color: var(--planet-menu-bg);
@@ -169,10 +173,8 @@ img#banner
 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1500px;
-  padding-left: 25px;
-  padding-right: 25px;
-  width: 90%;
+  max-width: 95%;
+  margin:auto;
   margin-left:auto;
   margin-right:auto;
 }
@@ -448,7 +450,7 @@ div#events
   background-color: #76a9ad;
   color: #f3f3f3;
   font-family: var(--headerfont);
-  font-size: 1.5em;
+  font-size: 12pt;
   text-align: center;
   text-align-last: center;
   border-radius: 0px 0px var(--border-rad) var(--border-rad);

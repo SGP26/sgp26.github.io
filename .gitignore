@@ -11,3 +11,4 @@ ehthumbs_vista.db
 # MacOS stuff:
 .DS_Store
 __MACOSX/
+_gen

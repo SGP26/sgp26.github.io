@@ -1,6 +1,16 @@
 <div id=banner-outer>
 <div id=banner-container>
-    <a href={{ .Site.BaseURL | relLangURL }}><img id=banner src="{{.Site.BaseURL}}/images/banner_image.jpg"></a>
+    <a href={{ .Site.BaseURL | relLangURL }}>
+        {{ $image := resources.Get "images/bern.jpg" }}
+        {{ $image := $image.Resize "2048x" }}
+        <img id=banner src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        <div id="banner-text">
+            <h1>Symposium on Geometry Processing</h1>
+            <h2>1. – 3. July</h2>
+            <h2>Bern, Switzerland</h2>
+        </div>
+
+    </a>
 </div>
 </div>
 

@@ -89,9 +89,7 @@ body
 {
   background-color: var(--planet-background);
   color: var(--dark-blue);
-  min-width: 300px;
   font-size: 12pt;
-  /* max-width: 2000px; */
   margin: auto;
 }
 

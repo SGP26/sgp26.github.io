@@ -608,21 +608,21 @@ img.logo_institutional
 
 img.logo_bronze
 {
-  width: 25%;
+  width: calc(max(10em, 25%));
   max-width: calc(0.5 * var(--logoMaxWidth));
   padding-bottom: 10px;
 }
 
 img.logo_silver
 {
-  width: 50%;
+  width: calc(max(10em, 50%));
   max-width: calc(0.5 * var(--logoMaxWidth));
   padding-bottom: 10px;
 }
 
 img.logo_gold
 {
-  width:  75%;
+  width: calc(max(10em, 75%));
   max-width: calc(0.75 * var(--logoMaxWidth));
   padding-bottom: 10px;
 }

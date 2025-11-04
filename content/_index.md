@@ -11,4 +11,4 @@ The Symposium on Geometry Processing (SGP) is the premier venue for disseminatin
 Continuing a successful tradition from previous years, SGP will also offer a Graduate School, targeted at students and researchers new to the field. Courses will be taught by leading experts and complemented by interactive demonstrations to provide in-depth knowledge of recent and fundamental aspects of geometry processing.
 
 
-**SGP 2026 will be located at the University of Bern, Switzerland**
+**SGP 2026 will be located at the University of Bern, Switzerland.**

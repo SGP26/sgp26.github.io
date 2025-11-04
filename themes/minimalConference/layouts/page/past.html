@@ -4,7 +4,7 @@
 
 <h2>{{T "previous_sgps"}}</h2>
 
-{{ $flags := .Site.Params.flagEmojis }}
+{{ $flags := .Site.Data.flagEmojis }}
 <ul>
 {{ range .Params.pastEvents }}
       <li>

@@ -86,8 +86,8 @@ a:hover
 
 #banner-container a {
     text-decoration: none;
-    position: relative;
-    display: block;
+}
+#banner-container {
     min-height: clamp(150px, 100vw/2.35, 400px);
 
 }

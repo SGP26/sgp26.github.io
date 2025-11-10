@@ -934,7 +934,7 @@ td.teaserColumn
 }
 
 span.event-id {
-    font-style: italic;
+    /*font-style: italic;*/
 }
 
 }

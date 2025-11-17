@@ -175,8 +175,11 @@ h1 {
 
 h1,h2,h3,h4
 {
-  text-align: center;
   font-family: var(--headerfont);
+}
+h1, h2
+{
+  text-align: center;
 }
 
 /*
@@ -869,7 +872,7 @@ td.teaserColumn
 
 .text-part {
   flex: 1;  /* 2; 2/3 of the container */
-  padding: 20px;
+  padding-right: 20px;
 }
 
 .image-part {

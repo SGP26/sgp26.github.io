@@ -10,17 +10,23 @@
   </nav>
 </div>
 
+{{ .Content }}
+
 <div id=simple-static>
     <h2 id=venue>{{T "venue" }}</h2>
     <div class="text_img_right_container">
         <div class="text-part">
             <p>
-            SGP 2026 will take place at the <b>University of Bern main building</b> in Bern, Switzerland. <br>
-            Address: <b>Hochschulstrasse 4, 3012 Bern</b>
-            <ul>
-                <li><a href="https://maps.app.goo.gl/4C9jsmTM6tMcQPr56">Google Maps</a></li>
-                <li><a href="https://www.openstreetmap.org/way/25335100">OpenStreetMap</a></li>
-            </ul>
+            SGP 2026 will take place at the main building of the <b>University of Bern</b> in Bern, Switzerland.<br>
+            It is conveniently located above the main train station on a terrace called &ldquo;Grosse Schanze&rdquo;.
+            </p>
+            Address: <br>
+            <address>
+                <b>Hochschulstrasse 4, 3012 Bern</b><br>
+            (<a href="https://maps.app.goo.gl/4C9jsmTM6tMcQPr56">Google Maps</a>, <a href="https://www.openstreetmap.org/way/25335100">OpenStreetMap</a>)
+            </address>
+            The graduate school presentations (June 29–30) will be held in <b>Room 201</b>.
+            The main conference talks (July 1–3) will take place in the <b>Aula</b>, while coffee breaks take place in the <b>Foyer</b> (ground floor entrace towards the lawn).
         </div>
         <div class="image-part">
             <figure>
@@ -43,20 +49,24 @@
     </div>
     -->
 
-
-    <h2 id=getting_here>{{T "getting_here" }}</h2>
+    <h2 id="getting-here">Getting Here</h2>
     <div class="text_img_right_container">
         <div class="text-part">
-            <p>
-            The venue is located on top of the Bern train station.
-            </p>
+            <h3 id="by-plane">By plane</h3>
+            <p>Bern is centrally located in Switzerland and is well-connected to the major Swiss airports
+            <strong>Zurich (ZRH)</strong> (~1h15 by train), <strong>Geneva (GVA)</strong> (~2h by train), and <strong>Basel (BSL)</strong> (~1h20 by train).</p>
+            <h3 id="by-train">By train</h3>
+            <p>You can look up train connections and buy tickets at <a href="https://www.sbb.ch/en">https://www.sbb.ch/en</a>.</p>
+            <p><strong>Note:</strong> The platforms of Bern&rsquo;s main station are connected both to an above-ground exit &ldquo;Welle 7&rdquo; (escalators that go up), and to a main station corridor (ramp/stairs going down). At one end of the corridor (near platform 13) there is an elevator that takes you directly up to &ldquo;Grosse Schanze | Universität&rdquo;.</p>
+            <h3 id="by-car">By car</h3>
+            <p>We do not recommend to travel by car, as there is limited parking space in Bern, and the parking is quite costly. Furthermore, parts of the city are car-free. Bern has an extensive public transport system consisting of trains, busses and trams, and every part of the city is easily reachable using these transportation methods.</p>
         </div>
     </div>
 
     <h2 id=social_events>{{T "social_event" }}</h2>
 
     <div class="text_img_bottom_container">
-        <div class="text-row">
+        <div class="text-part">
             <p>TBA</p>
         </div>
     </div>
@@ -65,9 +75,25 @@
 
     <div class="text_img_right_container">
         <div class="text-part">
-            <p>TBA</p>
+            <p>
+            There are many hotels in Bern, many in walking distance from the conference venue.
+            Popular choices include
+            <a href="https://www.hotelbern.ch/en/">Best Western Plus Hotel Bern</a>,
+            <a href="https://www.hotelsavoy-bern.ch/en.html">Hotel Savoy Bern</a>,
+            <a href="https://kreuzbern.ch/en/rooms/">Kreuz Bern</a>, and
+            <a href="https://schweizerhofbern.com/en">Schweizerhof Hotel & Spa</a>.
+            <br>
+
+            Note that together with any hotel accomodation in Bern, you receive a free <b>local</b> public transport ticket, the <a href="https://bern.com/en/inform/tickets-offers/bern-ticket/">Bern ticket</a>.
+            </p>
         </div>
     </div>
+
+    <h2 id=bern>Bern &amp; Switzerland</h2>
+
+    Bern is a historic city with many sights and activities. For more information, see the official <a href="https://bern.com/en/home">Welcome to Bern</a> site. <br>
+
+    If you'd like to explore more of Switzerland before or after the conference visit, <a href="https://www.isochrone.ch/?origin=Parent8507000">many interesting places are easily reached by public transport.</a>
 
     <!--
         <h2 id=local_info>{{T "local_info" }}</h2>

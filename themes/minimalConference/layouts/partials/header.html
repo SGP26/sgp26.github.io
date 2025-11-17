@@ -8,9 +8,11 @@
             </a>
         </div>
         {{ partial "picture" (dict
-        "src" "assets/images/bern.jpg"
         "ctx" .
+        "densities" (slice 1 2)
+        "src" "assets/images/bern.jpg"
         "alt" "Photo of Bern's old town"
+        "sizes" "100vw"
         "widths" (slice 400 800 1200 2000 4000)
         ) }}
 </div>

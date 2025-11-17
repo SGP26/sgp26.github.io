@@ -36,7 +36,7 @@ Hendrik Brückler, David Bommes, and Marcel Campen
 
 ## Software Award
 
-Sponsored by ![gf logo](assets/images/sponsors/geometryfactory.png)
+<!--Sponsored by ![gf logo](assets/images/sponsors/geometryfactory.png)-->
 
 
 <!--![Cinolib](/images/cinolib.png)-->

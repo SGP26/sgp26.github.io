@@ -6,4 +6,4 @@ server:
 
 upload:
 	hugo mod get
-	hugo build --cleanDestinationDir && rsync -rP public/ pluto:/var/www/tmp/tmp/sgp26-v3/
+	hugo build --cleanDestinationDir && rsync -rP public/ pluto:/var/www/tmp/tmp/sgp26-v4/

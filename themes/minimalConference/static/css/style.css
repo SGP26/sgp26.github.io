@@ -947,6 +947,11 @@ a {
     background-repeat: no-repeat;
 }
 
+.past-sgps a {
+    background-image: none !important;
+    padding-left: 0px !important;
+}
+
 a[href^="http"] {
     background-image: url('/sgp26-v4/icons/link.svg');
     padding-left: 1.4em;

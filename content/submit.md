@@ -10,29 +10,29 @@ menu: submit
 
 We invite submissions related to, but not limited to, the following topics:
 
- - Acquisition and reconstruction
- - Analysis and fabrication for 3D printing
- - Architectural geometry
- - Computational geometry
- - Differentiable rendering
- - Discrete differential geometry
- - Geometry and topology data structures and representations
- - Exploration of shape collections
- - Geometry compression
- - Geometric deep learning
- - Geometric representations for machine learning
- - Geometry processing applications
- - Interactive techniques
- - Meshing and remeshing
- - Multiresolution modeling
- - Multimodal shape processing
- - Neural shape representations
- - Point cloud acquisition and processing
- - Processing of massive geometric datasets
- - Shape analysis and synthesis
- - Simulation and animation
- - Smoothing, filtering, and denoising
- - Surface and volume parameterization and deformation
+>  - Acquisition and reconstruction
+>  - Analysis and fabrication for 3D printing
+>  - Architectural geometry
+>  - Computational geometry
+>  - Differentiable rendering
+>  - Discrete differential geometry
+>  - Geometry and topology data structures and representations
+>  - Exploration of shape collections
+>  - Geometry compression
+>  - Geometric deep learning
+>  - Geometric representations for machine learning
+>  - Geometry processing applications
+>  - Interactive techniques
+>  - Meshing and remeshing
+>  - Multiresolution modeling
+>  - Multimodal shape processing
+>  - Neural shape representations
+>  - Point cloud acquisition and processing
+>  - Processing of massive geometric datasets
+>  - Shape analysis and synthesis
+>  - Simulation and animation
+>  - Smoothing, filtering, and denoising
+>  - Surface and volume parameterization and deformation
 
 ### Dataset Papers
 
@@ -47,18 +47,18 @@ kinds of algorithms). Importantly, however, a good dataset paper is more than ju
 dump of raw data. We are looking for thoughtfully-written companion papers, to be
 evaluated according to the following criteria:
 
- - NOVELTY. In what way(s) is the dataset different from those currently available? For
+ - **Novelty**. In what way(s) is the dataset different from those currently available? For
 instance, does it provide new kinds of “rich” data? Is it organized or annotated in a
 different way? It is representative of a different application domain—perhaps one that is
 not well-studied in geometry processing? Is it significantly larger/higher-resolution than
 previous datasets? Does it provide new challenges for robustness? Etc.
 
- - IMPACT. What is the potential impact on research in geometry processing? Will this
+ - **Impact**. What is the potential impact on research in geometry processing? Will this
 dataset inspire the development of new kinds of algorithms? Will it significantly push
 forward the state of the art in terms of scalability, robustness, etc.? Does it help resolve
 clearly-defined holes or shortcomings of previous datasets?
 
- - PRESENTATION. Is the paper itself well-written and well-organized? Is the purpose of
+ - **Presentation**. Is the paper itself well-written and well-organized? Is the purpose of
 the new dataset clearly explained and motivated? Does the paper make a compelling
 case that the dataset presents new opportunities or challenges (e.g., experiments
 indicating that current algorithms do not perform well on this data). Is the data itself
@@ -66,7 +66,7 @@ clearly described and documented? Are sufficient details provided about, e.g., t
 acquisition process, or other metadata that may be useful/necessary for interpreting
 the data?
 
- - ACCESSIBILITY. Is the dataset easy to access/examine? For instance, if the dataset is
+ - **Accessibility**. Is the dataset easy to access/examine? For instance, if the dataset is
 very large, is there a mechanism for accessing only individual files or examples? Are
 files stored in standard/open formats, and/or do the authors provide guidance on how
 to convert data stored in non-standard formats? Do the authors provide tools that help
@@ -75,7 +75,7 @@ is there a plan for ensuring the dataset will remain available in the future? Is
 clearly defined, and/or are there any significant intellectual property issues associated
 with sharing the dataset?
 
- - PRIVACY AND ETHICS. Does the paper carefully address potential issues of anonymity
+ - **Privacy and Ethics**. Does the paper carefully address potential issues of anonymity
 or personally identifying information? Does it discuss any ethical issues around
 acquisition of the data, or potential use/misuse of data outside the intended context?
 
@@ -84,15 +84,27 @@ These criteria will also be provided to reviewers and committee members during t
 review period. Authors interested in examples of successful dataset papers may wish to
 consult the following list:
 
-- VOLMAP: a Large Scale Benchmark for Volume Mappings to Simple Base
-- Domains paper (SGP 2023) dataset
-- The Princeton Shape Benchmark paper dataset
-- Thingi10K: A Dataset of 10000 3D-Printing Models paperdataset
-- ABC: A Big CAD Model Dataset For Geometric Deep Learning paper dataset
-- ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes paper dataset
-- The Digital Michelangelo Project: 3D Scanning of Large Statues paper dataset
 
-TODO: urls
+> - _VOLMAP: a Large Scale Benchmark for Volume Mappings to Simple Base Domains_
+>     [paper (SGP 2023)](https://www.gianmarcocherchi.com/pdf/volmap.pdf)
+>     [dataset](https://volmap.github.io/)
+> - _The Princeton Shape Benchmark_
+>     [paper](https://shape.cs.princeton.edu/benchmark/benchmark.pdf)
+>     [dataset](https://shape.cs.princeton.edu/benchmark/)
+> - _Thingi10K: A Dataset of 10000 3D-Printing Models_
+>     [paper ](https://arxiv.org/abs/1605.04797)
+>     [dataset](https://ten-thousand-models.appspot.com/)
+> - _ABC: A Big CAD Model Dataset For Geometric Deep Learning_
+>     [paper](https://cs.nyu.edu/~zhongshi/publication/abc-dataset/)
+>     [dataset](https://archive.nyu.edu/handle/2451/43778)
+> - _ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes_
+>     [paper](https://arxiv.org/abs/1702.04405)
+>     [dataset](http://www.scan-net.org/)
+> - _The Digital Michelangelo Project: 3D Scanning of Large
+> Statues_
+>     [paper](http://graphics.stanford.edu/papers/dmich-sig00/)
+>     [dataset](https://accademia.stanford.edu/data/mich/)
+
 
 The dataset papers will be published similarly to the technical papers, in the same
 Computer Graphics Forum special issue.
@@ -142,21 +154,22 @@ including those shared via arXiv. Following this policy almost verbatim, we reco
 that prepublications and talks have become part of the scientific discourse, and SGP
 allows these means of communication. Specifically, before the final acceptance
 decision is made:
- -  Authors must not discuss the research described in submitted SGP papers with
-the media. Media includes editors/journalists/writers/interviewers of
-newspapers, radio, television, magazines, as well as public relations and media
-arms of companies, universities, and other research institutions.
- -  After submitting to SGP, authors may archive the submission without mentioning
-SGP as an institutional tech report or on arXiv or a similar service.
- -  Authors must not make any posts to social media or elsewhere that can be
-linked to a specific SGP submission (e.g., mentioning the title of the submission
-or details and content and saying that it is a SGP submission).
- -  Authors may talk about their work in a presentation without saying it is submitted
-to SGP.
- -  Authors may mention their submission(s) as under review at SGP as part of the
-written materials submitted for job and funding applications. Authors may talk
-about the research involved in their submission in talks given for these purposes
-as well, without mentioning SGP.
+
+>  -  Authors must not discuss the research described in submitted SGP papers with
+> the media. Media includes editors/journalists/writers/interviewers of
+> newspapers, radio, television, magazines, as well as public relations and media
+> arms of companies, universities, and other research institutions.
+>  -  After submitting to SGP, authors may archive the submission without mentioning
+> SGP as an institutional tech report or on arXiv or a similar service.
+>  -  Authors must not make any posts to social media or elsewhere that can be
+> linked to a specific SGP submission (e.g., mentioning the title of the submission
+> or details and content and saying that it is a SGP submission).
+>  -  Authors may talk about their work in a presentation without saying it is submitted
+> to SGP.
+>  -  Authors may mention their submission(s) as under review at SGP as part of the
+> written materials submitted for job and funding applications. Authors may talk
+> about the research involved in their submission in talks given for these purposes
+> as well, without mentioning SGP.
 
 
 ### Proceedings
@@ -183,25 +196,25 @@ research, preliminary findings, novel ideas, ongoing projects in the field of ge
 processing, as well as refined methods or applications of already published research.
 We welcome submissions from a wide range of topics, including but not limited to:
 
- - Acquisition and reconstruction
- - 3D printing analysis and fabrication
- - Architectural geometry
- - Computational geometry
- - Differentiable rendering
- - Discrete differential geometry
- - Shape collection exploration
- - Data structures and representations for geometry and topology
- - Geometry compression
- - Geometric deep learning
- - Geometric representations for machine learning
- - Interactive techniques
- - Meshing, remeshing, and multiresolution modeling
- - Multimodal shape processing
- - Neural shape representations
- - Point cloud processing
- - Processing of large geometric datasets
- - Shape analysis, synthesis, and animation
- - Surface and volume parameterization and deformation
+>  - Acquisition and reconstruction
+>  - 3D printing analysis and fabrication
+>  - Architectural geometry
+>  - Computational geometry
+>  - Differentiable rendering
+>  - Discrete differential geometry
+>  - Shape collection exploration
+>  - Data structures and representations for geometry and topology
+>  - Geometry compression
+>  - Geometric deep learning
+>  - Geometric representations for machine learning
+>  - Interactive techniques
+>  - Meshing, remeshing, and multiresolution modeling
+>  - Multimodal shape processing
+>  - Neural shape representations
+>  - Point cloud processing
+>  - Processing of large geometric datasets
+>  - Shape analysis, synthesis, and animation
+>  - Surface and volume parameterization and deformation
 
 Note that the posters will be presented at the conference but will not be published
 otherwise.
@@ -220,9 +233,7 @@ conference to discuss their work during the dedicated poster session. Authors wi
 charge of printing the poster, many printing services are available around the
 conference venue. Posters will be displayed throughout the conference, and authors will
 have the opportunity to present their work and engage with attendees.
-
-We look forward to your contributions and to an engaging and informative poster
-session at SGP 2026!
+We look forward to your contributions and to an engaging and informative poster session at SGP 2026!
 
 
 

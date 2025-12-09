@@ -940,4 +940,57 @@ span.event-id {
     /*font-style: italic;*/
 }
 
+
+a {
+    background-position: left;
+    background-size: 1.2em;
+    background-repeat: no-repeat;
+}
+
+a[href^="http"] {
+    background-image: url('/icons/link.svg');
+    padding-left: 1.4em;
+
+}
+
+a[href^="tel:"] {
+    background-image: url('/icons/phone-call.svg');
+    padding-left: 1.4em;
+
+}
+
+a[href^="mailto:"] {
+    background-image: url('/icons/envelope.svg');
+    padding-left: 1.4em;
+
+}
+a[href$='.zip'], 
+a[href$='.tar.gz'], 
+a[href$='.tar.bz2'], 
+a[href$='.tar.zst']
+{
+    background-image: url('/icons/package.svg');
+    padding-left: 1.4em;
+}
+a[href$='.ppt'],
+a[href$='.key']
+{
+    background-image: url('/icons/slides.svg');
+    padding-left: 1.4em;
+}
+a.bibtex-link {
+    background-image: url('/icons/file-text.svg');
+    padding-left: 1.4em;
+}
+a.abstract-link {
+    background-image: url('/icons/file-text.svg');
+    padding-left: 1.4em;
+}
+a[href$='.pdf'] {
+    background-image: url('/icons/file-pdf.svg');
+    padding-left: 1.4em;
+}
+a.a-project-page {
+    background-image: url('/icons/info.svg');
+    padding-left: 1.4em;
 }

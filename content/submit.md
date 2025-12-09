@@ -89,16 +89,16 @@ consult the following list:
 >     [paper (SGP 2023)](https://www.gianmarcocherchi.com/pdf/volmap.pdf)
 >     [dataset](https://volmap.github.io/)
 > - _The Princeton Shape Benchmark_
->     [paper](https://shape.cs.princeton.edu/benchmark/benchmark.pdf)
+>     [paper](https://gfx.cs.princeton.edu/pubs/Shilane_2004_TPS/SMI04.pdf)
 >     [dataset](https://shape.cs.princeton.edu/benchmark/)
 > - _Thingi10K: A Dataset of 10000 3D-Printing Models_
->     [paper ](https://arxiv.org/abs/1605.04797)
+>     [paper ](https://arxiv.org/abs/1605.04797.pdf)
 >     [dataset](https://ten-thousand-models.appspot.com/)
 > - _ABC: A Big CAD Model Dataset For Geometric Deep Learning_
->     [paper](https://cs.nyu.edu/~zhongshi/publication/abc-dataset/)
+>     [paper](https://arxiv.org/abs/1812.06216.pdf)
 >     [dataset](https://archive.nyu.edu/handle/2451/43778)
 > - _ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes_
->     [paper](https://arxiv.org/abs/1702.04405)
+>     [paper](https://arxiv.org/abs/1702.04405.pdf)
 >     [dataset](http://www.scan-net.org/)
 > - _The Digital Michelangelo Project: 3D Scanning of Large
 > Statues_

@@ -80,20 +80,28 @@ Params:
         - name: "GeometryFactory"
           logo: "images/sponsors/geometryfactory.png"
   importantDates:
-   - id: abstract_submission
-     date: "TBA"
-   - id: paper_submission
-     date: "TBA"
-   - id: notification_of_acceptance
-     date: "TBA"
-   - id: revised_version_due
-     date: "TBA"
-   - id: camera_ready_due
-     date: "TBA"
-   - id: graduate_school
-     date: "June 29 – 30, 2026"
-   - id: conference
-     date: "July 01 – 03, 2026"
+    round_one:
+      - id: abstract_submission
+        date: "Feb 02"
+      - id: paper_submission
+        date: "Feb 04"
+      - id: notification_of_acceptance
+        date: "Mar 16"
+      - id: revised_version_due
+        date: "Mar 26"
+      - id: camera_ready_due
+        date: "Apr 2"
+    round_two:
+      - id: abstract_submission2
+        date: "Apr 13"
+      - id: paper_submission2
+        date: "Apr 15"
+      - id: notification_of_acceptance2
+        date: "May 25"
+      - id: revised_version_due2
+        date: "Jun 04"
+      - id: camera_ready_due2
+        date: "Jun 11"
 
 #  - id: awards_chair
 #    items: 

@@ -42,6 +42,16 @@
   translation: "Revised version due"
 - id: camera_ready_due
   translation: "Camera ready due"
+- id: abstract_submission2
+  translation: "(Recommended) Abstract submission"
+- id: paper_submission2
+  translation: "Paper submission"
+- id: notification_of_acceptance2
+  translation: "Notification of acceptance"
+- id: revised_version_due2
+  translation: "Revised version due"
+- id: camera_ready_due2
+  translation: "Camera ready due"
 - id: contact_us
   translation: "Contact us"
 - id: poster

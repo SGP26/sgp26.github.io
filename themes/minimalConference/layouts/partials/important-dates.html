@@ -1,7 +1,32 @@
 <h2>{{T "important_dates" }}</h2>
 
 <table class=fixed-table>
-  {{ range .Site.Params.importantDates }}
+  <tr><td colspan=2><h3>First Round of Submission</h3></td></tr>
+  {{ range .Site.Params.importantDates.round_one }}
+  <tr>
+    <td class=important-date-name>
+      {{T .id }}
+    </td>
+    <td class=important-date-date>
+      {{ .date }}
+    </td>
+  </tr>
+  {{ end }}
+
+  <tr><td colspan=2><h3>Second Round of Submission</h3></td></tr>
+  {{ range .Site.Params.importantDates.round_two }}
+  <tr>
+    <td class=important-date-name>
+      {{T .id }}
+    </td>
+    <td class=important-date-date>
+      {{ .date }}
+    </td>
+  </tr>
+  {{ end }}
+
+  <tr><td colspan=2><h3>Event</h3></td></tr>
+  {{ range .Site.Params.events }}
   <tr>
     <td class=important-date-name>
       {{T .id }}

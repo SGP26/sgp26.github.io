@@ -1,0 +1,21 @@
+{
+  "name": "Symposium on Geometry Processing '26",
+  "short_name": "SGP'26",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "minimal-ui",
+  "theme_color": "#f2f7f7",
+  "background_color": "#266375",
+  "display": "standalone"
+}

@@ -1,0 +1,14 @@
+Using https://favicon.io/favicon-generator/
+Font color #f2f7f7
+background color #266375
+
+
+This favicon was generated using the following font:
+
+- Font Title: Saira Condensed
+- Font Source: https://fonts.gstatic.com/s/sairacondensed/v11/EJROQgErUN8XuHNEtX81i9TmEkrfpeFE-IyCrw.ttf
+
+https://fonts.google.com/specimen/Saira/license?preview.text=SGP&categoryFilters=Feeling:%2FExpressive%2FFuturistic
+
+Open Font License :)
+

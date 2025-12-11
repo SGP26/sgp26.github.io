@@ -86,7 +86,7 @@ Params:
       - id: paper_submission
         date: "February 04"
       - id: notification_of_acceptance
-        date: "Mar 16"
+        date: "March 16"
       - id: revised_version_due
         date: "March 26"
       - id: camera_ready_due

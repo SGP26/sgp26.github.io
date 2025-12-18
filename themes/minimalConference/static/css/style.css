@@ -355,6 +355,7 @@ table.fixed-table td
   padding-right: 10px;
   padding-bottom: 2px;
   padding-top: 2px;
+  vertical-align: top;
 }
 
 td.sponsor-category
@@ -567,7 +568,7 @@ td.chairs-name{
   text-align: right;
   font-weight: bold;
   font-style: italic;
-  vertical-align: middle;
+  vertical-align: top;
 }
 td.chairs-items ul
 {

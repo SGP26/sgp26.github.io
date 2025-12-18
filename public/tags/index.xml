@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SGP 2026 - Symposium on Geometry Processing 2026</title>
-    <link>https://tmp.cgg.unibe.ch/sgp26-v4/tags/</link>
+    <link>https://sgp26.org/tags/</link>
     <description>Recent content in Tags on SGP 2026 - Symposium on Geometry Processing 2026</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://tmp.cgg.unibe.ch/sgp26-v4/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sgp26.org/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

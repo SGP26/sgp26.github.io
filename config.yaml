@@ -1,5 +1,4 @@
-#baseURL: "https://sgp2026.github.io/"
-baseURL: "https://tmp.cgg.unibe.ch/sgp26-v4/"
+baseURL: "https://sgp26.org/"
 languageCode: en-us
 title: SGP 2026 - Symposium on Geometry Processing 2026
 theme: minimalConference

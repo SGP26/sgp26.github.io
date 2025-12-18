@@ -3,12 +3,14 @@ title: "Organization"
 layout: "organization"
 type: "page"
 chairs:
-  #- id: conference_co_chairs
-  - id: conference_chair
+  - id: conference_co_chairs
     items: 
       - name: "David Bommes"
         email: "david.bommes@unibe.ch"
         affiliation: "University of Bern"
+      - name: "Leif Kobbelt"
+        email: "kobbelt@cs.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
   - id: technical_program_co_chairs
     items: 
       - name: "Melina Skouras"

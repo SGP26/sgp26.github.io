@@ -2,6 +2,8 @@ baseURL: "https://sgp26.org/"
 languageCode: en-us
 title: SGP 2026 - Symposium on Geometry Processing 2026
 theme: minimalConference
+disableKinds: ["taxonomy", "term", "RSS", "robotsTXT", "404"]
+
 module:
   imports:
   - path: github.com/future-wd/hugo-responsive-images

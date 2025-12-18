@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/awards/</loc>
+    <loc>https://sgp26.org/awards/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://sgp26.org/</loc>
   </url><url>
-    <loc>http://localhost:1313/organization/</loc>
+    <loc>https://sgp26.org/organization/</loc>
   </url><url>
-    <loc>http://localhost:1313/past/</loc>
+    <loc>https://sgp26.org/past/</loc>
   </url><url>
-    <loc>http://localhost:1313/program/</loc>
+    <loc>https://sgp26.org/program/</loc>
   </url><url>
-    <loc>http://localhost:1313/registration/</loc>
+    <loc>https://sgp26.org/registration/</loc>
   </url><url>
-    <loc>http://localhost:1313/submit/</loc>
+    <loc>https://sgp26.org/submit/</loc>
   </url><url>
-    <loc>http://localhost:1313/venue/</loc>
+    <loc>https://sgp26.org/venue/</loc>
   </url>
 </urlset>

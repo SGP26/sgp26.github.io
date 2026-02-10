@@ -36,7 +36,7 @@
       {{range .members}}
       <li>
         <table><tr><td>
-        {{ if ((isset . "country")) | or (not (eq .country "")) }}
+        {{ if ((isset . "country")) | and (not (eq .country "")) }}
           {{ if (index $flags .country) }}
             {{ index $flags .country }}&nbsp;
           {{ end }}

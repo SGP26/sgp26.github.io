@@ -42,7 +42,7 @@
           {{ end }}
         {{ end }}
             </td><td>
-        <span class="">{{ .name }}</span>{{ if ((isset . "affiliation")) | or (not (eq .affiliation "")) }}, <span class="">{{ .affiliation }}</span>{{ end }}
+        <span class="member-name">{{ .name }}</span>{{ if ((isset . "affiliation")) | and (not (eq .affiliation "")) }}, <span class="affiliation">{{ .affiliation }}</span>{{ end }}
             </td></tr></table>
       </li>
     {{ end }}

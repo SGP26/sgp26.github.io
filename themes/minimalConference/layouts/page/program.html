@@ -1,4 +1,5 @@
 {{ define "main" }}
+<!--
 <div id=program-banner>
   <nav id=program-nav class="nav justify-content-center">
   <a class=nav-link href=#keynotes>Keynotes</a>
@@ -6,6 +7,7 @@
   <a class=nav-link href=#technical-papers>Technical Papers</a>
   </nav>
 </div>
+-->
 
 <div id=simple-static>
 
@@ -14,19 +16,16 @@
     href=https://docs.google.com/document/d/1ywKq2UizWWmDAacSV79DbStPimQhqDiFX5mOZXlt1yI/>SGP
     2024 Code of Conduct</a>.</p> -->
   <!--<center><embed src="/images/sgp24_program.pdf" width="800px" height="1100px" /></center> -->
+<!--
   <p class=code-of-conduct>Conference recordings are available here: <a class=line
     href=https://www.youtube.com/@SGP2024MIT>https://www.youtube.com/@SGP2024MIT</a></p>
   <p class=code-of-conduct>All papers accepted to SGP'24 can be found in the <a class=line
     href=https://diglib.eg.org/handle/10.2312/3607011>Proceedings in EG Digital Library</a>.</p>
+-->
 
-  <center><object data="/images/sgp24_program.pdf" type="application/pdf" width="800px" height="1100px">
-  <p>Your web browser doesn't have a PDF plugin.
-  Instead you can <a href="/images/sgp24_program.pdf">click here to
-  download the PDF file.</a></p>
-  </object> </center>
-
-  <h2 id=keynotes>{{T "keynotes" }}</h2>
-{{range .Params.speakers }}
+{{ if (isset .Params "keynotes") }}
+<h2 id=keynotes>{{T "keynotes" }}</h2>
+{{range .Params.keynotes }}
 <div class=keynote-container>
     <img src={{ .portrait }} class=keynote-portrait>
     <div class=keynote-text-container>
@@ -38,7 +37,6 @@
     <p>
     {{ if (not (isset . "title")) | or (eq .title "") }}
     ({{T "stay_tuned_for_talk_information"}})
-    {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
     {{ else }}
     <h3><span class=keynote-title>{{.title}}</span></h3>
     <p>
@@ -51,8 +49,6 @@
     {{end}}
     <p class=keynote-bio>
     {{ if (not (isset . "bio")) | or (eq .bio "") }}
-    <!-- just keep it empty -->
-    {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
     {{ else }}
     {{.bio}}
     {{ end }}
@@ -60,6 +56,8 @@
     </div>
 </div>
 {{ end }}
+{{ else}}
+{{ end}}
 
 <h2 id=graduate-school>{{T "graduate_school" }}</h2>
 
@@ -93,13 +91,16 @@
 {{ end }}
 </div>
 
+<!--
 <h2 id=technical-papers>{{T "technical_papers" }}</h2>
+-->
 
 <!--
 <h4><a href={{.Params.paperURL}}>Proceedings on EG Digital Library</a></h4>
 <h4><a href={{.Params.paperUSB}}>Virtual USB Key (1.1GB)</a></h4>
 -->
 
+<!--
 {{range .Params.paperSessions}}
   <h3 class=sessionName id={{ .name | urlize }}>{{ .name}}
   <span class="sessionChair line">chaired by {{ .chair}}</span>
@@ -135,6 +136,7 @@
   </div>
   </div>
 {{end}}
+-->
 
 {{ .Content }}
 </div>

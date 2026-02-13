@@ -42,9 +42,9 @@ menu:
     - name: submit
       url: /submit/
       weight: 10
-   #- name: program
-   #  url: /program/
-   #  weight: 20
+    - name: program
+      url: /program/
+      weight: 20
     - name: registration
       url: /registration/ 
       weight: 30

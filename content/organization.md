@@ -31,7 +31,7 @@ committees:
   - id: technical_papers_committee
     members:
       - name: "Noam Aigerman"
-        affiliation: "University Montreal"
+        affiliation: "Université de Montréal"
         country: "Canada"
       - name: "Marc Alexa"
         affiliation: "TU Berlin"

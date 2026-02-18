@@ -267,7 +267,7 @@ committees:
         affiliation: "Shandong University"
         country: "China"
       - name: "Kai Xu"
-        affiliation: "National University of Defense Technology"
+        affiliation: "Institute of AI for Industries, Chinese Academy of Sciences"
         country: "China"
       - name: "Eugene Zhang"
         affiliation: "Oregon State University"

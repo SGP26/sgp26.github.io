@@ -67,7 +67,7 @@ committees:
         affiliation: "Paderborn University"
         country: "Germany"
       - name: "Raphaelle Chaine"
-        affiliation: "LIRIS - CNRS"
+        affiliation: "LIRIS - University Claude Bernard Lyon 1"
         country: "France"
       - name: "Gianmarco Cherchi"
         affiliation: "University of Cagliari"

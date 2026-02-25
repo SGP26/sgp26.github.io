@@ -285,15 +285,6 @@ footer p
   text-align: left;
 }
 
-.keynote-title:before
-{
-  content: "“";
-}
-.keynote-title:after
-{
-  content: "”";
-}
-
 .keynote-bio
 {
   font-style: italic;

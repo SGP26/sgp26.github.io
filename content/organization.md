@@ -145,7 +145,7 @@ committees:
         affiliation: "Bernoulli Institute, University of Groningen"
         country: "The Netherlands"
       - name: "Florent Lafarge"
-        affiliation: "inria"
+        affiliation: "Inria"
         country: "France"
       - name: "Yu-Kun Lai"
         affiliation: "Cardiff University"

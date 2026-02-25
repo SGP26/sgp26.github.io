@@ -2,8 +2,10 @@
     <meta charset="utf-8"> {{ $title := print .Site.Title " | " .Title }} {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="SGP organizers"/>
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL}}/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL}}/css/style.css">
+    {{ $styles := resources.Get "css/bootstrap.min.css" | fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{ $styles.Permalink}}">
+    {{ $styles := resources.Get "css/style.css" | fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{ $styles.Permalink}}">
 <style>
 /* Adapted from https://github.com/talkjs/country-flag-emoji-polyfill/blob/8ad89980d0ffea4432aae16c54ce58714f13ad3b/src/index.ts */
     @font-face {

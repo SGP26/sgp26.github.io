@@ -5,13 +5,24 @@ type: "page"
 menu: program
 
 
-keynotes_DISABLED:
-  - name: Place Holder
-    url: https://someurl
-    affiliation: affil
-    title: title
-    abstract: abs
-    portrait: /images/port.jpg
+keynotes:
+  - name: Justin Solomon
+    url: https://people.csail.mit.edu/jsolomon/
+    affiliation: MIT CSAIL
+    title: "Computational Optimal Transport: From Low to High Dimension and Back"
+    abstract: |
+        The *optimal transport* problem asks a simple geometric question:  What is the most efficient way to transform one probability distribution into another along a piece of geometry?  Beyond its mathematical interest, optimal transport underlies a variety of applications, from supply chains to mesh processing, statistics, and even generative AI.  Over the past two decades, research in geometry processing has played a central role in shaping algorithms for optimal transport, with foundational advances emerging from the SGP community.  At the same time, popular problems in applied optimal transport have shifted from low-dimensional settings in graphics and imaging to high-dimensional settings in machine learning.
+
+        In this retrospective keynote, I will trace how my team's work in computational optimal transport was shaped by studying its applications to geometry processing---even as the landscape of research in this area shifted in dimensionality and application.  Ultimately, this journey illustrates the broader value of "Geometric Data Processing" as a discipline: identifying shared geometric and variational principles across domains that differ dramatically in dimension, scale, and data fidelity.
+    bio: |
+        Justin Solomon is an associate professor of Electrical Engineering and Computer Science in MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL).  He leads the CSAIL Geometric Data Processing group, which studies problems at the intersection of geometry, large-scale optimization, and applications.
+    portrait: /images/keynotes/justin_solomon.jpg
+  - name: Julie Digne
+    affiliation: "LIRIS - CNRS - Université Claude Bernard Lyon 1"
+    url: "https://perso.liris.cnrs.fr/julie.digne/"
+  - name: "Bernhard Kerbl"
+    affiliation: "University of Copenhagen / Vienna University of Technology (TU Wien)"
+    url: "https://snosixtyboo.github.io/"
 
 graduateSchoolCourses:
 - title: "Directional Fields"

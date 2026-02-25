@@ -27,7 +27,16 @@
 <h2 id=keynotes>{{T "keynotes" }}</h2>
 {{range .Params.keynotes }}
 <div class=keynote-container>
-    <img src={{ .portrait }} class=keynote-portrait>
+
+    {{ if ((isset . "portrait")) | and (not (eq .portrait "")) }}
+        {{ $name := .name }}
+        {{ with resources.Get .portrait }}
+            <img class="keynote-portrait" src="{{ .RelPermalink }}" alt="Portrait of {{ $name }}" title="{{ $name }}" />
+        {{ else }}
+            {{ errorf "Unable to get page resource %q" .portrait }}
+        {{end}}
+    {{ else }}
+    {{ end}}
     <div class=keynote-text-container>
     <h3>
       <span class=keynote-name><a href={{.url}}>{{ .name }}</a></span>
@@ -40,7 +49,7 @@
     {{ else }}
     <h3><span class=keynote-title>{{.title}}</span></h3>
     <p>
-      {{ .abstract }}
+      {{ $.Page.RenderString .abstract }}
     </p>
     {{ end }}
     </p>
@@ -50,7 +59,7 @@
     <p class=keynote-bio>
     {{ if (not (isset . "bio")) | or (eq .bio "") }}
     {{ else }}
-    {{.bio}}
+      {{ $.Page.RenderString .bio }}
     {{ end }}
     </p>
     </div>

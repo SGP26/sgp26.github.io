@@ -5,9 +5,9 @@
        <div id="page-container">
           {{- partial "header.html" . -}}
           <div id="content-wrap">
-            <div id="content">
-            {{- block "main" . }}{{- end }}
-            </div>
+              <main id="content">
+                  {{- block "main" . }}{{- end }}
+              </main>
           </div>
           {{- partial "footer.html" . -}}
           {{- partial "script.html" . -}}

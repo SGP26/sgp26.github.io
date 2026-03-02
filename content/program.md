@@ -26,11 +26,16 @@ keynotes:
 
 graduateSchoolCourses:
 - title: "Directional Fields"
+  teaser: /images/gradschool/dir-fields.png
   speakers:
     - name: Amir Vaxman
       url: https://avaxman.github.io/
       affiliation: The University of Edinburgh
+  abstract: |
+    I will discuss classic and state-of-the-art methods to design directional fields on discrete surfaces, with applications to meshing, solving PDEs, and visualization.
+
 - title: "Differentiable Geometry Processing in Python"
+  teaser: /images/gradschool/diff-geom.png
   speakers:
     - name: "Ana Dodik"
       url: "https://anadodik.github.io/"
@@ -38,8 +43,13 @@ graduateSchoolCourses:
     - name: "Ahmed Mahmoud"
       url: "https://ahdhn.github.io/"
       affiliation: "MIT"
+  abstract: |
+    Inverse problems have a long history in computer graphics with applications ranging from fabrication to computer vision. While existing software packages such as Taichi, Mitsuba, Warp, and PyTorch3D focus primarily on differentiating through simulations of physical systems such as elasticity or light transport, differentiating through geometry processing algorithms is relatively underexplored. Existing geometry-processing-focused libraries for gradient computation (e.g., TinyAD) have poor operability with machine learning frameworks and no GPU support, limiting their practicality. This course explores how PyTorch, with its automatic differentiation and GPU acceleration capabilities, can be leveraged for differentiable geometry processing. We begin with the fundamentals of PyTorch, covering its computational model and automatic differentiation mechanisms, before introducing key optimization techniques for geometric data, focusing on meshes and other common representations. The course will include real-world applications of these concepts such as mesh smoothing and parameterization, meta-optimization, as well as machine-learning workflows. By the end of the session, attendees will have a practical understanding of how to integrate PyTorch into their own differentiable geometry processing workflows.
+
+
 
 - title: "Geometry Processing from 2D Image Priors"
+  teaser: /images/gradschool/image-priors.png
   speakers:
     - name: "Dale Decatur"
       url: "https://ddecatur.github.io/"
@@ -50,8 +60,11 @@ graduateSchoolCourses:
     - name: "Nam Anh Dinh"
       url: "https://people.cs.uchicago.edu/~namanh/"
       affiliation: "University of Chicago"
+  abstract: |
+    2D foundation models have exploded in popularity and capability in recent years. While text-to-image generative models, image feature encoders, and VLMs (vision-language models) are widely used in 2D contexts such as image processing and chatbots, they also facilitate numerous applications to traditionally 3D domains such as robotics, self-driving, and 3D generation. This course explores how 3D understanding can emerge from 2D priors, and how we can leverage these priors towards tasks in geometry processing. We summarize the literature on 3D awareness in 2D models and dive into the details on different approaches for lifting information from 2D to 3D. In doing so, we address common challenges in this field and conclude with three specific applications: mesh stylization, cross field generation, and mesh deformation.
 
 - title: "Shape Spaces"
+  teaser: /images/gradschool/shape-spaces.png
   speakers:
     - name: "Josua Sassen"
       url: "https://josuasassen.com"
@@ -59,26 +72,59 @@ graduateSchoolCourses:
     - name: "Florine Hartwig"
       url: "https://ins.uni-bonn.de/staff/hartwig"
       affiliation: "Universität Bonn"
+  abstract: |
+    In applications such as animation or shape analysis, we are interested in processing multiple shapes at once and, hence, in a mathematical model for collections of shapes yielding flexible numerical tools.
+    [1] proposed to consider Riemannian shape spaces in this context, \ie possibly infinite-dimensional Riemannian manifolds where points are geometric objects such as surfaces. These (Riemannian) shape spaces have found usage in a lot of areas of applied mathematical research such as computational anatomy, computer graphics, shape optimization, and image processing.
+    In this course, we will give an overview of different types of shape spaces interesting for geometry processing and will discuss concrete algorithms resulting from their theory.
 
-- title: "Geometric Origami and Fabrication"
+    [1] Kendall, David G. "Shape manifolds, procrustean metrics, and complex projective spaces." Bulletin of the London mathematical society 16.2 (1984): 81-121.
+
+
+- title: "Cone-Nets: Theory and Interactive Design"
+  teaser: /images/gradschool/cone-nets.jpg
   speakers:
     - name: "Klara Mundilova"
       url: "https://klaramundilova.com/"
       affiliation: "EPFL"
+    - name: "Michele Vidulis"
+      affiliation: "EPFL"
+      url: "https://michelevidulis.github.io/"
+  abstract: |
+    Sheet-material structures provide practical and aesthetic advantages and play an important role across architecture, design, and engineering. Consequently, the development of geometric methods and computational tools for their design remains an active research direction.
 
-- title: "BVHs and Hierarchical Representations"
+    This lecture focuses on cone-nets as a class of surface parameterizations and on their semi-discrete and discrete counterparts, which form special classes of structures composed of developable strips and regular planar quad meshes, respectively. We discuss the theoretical framework underlying these structures and present a novel construction method implemented as interactive design tools for Grasshopper / Rhinoceros 3D, the CNets and C-tubes plugins. These tools enable real-time exploration of the design space with intuitive controls and support form-finding optimization to meet user-specified objectives. 
+
+    By the end of the lecture, attendees will understand the theoretical foundations of cone-nets and be equipped to explore their design space using the presented tools.
+
+
+
+
+- title: "Spatial acceleration structures: Bounding Volume Hierarchies"
+  teaser: /images/gradschool/bvh.png
   speakers:
     - name: Markus Billeter
-      url: "https://eps.leeds.ac.uk/computing/staff/8810/dr-markus-billeter"
+      url: "https://vcg.leeds.ac.uk/profiles/billeter/"
       affiliation: "University of Leeds"
+  abstract: |
+    Spatial acceleration structures play an important role in many high-performance graphics applications. They enable logarithmic time spatial queries (intersections, in-range, ...), which is crucial for performance with ever larger data sets. A prominent example is ray tracing, where they are used to find intersections between view rays and geometry. However, to get the benefits from a spatial data structure, one must first obtain such, an O(N log(N)) process.
+
+    This course provides a practical introduction to spatial acceleration structures. It first introduces different types of spatial data structures, but then specifically focuses on bounding volume hierarchies (BVHs), which are a very common choice. It covers their use -performing spatial queries- and their construction. We will discuss different challenges, including dynamic data. We will then focus on the practical implementation, including considerations for GPUs. At the end of the course, we will have covered the full pipeline: from construction of a BVH to performing spatial queries.
+
 
 - title: "Closest Point Geometry Processing"
+  teaser: /images/gradschool/closest-point.png
   speakers:
     - name: "Nathan King"
       url: "https://nathandking.github.io/"
       affiliation: "Shapr3D"
+  abstract: |
+    Objects can be represented in various forms, including meshes, point clouds, level sets, and neural implicits. Traditionally, many algorithms are limited to a single specific representation. This course focuses on geometry processing techniques designed for any representation supporting closest-point queries.
 
-- title: "Geometric Mechanics and Fluid Dynamics"
+    By requiring only closest points, these methods become universally applicable across the above representations and more. Furthermore, objects can be manifold or nonmanifold, open or closed, orientable or not, and of any codimension or even mixed codimension. We provide an introduction to the closest point method (CPM) for solving PDEs and discuss extensions for applications commonly encountered in geometry processing.
+
+
+- title: "Computational Geometric Fluid Mechanics"
+  teaser: /images/gradschool/fluids.jpg
   speakers:
     - name: "Sina Nabizadeh"
       url: "https://sinabiz.github.io/"
@@ -86,6 +132,11 @@ graduateSchoolCourses:
     - name: "Hesper Yin"
       url: "https://yhesper.github.io/"
       affiliation: "UC San Diego"
+  abstract: |
+    Modern fluid simulation increasingly relies on geometric formulations. Prominent examples include Lie-advection-based methods that preserve energy and geometric invariants more faithfully than approaches that directly approximate the governing PDEs, showcasing geometric fluid mechanics as an impactful framework for fluid simulation.
+    This course develops geometric fluid mechanics from first principles. We first introduce the geometric formulation following Arnold’s interpretation of the Euler equations, in which fluid motion is described as geodesic flow on the infinite-dimensional Riemannian manifold of volume-preserving diffeomorphisms. We present the necessary background, ranging from Lie groups and variational principles to Lagrangian and Hamiltonian mechanics, and elucidate the invariant structures that arise from this geometric perspective.
+    We then discuss how smooth geometric structures can be translated into discrete settings, where fluid motion becomes a constrained geodesic flow on a sub-Riemannian manifold induced by discretization. Finally, we will analyze modern methods grounded in these principles from computer graphics and computational fluid mechanics.
+
 
 
 paperSessions: 

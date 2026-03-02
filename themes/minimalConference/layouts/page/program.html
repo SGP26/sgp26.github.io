@@ -79,9 +79,14 @@
     {{ if (isset . "youtube") }}
       <iframe class=embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {{else}}
-    {{ if (isset . "teaser") }}
-    <img src={{ .teaser }} class=graduate-school-teaser>
-    {{ end }}
+        {{ if (isset . "teaser") }}
+            {{ $name := .name }}
+            {{ with resources.Get .teaser }}
+                <img class="graduate-school-teaser" src="{{ .RelPermalink }}" />
+            {{ else }}
+                {{ errorf "Unable to get grad school talk teaser image: %q" .portrait }}
+            {{end}}
+        {{ end }}
     {{ end }}
     <p>
     {{ $len := (len .speakers ) }}

@@ -75,6 +75,11 @@ Params:
       items:
         - name: "University of Bern"
           logo: "images/sponsors/ub_Logo_english_2019_RGB_ger.png"
+    - name: ""
+      id: "bronze"
+      items:
+        - name: "Shapr3D"
+          logo: "images/sponsors/Shapr3D_Logo_RGB_Black.png"
     - name: "Software Award Sponsor"
       id: "bronze"
       items:

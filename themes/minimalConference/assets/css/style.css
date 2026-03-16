@@ -16,7 +16,7 @@
   --logoMaxWidth: 500px; 
   --border-rad: 5px;
   
-  --planet-background: #f2f7f7;
+  --planet-background: #f6fafb; /* #f2f7f7;a */
   --planet-menu-bg: #266375;
   --planet-line-section-1: #266375;
   --planet-line-section-2: #d45f64;
@@ -74,22 +74,21 @@ a:hover
     position: absolute;
     top: 0px;
     left:0px;
-  height: 100%;
   width: 100%;
   z-index: -1;
   /*
   min-width: 100%;
   min-height: 100%;
-  */
   filter: brightness(85%);
   object-fit: cover;
+  */
 }
 
 #banner-container a {
     text-decoration: none;
 }
 #banner-container {
-    min-height: clamp(150px, 100vw/2.35, 400px);
+    aspect-ratio: 4;
 
 }
 

@@ -37,14 +37,13 @@
     </div>
     <!--
     <div class="text_img_right_container">
-        <div class="image-part" style="flex: .5">
+        <div class="image-part" style="flex: .3">
             <figure>
                 <img src="{{.Site.BaseURL}}/images/venue/unibe-main-building-staircase.jpg" alt="Photograph of main building staircase">
                 <figcaption>© University of Bern</figcaption>
             </figure>
         </div>
         <div class="text-part">
-            test
         </div>
     </div>
     -->
@@ -91,9 +90,21 @@
 
     <h2 id=bern>Bern &amp; Switzerland</h2>
 
-    Bern is a historic city with many sights and activities. For more information, see the official <a href="https://bern.com/en/home">Welcome to Bern</a> site. <br>
-
-    If you'd like to explore more of Switzerland before or after the conference visit, <a href="https://www.isochrone.ch/?origin=Parent8507000">many interesting places are easily reached by public transport.</a>
+    <div class="text_img_right_container">
+        <div class="image-part" style="flex: 1">
+            <figure>
+                {{ with resources.Get "images/bern.jpg" }}
+                <img src="{{.RelPermalink}}" alt="Photograph of Bern's old town">
+                {{end}}
+            </figure>
+        </div>
+    </div>
+    <div class="text_img_right_container">
+        <div class="text-part">
+            Bern is a historic city with many sights and activities. For more information, see the official <a href="https://bern.com/en/home">Welcome to Bern</a> site. <br>
+            If you'd like to explore more of Switzerland before or after the conference visit, <a href="https://www.isochrone.ch/?origin=Parent8507000">many interesting places are easily reached by public transport.</a>
+        </div>
+    </div>
 
     <!--
         <h2 id=local_info>{{T "local_info" }}</h2>

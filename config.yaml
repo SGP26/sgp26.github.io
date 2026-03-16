@@ -62,7 +62,7 @@ menu:
       weight: 70
 Params:
   sponsorContact: "sgp2026-admin@list.inf.unibe.ch"
-  submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2026"
+  submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP2026_FP2"
   events: 
     #- id: "conference_location"
     - id: "graduate_school"

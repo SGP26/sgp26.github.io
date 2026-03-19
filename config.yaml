@@ -71,6 +71,11 @@ Params:
       date: "July 01 – 03, 2026"
   sponsors:
     - name: ""
+      id: "silver"
+      items:
+        - name: "Autodesk"
+          logo: "images/sponsors/autodesk.png"
+    - name: ""
       id: "bronze"
       items:
         - name: "University of Bern"

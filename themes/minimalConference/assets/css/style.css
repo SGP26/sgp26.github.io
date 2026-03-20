@@ -991,3 +991,8 @@ a.a-project-page {
     background-image: url('/icons/info.svg');
     padding-left: 1.4em;
 }
+
+.deadline-expired {
+    color: ;
+    text-decoration: line-through;
+}

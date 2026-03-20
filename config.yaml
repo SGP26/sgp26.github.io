@@ -93,26 +93,26 @@ Params:
   importantDates:
     round_one:
       - id: abstract_submission
-        date: "February 02"
+        date: "2026-02-02T23:59:00Z"
       - id: paper_submission
-        date: "February 04"
+        date: "2026-02-04T23:59:00Z"
       - id: notification_of_acceptance
-        date: "March 16"
+        date: "2026-03-16"
       - id: revised_version_due
-        date: "March 26"
+        date: "2026-03-26"
       - id: camera_ready_due
-        date: "April 02"
+        date: "2026-04-02"
     round_two:
       - id: abstract_submission2
-        date: "April 13"
+        date: "2026-04-13T22:59:00Z"
       - id: paper_submission2
-        date: "April 15"
+        date: "2026-04-15T22:59:00Z"
       - id: notification_of_acceptance2
-        date: "May 25"
+        date: "2026-05-25"
       - id: revised_version_due2
-        date: "June 04"
+        date: "2026-06-04"
       - id: camera_ready_due2
-        date: "June 11"
+        date: "2026-06-11"
 
 #  - id: awards_chair
 #    items: 

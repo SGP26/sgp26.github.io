@@ -9,7 +9,7 @@
       {{T .id }}
     </td>
     <td class=important-date-date>
-      {{ .date }}
+      {{ partial "deadline.html" .date }}
     </td>
   </tr>
   {{ end }}
@@ -22,7 +22,7 @@
       {{T .id }}
     </td>
     <td class=important-date-date>
-      {{ .date }}
+      {{ partial "deadline.html" .date }}
     </td>
   </tr>
   {{ end }}
@@ -39,3 +39,6 @@
   </tr>
   {{ end }}
 </table>
+
+{{ $src := resources.Get "js/deadline-date.js" | fingerprint }}
+<script src="{{ $src.Permalink }}"></script>

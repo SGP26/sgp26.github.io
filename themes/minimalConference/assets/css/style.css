@@ -993,6 +993,6 @@ a.a-project-page {
 }
 
 .deadline-expired {
-    color: ;
+    color: grey;
     text-decoration: line-through;
 }

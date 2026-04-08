@@ -146,7 +146,7 @@ Note that the posters will be presented at the conference but will not be publis
 
 Poster submissions should include a 2-page abstract that summarizes the poster content and is formatted according to the Author’s guidelines.
 
-Submissions should be made electronically through the Submission and Review Management (SRMv2) system. The submission URL will be announced here.
+Submissions should be made by email to <chairs-sgp2026@eg.org> with CC to <viktoriia.kaeidi@fraunhofer.at> no later than May 31st. We will receive the submission and get back to the authors with an accept/reject decision within two weeks from having received the email.
 
 The submission process is not anonymous.
 

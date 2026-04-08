@@ -27,6 +27,16 @@
   </tr>
   {{ end }}
 
+  <tr><td colspan=2><h3>Poster Submission</h3></td></tr>
+  <tr>
+    <td class=important-date-name>
+        <a href="#submission-details">Email submission</a>
+    </td>
+    <td class=important-date-date>
+      {{ partial "deadline.html" .Site.Params.importantDates.posters }}
+    </td>
+  <tr/>
+
   <tr><td colspan=2><h3>Event</h3></td></tr>
   {{ range .Site.Params.events }}
   <tr>

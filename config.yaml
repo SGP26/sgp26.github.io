@@ -113,6 +113,7 @@ Params:
         date: "2026-06-04"
       - id: camera_ready_due2
         date: "2026-06-11"
+    posters: "2026-05-31T23:59:00Z"
 
 #  - id: awards_chair
 #    items: 

@@ -140,7 +140,7 @@ We invite authors to submit proposals for poster presentations that highlight in
 > - Smoothing, filtering, and denoising
 > - Surface and volume parameterization and deformation
 
-Note that the posters will be presented at the conference but will not be published otherwise.
+Posters will be presented at the conference and their abstracts will be published in the EG Digital Library. Note that a SGP poster does not preclude subsequent publication of a complete paper on the same topic by the same authors (however, a SGP poster by other authors is considered prior art and should be cited as such).
 
 ### Submission Details
 

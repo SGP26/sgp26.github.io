@@ -4,7 +4,7 @@
 
 <h2>{{T "previous_sgps"}}</h2>
 
-{{ $flags := .Site.Data.flagEmojis }}
+{{ $flags := hugo.Data.flagEmojis }}
 <ul class="past-sgps">
 {{ range .Params.pastEvents }}
       <li>

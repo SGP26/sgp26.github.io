@@ -24,7 +24,7 @@
   {{end}}
 </table>
 
-{{ $flags := .Site.Data.flagEmojis }}
+{{ $flags := hugo.Data.flagEmojis }}
 {{ range .Params.committees }}
 <h2> {{T .id }} </h2>
 

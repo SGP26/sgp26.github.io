@@ -17,9 +17,19 @@ keynotes:
     bio: |
         Justin Solomon is an associate professor of Electrical Engineering and Computer Science in MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL).  He leads the CSAIL Geometric Data Processing group, which studies problems at the intersection of geometry, large-scale optimization, and applications.
     portrait: /images/keynotes/justin_solomon.jpg
+
   - name: Julie Digne
     affiliation: "LIRIS - CNRS - Université Claude Bernard Lyon 1"
     url: "https://perso.liris.cnrs.fr/julie.digne/"
+    title: "Geometric not-so-deep learning"
+    portrait: /images/keynotes/julie_digne.jpg
+    abstract: |
+        Over the past decade, deep learning for geometric data processing has advanced significantly, with numerous methods proposed to handle irregular, non-Euclidean data. However, 3D objects databases are scarce and only partially cover the variety of shapes practitioners want to analyze. As a consequence many shapes fall out-of-distribution. 
+        However, many tasks, such as compression, denoising or resampling, can already benefit from leveraging statistical geometric features, without requiring shape space priors.
+        In this talk, I will focus on lightweight methods that are computationally efficient, run on standard hardware by operating directly on individual shapes. Through a series of projects, I will show how modern optimization techniques, with or without neural networks, can address geometric challenges effectively, without relying on large datasets or heavy computational resources.
+    bio: |
+        Julie Digne is a Senior Researcher at CNRS, affiliated with the LIRIS laboratory in Lyon (Origami team). She earned her PhD in Applied Mathematics from École normale supérieure de Cachan in 2010. Following a postdoctoral position at INRIA, she joined LIRIS in 2012, where her research focuses on geometry processing and machine learning for geometric data.
+
   - name: "Bernhard Kerbl"
     affiliation: "University of Copenhagen / Vienna University of Technology (TU Wien)"
     url: "https://snosixtyboo.github.io/"

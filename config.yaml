@@ -8,6 +8,7 @@ module:
   imports:
   - path: github.com/future-wd/hugo-responsive-images
 params:
+  timezone: Europe/Zurich
   image:
     widths: [600, 900, 1300] # widths to generate if widths not specified
     # shortcode_widths: [600, 900, 1300] # custom widths for shortcode use in markdown files. If unset defaults to widths

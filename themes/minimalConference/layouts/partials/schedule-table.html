@@ -1,52 +1,66 @@
 {{/*
   Renders a schedule table from an array of course/session maps.
-  Expected keys per item: title, date (ISO "2006-01-02"), time ("HH:MM"), speakers ([]{name,url,affiliation}).
+  Expected keys per item: title, timestamp (ISO "2006-01-02T15:04:05+02:00" CEST), duration (Go duration string like "90m"), speakers ([]{name,url,affiliation}).
   Parameters:
     - courses: required – the slice of course/session maps
 */}}
 
 {{ $courses := .courses }}
 
-{{/* Collect unique sorted dates and times */}}
-{{ $dates := slice }}
-{{ $times := slice }}
+{{/* Parse timestamps and sort by them */}}
+{{ $parsed := slice }}
+{{ $timeEnds := dict }}
 {{ range $courses }}
-  {{ if and (.date) (ne .date "") }}
-    {{ $dates = $dates | append (time .date) }}
-  {{ end }}
-  {{ if and (.time) (ne .time "") }}
-    {{ $times = $times | append .time }}
+  {{ if and (.timestamp) (ne .timestamp "") }}
+    {{ $ts := time .timestamp }}
+    {{ if not (.duration) }}{{ errorf "%s: missing required 'duration' field" .title }}{{ end }}
+    {{ $endTs := $ts.Add (time.ParseDuration .duration) }}
+    {{ $t := $ts.Format "15:04" }}
+    {{ $parsed = $parsed | append (dict "item" . "dateKey" ($ts.Format "2006-01-02") "time" $t "header" ($ts.Format "January 2")) }}
+    {{ if not (index $timeEnds $t) }}{{ $timeEnds = merge $timeEnds (dict $t ($endTs.Format "15:04")) }}{{ end }}
   {{ end }}
 {{ end }}
-{{ $dates = uniq $dates | sort }}
-{{ $times = uniq $times | sort }}
+{{ $sorted := sort $parsed ".dateKey" }}
+
+{{/* Collect unique sorted dates, times, and headers in parallel */}}
+{{ $dates := slice }}
+{{ $times := slice }}
+{{ $headers := slice }}
+{{ range $sorted }}
+  {{ if not (in $dates .dateKey) }}
+    {{ $dates = $dates | append .dateKey }}
+    {{ $headers = $headers | append .header }}
+  {{ end }}
+  {{ if not (in $times .time) }}{{ $times = $times | append .time }}{{ end }}
+{{ end }}
+{{ $times = sort $times }}
 
 <table class="schedule-table">
   <thead>
     <tr>
-      <th>Time</th>
-      {{ range $dates }}<th>{{ (time .).Format "January 2" }}</th>{{ end }}
+      <th></th>
+      {{- range $headers -}}<th>{{ . }}</th>{{ end }}
     </tr>
   </thead>
   <tbody>
-    {{ range $times }}
+    {{- range $times -}}
       {{ $t := . }}
     <tr>
-      <td>{{ $t }}</td>
-      {{ range $dates }}
+      <td>{{ $t }} &ndash; {{ index $timeEnds $t }}</td>
+      {{- range $dates -}}
         {{ $d := . }}
         <td>
-          {{ range $courses }}
-            {{ if and (eq (.date | time.Format "2006-01-02") ($d | time.Format "2006-01-02")) (eq .time $t) }}
-              <a href="#{{ $.idPrefix }}-{{ .title | urlize }}">{{ .title }}</a><br>
+          {{- range $sorted -}}
+            {{- if and (eq .dateKey $d) (eq .time $t) -}}
+              <a href="#{{ $.idPrefix }}-{{ .item.title | urlize }}">{{ .item.title }}</a><br>
               <span class="grad-schedule-speakers">
-                {{ range $i, $s := .speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}
+                {{ range $i, $s := .item.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}
               </span>
-            {{ end }}
+            {{- end }}
           {{ end }}
         </td>
       {{ end }}
     </tr>
-    {{ end }}
+    {{- end }}
   </tbody>
 </table>

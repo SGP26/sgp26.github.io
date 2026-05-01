@@ -12,7 +12,7 @@
 
 <h2 id=schedule>{{T "graduate_school_schedule" }}</h2>
 
-{{ partial "schedule-table.html" (dict "courses" .Params.graduateSchoolCourses "idPrefix" "course") }}
+{{ partial "schedule-table.html" (dict "courses" .Params.graduateSchoolCourses "idPrefix" "course" "timezone" .Site.Params.timezone) }}
 
 <h2 id=conference-schedule>{{T "conference_schedule" }}</h2>
 <p class="single-line">TBA</p>
@@ -29,19 +29,19 @@
     href=https://diglib.eg.org/handle/10.2312/3607011>Proceedings in EG Digital Library</a>.</p>
 -->
 
-{{ if (isset .Params "keynotes") }}
+{{- if (isset .Params "keynotes") -}}
 <h2 id=keynotes>{{T "keynotes" }}</h2>
-{{range .Params.keynotes }}
+{{- range .Params.keynotes -}}
 <div class=keynote-container>
 
-    {{ if ((isset . "portrait")) | and (not (eq .portrait "")) }}
+    {{- if ((isset . "portrait")) | and (not (eq .portrait "")) -}}
         {{ $name := .name }}
         {{ with resources.Get .portrait }}
             <img class="keynote-portrait" src="{{ .RelPermalink }}" alt="Portrait of {{ $name }}" title="{{ $name }}" />
-        {{ else }}
+        {{- else -}}
             {{ errorf "Unable to get page resource %q" .portrait }}
         {{end}}
-    {{ else }}
+    {{- else -}}
     {{ end}}
     <div class=keynote-text-container>
     <h3>
@@ -50,46 +50,46 @@
     <span class=keynote-affiliation>{{ .affiliation}}</span>
     </h3>
     <p>
-    {{ if (not (isset . "title")) | or (eq .title "") }}
+    {{- if (not (isset . "title")) | or (eq .title "") -}}
     ({{T "stay_tuned_for_talk_information"}})
-    {{ else }}
+    {{- else -}}
     <h3><span class=keynote-title>{{.title}}</span></h3>
     <p>
       {{ $.Page.RenderString .abstract }}
     </p>
     {{ end }}
     </p>
-    {{ if (isset . "youtube") }}
+    {{- if (isset . "youtube") -}}
       <iframe class=keynote-embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {{end}}
     <p class=keynote-bio>
-    {{ if (not (isset . "bio")) | or (eq .bio "") }}
-    {{ else }}
+    {{- if (not (isset . "bio")) | or (eq .bio "") -}}
+    {{- else -}}
       {{ $.Page.RenderString .bio }}
     {{ end }}
     </p>
     </div>
 </div>
 {{ end }}
-{{ else}}
+{{- else}}
 {{ end}}
 
 <h2 id=graduate-school>{{T "graduate_school" }}</h2>
 
 <div class=graduate-school-container>
-{{range .Params.graduateSchoolCourses}}
+{{- range (sort .Params.graduateSchoolCourses "timestamp") -}}
     <div id="course-{{ .title | urlize }}" class=graduate-school-text-container>
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
     </h3>
-    {{ if (isset . "youtube") }}
+    {{- if (isset . "youtube") -}}
       <iframe class=embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {{else}}
-        {{ if (isset . "teaser") }}
+        {{- if (isset . "teaser") -}}
             {{ $name := .name }}
             {{ with resources.Get .teaser }}
                 <img class="graduate-school-teaser" src="{{ .RelPermalink }}" />
-            {{ else }}
+            {{- else -}}
                 {{ errorf "Unable to get grad school talk teaser image: %q" .portrait }}
             {{end}}
         {{ end }}
@@ -97,13 +97,15 @@
     <p>
     {{ $len := (len .speakers ) }}
     <ul class=graduate-school-speakers>
-    {{ range $index, $element := .speakers }}
+    {{- range $index, $element := .speakers -}}
       <li>
         <a href={{.url}}>{{ .name }}</a>, {{ .affiliation }}
       </li>
     {{end }}
     </ul>
     </p>
+    {{- if and (.timestamp) (ne .timestamp "") -}}<span class="event-time">{{ time .timestamp | time.Format "January 2, 15:04" }}</span>{{ end }}
+    <p><!-- hack: empty p to ensure consistent spacing when abstracts are just a line of text or a list of paragraphics --> </p>
     <p>
     {{ .abstract |markdownify }}
     </p>

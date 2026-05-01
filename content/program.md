@@ -42,6 +42,8 @@ keynotes:
 
 graduateSchoolCourses:
 - title: "Directional Fields"
+  date: 2026-06-30
+  time: "09:00"
   teaser: /images/gradschool/dir-fields.png
   speakers:
     - name: Amir Vaxman
@@ -51,6 +53,8 @@ graduateSchoolCourses:
     I will discuss classic and state-of-the-art methods to design directional fields on discrete surfaces, with applications to meshing, solving PDEs, and visualization.
 
 - title: "Differentiable Geometry Processing in Python"
+  date: 2026-06-30
+  time: "11:00"
   teaser: /images/gradschool/diff-geom.png
   speakers:
     - name: "Ana Dodik"
@@ -65,6 +69,8 @@ graduateSchoolCourses:
 
 
 - title: "Geometry Processing from 2D Image Priors"
+  date: 2026-06-29
+  time: "16:30"
   teaser: /images/gradschool/image-priors.png
   speakers:
     - name: "Dale Decatur"
@@ -80,6 +86,8 @@ graduateSchoolCourses:
     2D foundation models have exploded in popularity and capability in recent years. While text-to-image generative models, image feature encoders, and VLMs (vision-language models) are widely used in 2D contexts such as image processing and chatbots, they also facilitate numerous applications to traditionally 3D domains such as robotics, self-driving, and 3D generation. This course explores how 3D understanding can emerge from 2D priors, and how we can leverage these priors towards tasks in geometry processing. We summarize the literature on 3D awareness in 2D models and dive into the details on different approaches for lifting information from 2D to 3D. In doing so, we address common challenges in this field and conclude with three specific applications: mesh stylization, cross field generation, and mesh deformation.
 
 - title: "Shape Spaces"
+  date: 2026-06-29
+  time: "09:00"
   teaser: /images/gradschool/shape-spaces.png
   speakers:
     - name: "Josua Sassen"
@@ -97,6 +105,8 @@ graduateSchoolCourses:
 
 
 - title: "Cone-Nets: Theory and Interactive Design"
+  date: 2026-06-29
+  time: "14:30"
   teaser: /images/gradschool/cone-nets.jpg
   speakers:
     - name: "Klara Mundilova"
@@ -116,6 +126,8 @@ graduateSchoolCourses:
 
 
 - title: "Spatial acceleration structures: Bounding Volume Hierarchies"
+  date: 2026-06-30
+  time: "16:30"
   teaser: /images/gradschool/bvh.png
   speakers:
     - name: Markus Billeter
@@ -128,6 +140,8 @@ graduateSchoolCourses:
 
 
 - title: "Closest Point Geometry Processing"
+  date: 2026-06-30
+  time: "14:30"
   teaser: /images/gradschool/closest-point.png
   speakers:
     - name: "Nathan King"
@@ -140,6 +154,8 @@ graduateSchoolCourses:
 
 
 - title: "Computational Geometric Fluid Mechanics"
+  date: 2026-06-29
+  time: "11:00"
   teaser: /images/gradschool/fluids.jpg
   speakers:
     - name: "Sina Nabizadeh"

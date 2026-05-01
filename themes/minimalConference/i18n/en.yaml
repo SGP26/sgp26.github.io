@@ -90,3 +90,7 @@
   translation: "Register"
 - id: student_volunteers
   translation: "Student Volunteers"
+- id: graduate_school_schedule
+  translation: "Graduate School Schedule"
+- id: conference_schedule
+  translation: "Conference Schedule"

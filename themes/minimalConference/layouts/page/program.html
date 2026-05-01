@@ -1,5 +1,4 @@
 {{ define "main" }}
-<!--
 <div id=program-banner>
   <nav id=program-nav class="nav justify-content-center">
   <a class=nav-link href=#keynotes>Keynotes</a>
@@ -7,9 +6,16 @@
   <a class=nav-link href=#technical-papers>Technical Papers</a>
   </nav>
 </div>
--->
+
 
 <div id=simple-static>
+
+<h2 id=schedule>{{T "graduate_school_schedule" }}</h2>
+
+{{ partial "schedule-table.html" (dict "courses" .Params.graduateSchoolCourses "idPrefix" "course") }}
+
+<h2 id=conference-schedule>{{T "conference_schedule" }}</h2>
+<p class="single-line">TBA</p>
 
   <!--<p class=code-of-conduct>All are welcome at the <i>Symposium on Geometry Processing 2024</i>.<br>
   Attendees, presenters, volunteers and sponsors are subject to the <a class=line
@@ -72,7 +78,7 @@
 
 <div class=graduate-school-container>
 {{range .Params.graduateSchoolCourses}}
-    <div class=graduate-school-text-container>
+    <div id="course-{{ .title | urlize }}" class=graduate-school-text-container>
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
     </h3>

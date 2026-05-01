@@ -98,7 +98,7 @@ graduateSchoolCourses:
       affiliation: "Universität Bonn"
   abstract: |
     In applications such as animation or shape analysis, we are interested in processing multiple shapes at once and, hence, in a mathematical model for collections of shapes yielding flexible numerical tools.
-    [1] proposed to consider Riemannian shape spaces in this context, \ie possibly infinite-dimensional Riemannian manifolds where points are geometric objects such as surfaces. These (Riemannian) shape spaces have found usage in a lot of areas of applied mathematical research such as computational anatomy, computer graphics, shape optimization, and image processing.
+    [1] proposed to consider Riemannian shape spaces in this context, i.e. possibly infinite-dimensional Riemannian manifolds where points are geometric objects such as surfaces. These (Riemannian) shape spaces have found usage in a lot of areas of applied mathematical research such as computational anatomy, computer graphics, shape optimization, and image processing.
     In this course, we will give an overview of different types of shape spaces interesting for geometry processing and will discuss concrete algorithms resulting from their theory.
 
     [1] Kendall, David G. "Shape manifolds, procrustean metrics, and complex projective spaces." Bulletin of the London mathematical society 16.2 (1984): 81-121.

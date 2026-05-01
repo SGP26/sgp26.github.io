@@ -44,6 +44,53 @@ table
   border-spacing: 5px 0px;;
 }
 
+.schedule-table
+{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.schedule-table thead th
+{
+  text-align: center;
+  padding: 8px 4px;
+  font-size: 0.95em;
+  border-bottom: 2px solid var(--dark-blue);
+}
+.schedule-table tbody td
+{
+  vertical-align: top;
+  padding: 6px 8px;
+  border-right: 1px solid #ddd;
+}
+.schedule-table tbody tr:last-child td
+{
+  border-bottom: none;
+}
+/* First column (time) gets minimal width; remaining columns share space equally */
+.schedule-table thead tr th:first-child,
+.schedule-table tbody tr td:first-child
+{
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  width: 4.5em;
+  background-color: var(--planet-background);
+}
+.schedule-table a
+{
+  font-size: 0.9em;
+  color: var(--blue);
+}
+.grad-schedule-speakers
+{
+  display: inline;
+  font-size: inherit;
+  color: inherit;
+}
+
 a
 {
   color: var(--blue);

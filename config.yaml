@@ -80,7 +80,7 @@ Params:
       id: "bronze"
       items:
         - name: "University of Bern"
-          logo: "images/sponsors/ub_Logo_english_2019_RGB_ger.png"
+          logo: "images/sponsors/unibe.png"
     - name: ""
       id: "bronze"
       items:

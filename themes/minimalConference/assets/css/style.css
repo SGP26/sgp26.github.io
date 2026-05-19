@@ -1051,3 +1051,33 @@ a.a-project-page {
     color: grey;
     text-decoration: line-through;
 }
+
+table.rates th {
+    min-width: 5.3em;
+}
+table.rates th {
+    text-align: right;
+}
+table.rates td {
+    text-align: right;
+}
+table.rates tr.time-category td {
+    padding-top: .5em;
+}
+table.rates tr.time-category td {
+    text-align: left;
+    border-top:1pt solid black;
+    /*border-bottom:1pt solid black;*/
+}
+table.rates td.rate::before{
+    content: "CHF ";
+    text-align: right;
+}
+table.rates td .time-category {
+    text-align: left;
+}
+table.rates {
+    border-top:1pt solid black;
+    border-bottom:1pt solid black;
+    border-spacing: 0px .1em;
+}

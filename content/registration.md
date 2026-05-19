@@ -22,37 +22,6 @@ to incentivise attendance from researchers worldwide; in particular, those who b
 All prices are given in Swiss Franc (CHF).
 
 {{<rawhtml>}}
-<style>
-.rates th {
-    min-width: 5.3em;
-}
-.rates th {
-    text-align: right;
-}
-.rates td {
-    text-align: right;
-}
-.rates tr.time-category td {
-    padding-top: .5em;
-}
-.rates tr.time-category td {
-    text-align: left;
-    border-top:1pt solid black;
-    /*border-bottom:1pt solid black;*/
-}
-.rates td.rate::before{
-    content: "CHF ";
-    text-align: right;
-}
-.rates td .time-category {
-    text-align: left;
-}
-table.rates {
-    border-top:1pt solid black;
-    border-bottom:1pt solid black;
-    border-spacing: 0px .1em;
-}
-</style>
 <table class="rates">
   <thead>
       <tr>

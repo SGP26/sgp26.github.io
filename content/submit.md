@@ -108,7 +108,8 @@ The SGP proceedings will appear as a regular electronic issue of Computer Graphi
 
 ### Awards and Recognitions
 
-Following its traditions, SGP 2026 will attribute three best paper awards, a software award recognising the authors of an open-source software that has greatly influenced the field, and a data set award designed to acknowledge the suppliers of high quality datasets used in geometry processing. In addition, SGP may provide papers with the reproducibility stamp to recognise the effort of researchers who, in addition to publishing their paper at SGP 2026, provide a complete open-source implementation of their algorithm.
+Following its traditions, SGP 2026 will attribute three best paper awards as well as the software award recognising the authors of an open-source software project that has greatly influenced the field.
+In addition, SGP may provide papers with the reproducibility stamp to recognise the effort of researchers who, in addition to publishing their paper at SGP 2026, provide a complete open-source implementation of their algorithm.
 
 Please send nominations to <awardnominations@geometryprocessing.org>.
 

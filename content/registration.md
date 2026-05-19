@@ -24,19 +24,16 @@ All prices are given in Swiss Franc (CHF).
 {{<rawhtml>}}
 <style>
 .rates th {
-    min-width: 7em;
+    min-width: 5.3em;
 }
 .rates th {
     text-align: right;
-}
-.rates thead {
-    border-bottom:3pt solid black;
 }
 .rates td {
     text-align: right;
 }
 .rates tr.time-category td {
-    padding-top: 1rem;
+    padding-top: .5em;
 }
 .rates tr.time-category td {
     text-align: left;
@@ -49,6 +46,11 @@ All prices are given in Swiss Franc (CHF).
 }
 .rates td .time-category {
     text-align: left;
+}
+table.rates {
+    border-top:1pt solid black;
+    border-bottom:1pt solid black;
+    border-spacing: 0px .1em;
 }
 </style>
 <table class="rates">
@@ -108,6 +110,7 @@ All prices are given in Swiss Franc (CHF).
       </tr>
   </tbody>
 </table>
+<br>
 {{</rawhtml>}}
 
 Additionally, you have the option of purchasing a limited edition SGP 2026 coffee mug for CHF 15 via the registration system.

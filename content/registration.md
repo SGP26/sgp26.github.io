@@ -7,101 +7,107 @@ type: "page"
 
 ## Registration
 
-The registration includes access to full conference program, graduate school, and social events.
-<!--
-Free coffee mug (while supplies last) to early bird registrants. Additional mug can be purchased onsite for $15.
+The registration includes access to full conference program, graduate school, and social events (city tour and dinner), as well as daily lunch (including vegetarian and vegan options) and coffee breaks with snacks.
 
-{{/*Use the following link to register: [sgp-2024.eventbrite.com](https://www.eventbrite.com/e/sgp-2024-tickets-860146460217?aff=oddtdtcreator) */}}
--->
+You can register at <https://www.conftool.com/sgp2026/>.
 
-Letters for visa applications will be provided upon request after registration. 
+Letters for visa applications will be provided upon request after registration.
 
+EUROGRAPHICS offers
+[EG Widening Participation Scholarships](https://www.eg.org/wp/eg-widening-participation-scholarships/)
+to incentivise attendance from researchers worldwide; in particular, those who belong to underrepresented groups at EG events.
 
 ## Rates
 
-TBA
+All prices are given in Swiss Franc (CHF).
 
-<!--
 {{<rawhtml>}}
-<table>
+<style>
+.rates th {
+    min-width: 7em;
+}
+.rates th {
+    text-align: right;
+}
+.rates thead {
+    border-bottom:3pt solid black;
+}
+.rates td {
+    text-align: right;
+}
+.rates tr.time-category td {
+    padding-top: 1rem;
+}
+.rates tr.time-category td {
+    text-align: left;
+    border-top:1pt solid black;
+    /*border-bottom:1pt solid black;*/
+}
+.rates td.rate::before{
+    content: "CHF ";
+    text-align: right;
+}
+.rates td .time-category {
+    text-align: left;
+}
+</style>
+<table class="rates">
   <thead>
       <tr>
-          <th style="text-align: right"></th>
+          <th></th>
           <th>Student</th>
           <th>Academia</th>
           <th>Industry</th>
       </tr>
   </thead>
   <tbody>
-      <tr>
-          <td colspan="4"><strong>Early bird</strong> (until 10 May)</td>
+      <tr class="time-category">
+          <td colspan="4" class="time-category"><strong>Early bird</strong> (until May 31)</td>
       </tr>
       <tr>
-          <td style="text-align: right">EG member</td>
-          <td style="text-align: center">$450</td>
-          <td style="text-align: center">$550</td>
-          <td style="text-align: center">$650</td>
+          <td>EG member</td>
+          <td class="rate">520</td>
+          <td class="rate">620</td>
+          <td class="rate">720</td>
       </tr>
       <tr>
-          <td style="text-align: right">Non-EG member</td>
-          <td style="text-align: center">$500</td>
-          <td style="text-align: center">$600</td>
-          <td style="text-align: center">$700</td>
+          <td>Non-EG member</td>
+          <td class="rate">570</td>
+          <td class="rate">670</td>
+          <td class="rate">770</td>
+      </tr>
+      <tr class="time-category">
+          <td colspan="4" class="time-category"><strong>Regular</strong> (June 1 – June 14)</td>
       </tr>
       <tr>
-          <td colspan="4"><strong>Regular</strong> (11 May – 15 June)</td>
+          <td>EG member</td>
+          <td class="rate">570</td>
+          <td class="rate">670</td>
+          <td class="rate">770</td>
       </tr>
       <tr>
-          <td style="text-align: right">EG member</td>
-          <td style="text-align: center">$500</td>
-          <td style="text-align: center">$600</td>
-          <td style="text-align: center">$700</td>
+          <td>Non-EG member</td>
+          <td class="rate">620</td>
+          <td class="rate">720</td>
+          <td class="rate">820</td>
+      </tr>
+      <tr class="time-category">
+          <td colspan="4" class="time-category"><strong>Late</strong> (June 15 – June 24)</td>
       </tr>
       <tr>
-          <td style="text-align: right">Non-EG member</td>
-          <td style="text-align: center">$550</td>
-          <td style="text-align: center">$650</td>
-          <td style="text-align: center">$750</td>
+          <td>EG member</td>
+          <td class="rate">670</td>
+          <td class="rate">770</td>
+          <td class="rate">870</td>
       </tr>
       <tr>
-          <td colspan="4"><strong>Late</strong> (16 – 26 June)</td>
-          <td style="text-align: center"></td>
-          <td style="text-align: center"></td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: right">EG member</td>
-          <td style="text-align: center">$600</td>
-          <td style="text-align: center">$700</td>
-          <td style="text-align: center">$800</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">Non-EG member</td>
-          <td style="text-align: center">$650</td>
-          <td style="text-align: center">$750</td>
-          <td style="text-align: center">$850</td>
+          <td>Non-EG member</td>
+          <td class="rate">720</td>
+          <td class="rate">820</td>
+          <td class="rate">920</td>
       </tr>
   </tbody>
 </table>
-
-
 {{</rawhtml>}}
-{{<comment>}}
-|                               | Student | Academia | Industry |
-|------------------------------:|:-------:|:--------:|:--------:|
-| **Early bird** (until 10 May) |         |          |          |
-| EG member                     | $450    | $550     | $650     |
-| Non-EG member                 | $500    | $600     | $700     |
-| **Regular** (11 May – 15 June)  ||
-| EG member                     | $500    | $600     | $700     |
-| Non-EG member                 | $550    | $650     | $750     |
-| **Late** (16 – 26 June)         |         |          |          |
-| EG member                     | $600    | $700     | $800     |
-| Non-EG member                 | $650    | $750     | $850     |
-{{</comment>}}
 
-
-
-A presenter of each accepted paper will receive the discount code to register with Early Bird rate even after 10 May. 
-
--->
+Additionally, you have the option of purchasing a limited edition SGP 2026 coffee mug for CHF 15 via the registration system.

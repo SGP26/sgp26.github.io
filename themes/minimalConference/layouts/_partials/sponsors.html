@@ -12,7 +12,9 @@
         {{ if ((isset . "logo")) | and (not (eq .logo "")) }}
             {{ $logo := .logo }}
             {{ $name := .name }}
+            {{ $url := .url }}
             {{ $disc := .logoDisclaimer }}
+            {{ if ( isset . "url") }} <a class="plain-link" href ="{{.url}}"> {{end}}
             {{ with resources.Get $logo }}
                 <img class="logo_{{ $scn }}" src="{{ .RelPermalink }}" alt="{{ $name }}" title="{{ $name }}" />
                 {{ if ((isset . "logoDisclaimer")) | and (not (eq $disc "")) }}
@@ -21,6 +23,7 @@
             {{ else }}
                 {{ errorf "Unable to get page resource %q" .logo }}
             {{end}}
+            {{ if ( isset . "url") }} </a> {{end}}
       {{ end}}
     </li>
 {{end}}

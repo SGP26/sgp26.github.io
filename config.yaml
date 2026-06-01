@@ -72,30 +72,35 @@ Params:
       date: "July 01 – 03, 2026"
   sponsors:
     - name: ""
+      id: "institutional"
+      items:
+        - name: "University of Bern"
+          logo: "images/sponsors/unibe.png"
+          url: "https://www.unibe.ch"
+    - name: ""
       id: "silver"
       items:
         - name: "Autodesk"
           logo: "images/sponsors/autodesk.png"
-    - name: ""
-      id: "bronze"
-      items:
-        - name: "University of Bern"
-          logo: "images/sponsors/unibe.png"
+          url: "https://www.autodesk.com"
     - name: ""
       id: "bronze"
       items:
         - name: "Shapr3D"
           logo: "images/sponsors/Shapr3D_Logo_RGB_Black.png"
+          url: "https://www.shapr3d.com/"
     - name: ""
       id: "bronze"
       items:
         - name: "DevSH"
           logo: "images/sponsors/devsh-horizontal-logo.png"
+          url: "https://www.devsh.eu/"
     - name: "Software Award Sponsor"
       id: "bronze"
       items:
         - name: "GeometryFactory"
           logo: "images/sponsors/geometryfactory.png"
+          url: "https://geometryfactory.com/"
   importantDates:
     round_one:
       - id: abstract_submission

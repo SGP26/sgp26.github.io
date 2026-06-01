@@ -86,6 +86,11 @@ Params:
       items:
         - name: "Shapr3D"
           logo: "images/sponsors/Shapr3D_Logo_RGB_Black.png"
+    - name: ""
+      id: "bronze"
+      items:
+        - name: "DevSH"
+          logo: "images/sponsors/devsh-horizontal-logo.png"
     - name: "Software Award Sponsor"
       id: "bronze"
       items:

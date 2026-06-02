@@ -638,8 +638,10 @@ div.twitter-container
 
 img.logo_institutional
 {
-  width: calc(max(10em, 40%));
-  max-width: calc(0.4 * var(--logoMaxWidth));
+  width: calc(max(
+  6em /* square unibe logo is visually heavy, dont grow it as much as the others!*/
+  , 40%));
+  max-width: calc(0.5 * var(--logoMaxWidth));
   padding-bottom: 10px;
 }
 

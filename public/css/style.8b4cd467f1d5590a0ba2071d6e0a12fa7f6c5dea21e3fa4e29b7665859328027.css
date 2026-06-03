@@ -116,9 +116,6 @@ a:hover
     position: relative;
 }
 
-#banner-container {
-    max-width: 60rem;
-}
 #banner-container img
 {
     top: 0px;

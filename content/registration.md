@@ -7,6 +7,8 @@ type: "page"
 
 ## Registration
 
+Conference and graduate school registration and participation are open to anyone, including non-presenters.
+
 The registration includes access to full conference program, graduate school, and social events (city tour and dinner), as well as daily lunch (including vegetarian and vegan options) and coffee breaks with snacks.
 
 You can register at <https://www.conftool.com/sgp2026/>.

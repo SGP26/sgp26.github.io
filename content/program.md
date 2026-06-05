@@ -7,6 +7,7 @@ menu: program
 
 keynotes:
   - name: Justin Solomon
+    category: keynote
     url: https://people.csail.mit.edu/jsolomon/
     affiliation: MIT CSAIL
     title: "Computational Optimal Transport: From Low to High Dimension and Back"
@@ -19,6 +20,7 @@ keynotes:
     portrait: /images/keynotes/justin_solomon.jpg
 
   - name: Julie Digne
+    category: keynote
     affiliation: "LIRIS - CNRS - Université Claude Bernard Lyon 1"
     url: "https://perso.liris.cnrs.fr/julie.digne/"
     title: "Geometric not-so-deep learning"
@@ -31,6 +33,7 @@ keynotes:
         Julie Digne is a Senior Researcher at CNRS, affiliated with the LIRIS laboratory in Lyon (Origami team). She earned her PhD in Applied Mathematics from École normale supérieure de Cachan in 2010. Following a postdoctoral position at INRIA, she joined LIRIS in 2012, where her research focuses on geometry processing and machine learning for geometric data.
 
   - name: "Bernhard Kerbl"
+    category: keynote
     affiliation: "University of Copenhagen / Vienna University of Technology (TU Wien)"
     url: "https://snosixtyboo.github.io/"
     title: "Resource-Efficient Visual Computing – Frontiers and Applications of Real-Time Visual AI"
@@ -42,6 +45,7 @@ keynotes:
 
 graduateSchoolCourses:
 - title: "Directional Fields"
+  category: course
   timestamp: 2026-06-30T09:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/dir-fields.png
@@ -53,6 +57,7 @@ graduateSchoolCourses:
     I will discuss classic and state-of-the-art methods to design directional fields on discrete surfaces, with applications to meshing, solving PDEs, and visualization.
 
 - title: "Differentiable Geometry Processing in Python"
+  category: course
   timestamp: 2026-06-30T11:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/diff-geom.png
@@ -69,6 +74,7 @@ graduateSchoolCourses:
 
 
 - title: "Geometry Processing from 2D Image Priors"
+  category: course
   timestamp: 2026-06-29T16:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/image-priors.png
@@ -86,6 +92,7 @@ graduateSchoolCourses:
     2D foundation models have exploded in popularity and capability in recent years. While text-to-image generative models, image feature encoders, and VLMs (vision-language models) are widely used in 2D contexts such as image processing and chatbots, they also facilitate numerous applications to traditionally 3D domains such as robotics, self-driving, and 3D generation. This course explores how 3D understanding can emerge from 2D priors, and how we can leverage these priors towards tasks in geometry processing. We summarize the literature on 3D awareness in 2D models and dive into the details on different approaches for lifting information from 2D to 3D. In doing so, we address common challenges in this field and conclude with three specific applications: mesh stylization, cross field generation, and mesh deformation.
 
 - title: "Shape Spaces"
+  category: course
   timestamp: 2026-06-29T09:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/shape-spaces.png
@@ -105,6 +112,7 @@ graduateSchoolCourses:
 
 
 - title: "Cone-Nets: Theory and Interactive Design"
+  category: course
   timestamp: 2026-06-29T14:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/cone-nets.jpg
@@ -126,6 +134,7 @@ graduateSchoolCourses:
 
 
 - title: "Spatial acceleration structures: Bounding Volume Hierarchies"
+  category: course
   timestamp: 2026-06-30T16:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/bvh.png
@@ -140,6 +149,7 @@ graduateSchoolCourses:
 
 
 - title: "Closest Point Geometry Processing"
+  category: course
   timestamp: 2026-06-30T14:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/closest-point.png
@@ -154,6 +164,7 @@ graduateSchoolCourses:
 
 
 - title: "Computational Geometric Fluid Mechanics"
+  category: course
   timestamp: 2026-06-29T11:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/fluids.jpg
@@ -170,28 +181,36 @@ graduateSchoolCourses:
     We then discuss how smooth geometric structures can be translated into discrete settings, where fluid motion becomes a constrained geodesic flow on a sub-Riemannian manifold induced by discretization. Finally, we will analyze modern methods grounded in these principles from computer graphics and computational fluid mechanics.
 
 
-- title: "_Registration at welcome desk_"
+- title: "_Registration at welcome desk (Foyer)_"
+  category: welcome
   timestamp: 2026-06-29T08:30:00+02:00
   duration: "30m"
-- title: "_Registration at welcome desk_"
+- title: "_Registration at welcome desk (Foyer)_"
+  category: welcome
   timestamp: 2026-06-30T08:30:00+02:00
   duration: "30m"
-- title: "_Coffee break_"
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
   timestamp: 2026-06-29T10:30:00+02:00
   duration: "30m"
-- title: "_Coffee break_"
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
   timestamp: 2026-06-30T10:30:00+02:00
   duration: "30m"
-- title: '_Lunch at restaurant "Grosse Schanze"_'
+- title: '_Lunch (restaurant "Grosse Schanze")_'
+  category: lunch
   timestamp: 2026-06-29T12:30:00+02:00
   duration: "90m"
-- title: '_Lunch at restaurant "Grosse Schanze"_'
+- title: '_Lunch (restaurant "Grosse Schanze")_'
+  category: lunch
   timestamp: 2026-06-30T12:30:00+02:00
   duration: "90m"
-- title: "_Coffee break_"
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
   timestamp: 2026-06-29T15:30:00+02:00
   duration: "30m"
-- title: "_Coffee break_"
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
   timestamp: 2026-06-30T15:30:00+02:00
   duration: "30m"
 

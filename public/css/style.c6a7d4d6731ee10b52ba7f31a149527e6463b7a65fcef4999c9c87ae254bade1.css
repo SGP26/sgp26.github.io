@@ -1083,3 +1083,26 @@ table.rates {
     border-bottom:1pt solid black;
     border-spacing: 0px .1em;
 }
+div.schedule-entry {
+    border-radius: .2em;
+    padding: .2em;
+    /*border: 1px solid #888;*/
+    /*box-shadow: 3px 3px 3px #dddd;*/
+}
+div.schedule-entry.schedule-cat-welcome {
+    background-color: #DFC5CA;
+}
+div.schedule-entry.schedule-cat-coffee {
+    /*background-color: var(--light-blue);*/
+    background-color: #94c4c9;
+    min-height: 2em;
+}
+div.schedule-entry.schedule-cat-course {
+    background-color: #D2E7ED;
+    min-height: 6em;
+}
+div.schedule-entry.schedule-cat-lunch {
+    /*background-color: var(--planet-menu-bg);*/
+    background-color: #9fbedf;
+    min-height: 6em;
+}

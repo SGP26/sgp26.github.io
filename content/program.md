@@ -181,11 +181,11 @@ graduateSchoolCourses:
     We then discuss how smooth geometric structures can be translated into discrete settings, where fluid motion becomes a constrained geodesic flow on a sub-Riemannian manifold induced by discretization. Finally, we will analyze modern methods grounded in these principles from computer graphics and computational fluid mechanics.
 
 
-- title: "_Registration at welcome desk (Foyer)_"
+- title: "_Registration (Foyer)_"
   category: welcome
   timestamp: 2026-06-29T08:30:00+02:00
   duration: "30m"
-- title: "_Registration at welcome desk (Foyer)_"
+- title: "_Registration (Foyer)_"
   category: welcome
   timestamp: 2026-06-30T08:30:00+02:00
   duration: "30m"

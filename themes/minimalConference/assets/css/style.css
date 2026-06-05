@@ -44,48 +44,17 @@ table
   border-spacing: 5px 0px;;
 }
 
-.schedule-table
-{
-  width: 100%;
-  table-layout: auto;
-  border-collapse: collapse;
-  margin-top: 1em;
-  margin-bottom: 2em;
+/* schedule-grid helpers */
+.schedule-speakers {
+  display: inline;
+  font-size: inherit;
+  color: inherit;
 }
-.schedule-table thead th
-{
-  text-align: center;
-  padding: 8px 4px;
-  font-size: 0.95em;
-  border-bottom: 2px solid var(--dark-blue);
-}
-.schedule-table tbody td
-{
-  vertical-align: top;
-  padding: 6px 8px;
-  border-right: 1px solid #ddd;
-}
-.schedule-table tbody tr td:last-child
-{
-  border-right: none;
-}
-.schedule-table tbody tr:last-child td
-{
-  border-bottom: none;
-}
-/* First column (time) auto-sizes to content */
-.schedule-table thead tr th:first-child,
-.schedule-table tbody tr td:first-child
-{
-  font-weight: bold;
-  text-align: center;
-  white-space: nowrap;
-  background-color: var(--planet-background);
-}
-.schedule-table a
-{
-  font-size: 0.9em;
-  color: var(--blue);
+.schedule-abstract {
+  display: block;
+  font-size: 0.85em;
+  margin-top: 0.25em;
+  line-height: 1.3;
 }
 .grad-schedule-speakers
 {
@@ -741,15 +710,79 @@ div.graduate-school-text-container
 
 .schedule
 {
-  border: none;
-  border-radius: 10px;
-  padding:       10px;
-  background-color: #fff;
+  display: grid;
+  grid-template-rows:
+    [day-headers] auto
+    [time-0830] 1fr
+    [time-0900] 1fr
+    [time-0930] 1fr
+    [time-1000] 1fr
+    [time-1030] 1fr
+    [time-1100] 1fr
+    [time-1130] 1fr
+    [time-1200] 1fr
+    [time-1230] 1fr
+    [time-1300] 1fr
+    [time-1330] 1fr
+    [time-1400] 1fr
+    [time-1430] 1fr
+    [time-1500] 1fr
+    [time-1530] 1fr
+    [time-1600] 1fr
+    [time-1630] 1fr
+    [time-1700] 1fr;
+  grid-template-columns:
+    [times] 4em
+    [day] 1fr
+    [day] 1fr
+    [day];
+  column-gap: 0.4em;
+  row-gap: 0.1em;
+  padding: 0.5em;
   width: 100%;
-  min-height: 950px;
-  min-width: 430px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* time-slot headings align to the time column */
+.time-slot {
+  grid-column: times;
+  font-size: 0.85em;
+  text-align: center;
+  white-space: nowrap;
+  background-color: var(--planet-background);
+  margin: 0;
+  padding: 0.2em 0;
+}
+
+/* day-column header labels — placed in the top row */
+.day-header {
+  grid-row: day-headers;
+  font-size: 12pt;
+  text-align: center;
+  padding: 0.5em 0 0.3em;
+  color: #000;
+}
+
+/* session entries — placed by inline style */
+div.schedule-entry {
+  border-radius: 0.2em;
+  padding: 0.4em;
+  font-size: 0.9em;
+  overflow: hidden;
+}
+
+div.schedule-entry.schedule-cat-welcome {
+  background-color: #DFC5CA;
+}
+div.schedule-entry.schedule-cat-coffee {
+  background-color: #94c4c9;
+}
+div.schedule-entry.schedule-cat-course {
+  background-color: #D2E7ED;
+}
+div.schedule-entry.schedule-cat-lunch {
+  background-color: #9fbedf;
 }
 
 div.sessionContainer
@@ -1083,26 +1116,4 @@ table.rates {
     border-bottom:1pt solid black;
     border-spacing: 0px .1em;
 }
-div.schedule-entry {
-    border-radius: .2em;
-    padding: .2em;
-    /*border: 1px solid #888;*/
-    /*box-shadow: 3px 3px 3px #dddd;*/
-}
-div.schedule-entry.schedule-cat-welcome {
-    background-color: #DFC5CA;
-}
-div.schedule-entry.schedule-cat-coffee {
-    /*background-color: var(--light-blue);*/
-    background-color: #94c4c9;
-    min-height: 2em;
-}
-div.schedule-entry.schedule-cat-course {
-    background-color: #D2E7ED;
-    min-height: 6em;
-}
-div.schedule-entry.schedule-cat-lunch {
-    /*background-color: var(--planet-menu-bg);*/
-    background-color: #9fbedf;
-    min-height: 6em;
-}
+

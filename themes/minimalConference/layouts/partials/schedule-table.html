@@ -1,77 +1,89 @@
 {{- /*
-  Renders a schedule table from an array of course/session maps.
-  Expected keys per item: title, timestamp (ISO "2006-01-02T15:04:05+02:00" CEST), duration (Go duration string like "90m"), speakers ([]{name,url,affiliation}).
+  Renders a CSS Grid schedule from an array of course/session maps.
+
+  Each item may have:
+    title, category (course|coffee|lunch|welcome),
+    timestamp (ISO 8601), duration (Go duration string),
+    speakers ([]{name,url,affiliation}), abstract
+
   Parameters:
-    - courses: required – the slice of course/session maps
+    courses  – required slice of course/session maps
 */ -}}
 
-{{-  $courses := .courses  -}}
+{{- $courses := .courses | default slice -}}
 
-{{- /* Parse timestamps and sort by them */ -}}
-{{-  $parsed := slice  -}}
-{{-  $timeEnds := dict  -}}
-{{-  range $courses  -}}
-  {{-  if and (.timestamp) (ne .timestamp "")  -}}
-    {{-  $ts := time .timestamp  -}}
-    {{-  if not (.duration)  -}}{{ errorf "%s: missing required 'duration' field" .title  -}}{{ end  -}}
-    {{-  $endTs := $ts.Add (time.ParseDuration .duration)  -}}
-    {{-  $t := $ts.Format "15:04"  -}}
-    {{-  $parsed = $parsed | append (dict "item" . "dateKey" ($ts.Format "2006-01-02") "time" $t "header" ($ts.Format "January 2"))  -}}
-    {{-  if not (index $timeEnds $t)  -}}{{ $timeEnds = merge $timeEnds (dict $t ($endTs.Format "15:04"))  -}}{{ end  -}}
-  {{-  end  -}}
-{{-  end  -}}
-{{-  $sorted := sort $parsed ".dateKey"  -}}
+{{- /* Collect unique dates, sort them, then assign column numbers */ -}}
+{{- $uniqueDates := slice -}}
+{{- $dateCols := dict -}}
+{{- range $c := $courses -}}
+  {{- if and (.timestamp) (ne .timestamp "") -}}
+    {{- $dKey := (time .timestamp).Format "2006-01-02" -}}
+    {{- if not (in $uniqueDates $dKey) -}}
+      {{- $uniqueDates = $uniqueDates | append $dKey -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $sortedDates := sort $uniqueDates -}}
+{{- $colIdx := 2 -}}
+{{- range $sortedDates -}}
+  {{- $dateCols = merge $dateCols (dict . $colIdx) -}}
+  {{- $colIdx = add $colIdx 1 -}}
+{{- end -}}
 
-{{- /* Collect unique sorted dates, times, and headers in parallel */ -}}
-{{-  $dates := slice  -}}
-{{-  $times := slice  -}}
-{{-  $headers := slice  -}}
-{{-  range $sorted  -}}
-  {{-  if not (in $dates .dateKey)  -}}
-    {{-  $dates = $dates | append .dateKey  -}}
-    {{-  $headers = $headers | append .header  -}}
-  {{-  end  -}}
-  {{-  if not (in $times .time)  -}}{{ $times = $times | append .time  -}}{{ end  -}}
-{{-  end  -}}
-{{-  $times = sort $times  -}}
+{{- /* Build entries and sort by time */ -}}
+{{- $entries := slice -}}
+{{- range $c := $courses -}}
+  {{- if and (.timestamp) (ne .timestamp "") -}}
+    {{- if not (.duration) -}}{{- errorf "%s: missing required 'duration' field" .title -}}{{- end -}}
+    {{- $ts := time .timestamp -}}
+    {{- $entries = $entries | append (dict
+      "item" $c
+      "time" ($ts.Format "15:04")
+      "end" (($ts.Add (time.ParseDuration .duration)).Format "15:04")
+      "dayCol" (index $dateCols ($ts.Format "2006-01-02"))
+      "hasAbstract" (isset $c "abstract")
+    ) -}}
+  {{- end -}}
+{{- end -}}
+{{- $entries = sort $entries "time" -}}
 
-<table class="schedule-table">
-  <thead>
-    <tr>
-      <th></th>
-      {{- range $headers -}}<th>{{ . }}</th>{{ end }}
-    </tr>
-  </thead>
-  <tbody>
-    {{- range $times -}}
-      {{ $t := . }}
-    <tr>
-      <td>{{ $t }} &ndash; {{ index $timeEnds $t }}</td>
-      {{- range $dates -}}
-        {{ $d := . }}
-        <td>
-          {{- range $sorted -}}
-            {{- if and (eq .dateKey $d) (eq .time $t) }}
-            <div class="schedule-entry schedule-cat-{{.item.category}}">
-              {{ if isset .item "abstract" -}}
-                <a href="#{{ $.idPrefix }}-{{ .item.title | urlize }}">
-              {{- end -}}
-                  {{ .item.title | markdownify }}
-              {{- if isset .item "abstract" -}}
-              </a>
-              {{- end -}}
-              {{- if isset .item "speakers" -}}
-              <br>
-                <span class="grad-schedule-speakers">
-                    {{ range $i, $s := .item.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{- end }}
-                </span>
-              {{- end -}}
-            </div>
-            {{ end }}
+<div class="schedule">
+
+  {{- /* ---- Day-header labels (top row) ---- */ -}}
+  {{- range $sortedDates -}}
+    <div class="day-header" style="grid-column: {{ index $dateCols . }};">{{ time . | time.Format "Monday, January 2" }}</div>
+  {{- end -}}
+
+  {{- /* ---- Sessions (with inline time headings) ---- */ -}}
+  {{- $prevTime := "" -}}
+  {{- range $e := $entries -}}
+    {{- if ne $e.time $prevTime -}}
+      <h3 class="time-slot" style="grid-row: time-{{ replace $e.time ":" "" }};">{{ $e.time }}</h3>
+      {{- $prevTime = $e.time -}}
+    {{- end -}}
+    {{- $c := $e.item -}}
+    <div
+      class="schedule-entry schedule-cat-{{ $c.category | default "" }}"
+      style="grid-row: time-{{ replace $e.time ":" "" }} / time-{{ replace $e.end ":" "" }}; grid-column: {{ $e.dayCol }};"
+      {{- if $e.hasAbstract -}}
+      id="schedule-{{ $c.title | urlize }}"
+      {{- end -}}
+    >
+      {{- if $e.hasAbstract -}}
+        <a href="#abstract-{{ $c.title | urlize }}">{{ $c.title | markdownify }}</a>
+      {{- else -}}
+        {{ $c.title | markdownify }}
+      {{- end -}}
+      {{- if isset $c "speakers" -}}
+        <br>
+        <span class="schedule-speakers">
+          {{- range $si, $s := $c.speakers -}}
+            {{- if $si -}}, {{ end -}}
+            {{- $s.name -}}
           {{- end -}}
-        </td>
-      {{ end }}
-    </tr>
-    {{- end }}
-  </tbody>
-</table>
+        </span>
+      {{- end -}}
+    </div>
+  {{- end -}}
+
+</div>

@@ -12,7 +12,7 @@
 
 <h2 id=schedule>{{T "graduate_school_schedule" }}</h2>
 
-{{ partial "schedule-table.html" (dict "courses" .Params.graduateSchoolCourses "idPrefix" "course" "timezone" .Site.Params.timezone) }}
+{{ partial "schedule-table.html" (dict "courses" .Params.graduateSchoolCourses) }}
 
 <h2 id=conference-schedule>{{T "conference_schedule" }}</h2>
 <p class="single-line">TBA</p>
@@ -78,7 +78,7 @@
 <div class=graduate-school-container>
 {{- range (sort .Params.graduateSchoolCourses "timestamp") -}}
 {{- if isset . "abstract" }}
-    <div id="course-{{ .title | urlize }}" class=graduate-school-text-container>
+    <div id="abstract-{{ .title | urlize }}" class=graduate-school-text-container>
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
     </h3>
@@ -104,7 +104,7 @@
     {{end }}
     </ul>
     </p>
-    {{- if and (.timestamp) (ne .timestamp "") -}}<span class="event-time">{{ time .timestamp | time.Format "January 2, 15:04" }}</span>{{ end }}
+    {{- if and (.timestamp) (ne .timestamp "") -}}<a class="event-time" href="#schedule-{{ .title | urlize }}">{{ time .timestamp | time.Format "Monday, January 2, 15:04" }}</a>{{ end }}
     <p><!-- hack: empty p to ensure consistent spacing when abstracts are just a line of text or a list of paragraphics --> </p>
     <p>
     {{ .abstract |markdownify }}

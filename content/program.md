@@ -69,7 +69,7 @@ graduateSchoolCourses:
 
 
 - title: "Geometry Processing from 2D Image Priors"
-  timestamp: 2026-06-29T16:30:00+02:00
+  timestamp: 2026-06-29T16:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/image-priors.png
   speakers:
@@ -105,7 +105,7 @@ graduateSchoolCourses:
 
 
 - title: "Cone-Nets: Theory and Interactive Design"
-  timestamp: 2026-06-29T14:30:00+02:00
+  timestamp: 2026-06-29T14:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/cone-nets.jpg
   speakers:
@@ -126,7 +126,7 @@ graduateSchoolCourses:
 
 
 - title: "Spatial acceleration structures: Bounding Volume Hierarchies"
-  timestamp: 2026-06-30T16:30:00+02:00
+  timestamp: 2026-06-30T16:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/bvh.png
   speakers:
@@ -140,7 +140,7 @@ graduateSchoolCourses:
 
 
 - title: "Closest Point Geometry Processing"
-  timestamp: 2026-06-30T14:30:00+02:00
+  timestamp: 2026-06-30T14:00:00+02:00
   duration: "90m"
   teaser: /images/gradschool/closest-point.png
   speakers:

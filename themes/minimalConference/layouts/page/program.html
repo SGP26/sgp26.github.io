@@ -34,15 +34,14 @@
 {{- range .Params.keynotes -}}
 <div class=keynote-container>
 
-    {{- if ((isset . "portrait")) | and (not (eq .portrait "")) -}}
+    {{- if .portrait -}}
         {{ $name := .name }}
         {{ with resources.Get .portrait }}
             <img class="keynote-portrait" src="{{ .RelPermalink }}" alt="Portrait of {{ $name }}" title="{{ $name }}" />
         {{- else -}}
             {{ errorf "Unable to get page resource %q" .portrait }}
         {{end}}
-    {{- else -}}
-    {{ end}}
+    {{- end}}
     <div class=keynote-text-container>
     <h3>
       <span class=keynote-name><a href={{.url}}>{{ .name }}</a></span>
@@ -86,14 +85,14 @@
     {{- if (isset . "youtube") -}}
       <iframe class=embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {{else}}
-        {{- if (isset . "teaser") -}}
+        {{- if .teaser -}}
             {{ $name := .name }}
             {{ with resources.Get .teaser }}
                 <img class="graduate-school-teaser" src="{{ .RelPermalink }}" />
             {{- else -}}
-                {{ errorf "Unable to get grad school talk teaser image: %q" .portrait }}
+                {{ errorf "Unable to get grad school talk teaser image: %q" .teaser }}
             {{end}}
-        {{ end }}
+        {{- end -}}
     {{ end }}
     <p>
     {{ $len := (len .speakers ) }}

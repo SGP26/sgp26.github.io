@@ -9,29 +9,27 @@
   <ul id={{.id}}-sponsor-list>
 {{range .items}}
     <li>
-        {{ if ((isset . "logo")) | and (not (eq .logo "")) }}
+        {{ if .logo }}
             {{ $logo := .logo }}
             {{ $name := .name }}
             {{ $url := .url }}
             {{ $disc := .logoDisclaimer }}
-            {{ if ( isset . "url") }} <a class="plain-link" href ="{{.url}}"> {{end}}
+            {{ if .url }} <a class="plain-link" href="{{.url}}"> {{end}}
             {{ with resources.Get $logo }}
                 <img class="logo_{{ $scn }}" src="{{ .RelPermalink }}" alt="{{ $name }}" title="{{ $name }}" />
-                {{ if ((isset . "logoDisclaimer")) | and (not (eq $disc "")) }}
+                {{ if $disc }}
                     <div class=logoDisclaimer>{{ $disc }}</div>
                 {{end}}
             {{ else }}
-                {{ errorf "Unable to get page resource %q" .logo }}
+                {{ errorf "Unable to get page resource %q" $logo }}
             {{end}}
-            {{ if ( isset . "url") }} </a> {{end}}
+            {{ if .url }} </a> {{end}}
       {{ end}}
     </li>
 {{end}}
 {{range .items}}
     <li>
-      {{ if (not (isset . "logo")) | or (eq .logo "") }}
-      {{ .name }}
-      {{ end}}
+      {{ if not .logo }}{{ .name }}{{ end}}
     </li>
 {{end}}
   </ul>

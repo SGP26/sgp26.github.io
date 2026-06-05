@@ -170,6 +170,31 @@ graduateSchoolCourses:
     We then discuss how smooth geometric structures can be translated into discrete settings, where fluid motion becomes a constrained geodesic flow on a sub-Riemannian manifold induced by discretization. Finally, we will analyze modern methods grounded in these principles from computer graphics and computational fluid mechanics.
 
 
+- title: "_Registration at welcome desk_"
+  timestamp: 2026-06-29T08:30:00+02:00
+  duration: "30m"
+- title: "_Registration at welcome desk_"
+  timestamp: 2026-06-30T08:30:00+02:00
+  duration: "30m"
+- title: "_Coffee break_"
+  timestamp: 2026-06-29T10:30:00+02:00
+  duration: "30m"
+- title: "_Coffee break_"
+  timestamp: 2026-06-30T10:30:00+02:00
+  duration: "30m"
+- title: '_Lunch at restaurant "Grosse Schanze"_'
+  timestamp: 2026-06-29T12:30:00+02:00
+  duration: "90m"
+- title: '_Lunch at restaurant "Grosse Schanze"_'
+  timestamp: 2026-06-30T12:30:00+02:00
+  duration: "90m"
+- title: "_Coffee break_"
+  timestamp: 2026-06-29T15:30:00+02:00
+  duration: "30m"
+- title: "_Coffee break_"
+  timestamp: 2026-06-30T15:30:00+02:00
+  duration: "30m"
+
 
 paperSessions: 
 - name: Distances (Monday, June 24, 10:30 am - 12:00 pm)

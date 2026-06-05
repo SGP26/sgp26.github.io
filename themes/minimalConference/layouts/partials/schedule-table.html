@@ -52,10 +52,19 @@
         <td>
           {{- range $sorted -}}
             {{- if and (eq .dateKey $d) (eq .time $t) -}}
-              <a href="#{{ $.idPrefix }}-{{ .item.title | urlize }}">{{ .item.title }}</a><br>
-              <span class="grad-schedule-speakers">
-                {{ range $i, $s := .item.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}
-              </span>
+              {{- if isset .item "abstract" }}
+                <a href="#{{ $.idPrefix }}-{{ .item.title | urlize }}">
+              {{- end -}}
+                  {{ .item.title | markdownify }}
+              {{- if isset .item "abstract" }}
+              </a>
+              {{- end -}}
+              {{- if isset .item "speakers" }}
+              <br>
+                <span class="grad-schedule-speakers">
+                    {{ range $i, $s := .item.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}
+                </span>
+              {{- end }}
             {{- end }}
           {{ end }}
         </td>

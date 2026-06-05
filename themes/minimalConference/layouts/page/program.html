@@ -78,6 +78,7 @@
 
 <div class=graduate-school-container>
 {{- range (sort .Params.graduateSchoolCourses "timestamp") -}}
+{{- if isset . "abstract" }}
     <div id="course-{{ .title | urlize }}" class=graduate-school-text-container>
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
@@ -110,6 +111,7 @@
     {{ .abstract |markdownify }}
     </p>
     </div>
+{{- end -}}
 {{ end }}
 </div>
 

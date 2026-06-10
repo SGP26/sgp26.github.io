@@ -94,7 +94,6 @@
             {{end}}
         {{- end -}}
     {{ end }}
-    <p>
     {{ $len := (len .speakers ) }}
     <ul class=graduate-school-speakers>
     {{- range $index, $element := .speakers -}}
@@ -103,12 +102,9 @@
       </li>
     {{end }}
     </ul>
-    </p>
     {{- if and (.timestamp) (ne .timestamp "") -}}<a class="event-time" href="#schedule-{{ .title | urlize }}">{{ time .timestamp | time.Format "Monday, January 2, 15:04" }}</a>{{ end }}
     <p><!-- hack: empty p to ensure consistent spacing when abstracts are just a line of text or a list of paragraphics --> </p>
-    <p>
     {{ .abstract |markdownify }}
-    </p>
     </div>
 {{- end -}}
 {{ end }}

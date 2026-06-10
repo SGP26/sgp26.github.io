@@ -1,4 +1,16 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+address {
+    margin-bottom: 1rem;
+}
+figure {
+    margin: 0 0 1rem;
+}
 :root {
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
   --parchment: #eafaef;
   --dark-blue: #282b27;
   --light-blue: #76a9ad;
@@ -28,6 +40,7 @@ body
   background-color: var(--planet-background);
   color: var(--dark-blue);
   font-size: 12pt;
+  line-height: 1.5;
   margin: 0pt;
   padding: 0pt;
   font-family: "Twemoji Country Flags", sans-serif;
@@ -41,7 +54,6 @@ table
 {
   margin-bottom: 8px;
   border-collapse: separate;
-  border-spacing: 5px 0px;;
 }
 
 /* schedule-grid helpers */
@@ -82,6 +94,7 @@ a:hover
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
     position: relative;
 }
 
@@ -90,6 +103,7 @@ a:hover
     top: 0px;
     left:0px;
   width: 100%;
+  display: block;
   /*
   min-width: 100%;
   min-height: 100%;
@@ -135,10 +149,23 @@ a:hover
 
 .nav {
     line-height: 1.0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
 
 #nav-border
 {
+  margin-top: 0;
   background-color: var(--planet-menu-bg);
   max-width: 100%;
   border-top:1px solid #fcfcfc;
@@ -183,18 +210,24 @@ a:hover
 }
 
 
-h1 {
-  font-size: 1.2em;
-}
-
-h1,h2,h3,h4
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
   font-family: var(--headerfont);
 }
-h1, h2
-{
-  text-align: center;
-}
+h1 { font-size: 1.35em; }
+h2 { font-size: calc(1.325rem + .9vw); text-align: center; }
+h3 { font-size: calc(1.3rem + .6vw); }
+h4 { font-size: 1em; }
+h5 { font-size: 0.9em; }
+h6 { font-size: 0.85em; }
 
 /*
 #landingSectionsContainer div:nth-of-type(3n+1)
@@ -968,7 +1001,6 @@ td.teaserColumn
 }
 
 .image-part figure {
-  margin: 0; /* Remove margin from figure */
   width: 100%; /* Ensure figure fills the container */
 }
 
@@ -1115,5 +1147,21 @@ table.rates {
     border-top:1pt solid black;
     border-bottom:1pt solid black;
     border-spacing: 0px .1em;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.text-center {
+  text-align: center !important;
 }
 

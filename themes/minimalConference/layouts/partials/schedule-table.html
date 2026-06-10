@@ -14,16 +14,24 @@
 
 {{- /* Collect unique dates, sort them, then assign column numbers */ -}}
 {{- $uniqueDates := slice -}}
+{{- $uniqueTimes := slice -}}
 {{- $dateCols := dict -}}
 {{- range $c := $courses -}}
   {{- if and (.timestamp) (ne .timestamp "") -}}
+
     {{- $dKey := (time .timestamp).Format "2006-01-02" -}}
     {{- if not (in $uniqueDates $dKey) -}}
       {{- $uniqueDates = $uniqueDates | append $dKey -}}
     {{- end -}}
+
+    {{- $tKey := (time .timestamp).Format "15:04" -}}
+    {{- if not (in $uniqueTimes $tKey) -}}
+      {{- $uniqueTimes = $uniqueTimes | append $tKey -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- $sortedDates := sort $uniqueDates -}}
+{{- $sortedTimes := sort $uniqueTimes -}}
 {{- $colIdx := 2 -}}
 {{- range $sortedDates -}}
   {{- $dateCols = merge $dateCols (dict . $colIdx) -}}
@@ -38,6 +46,7 @@
     {{- $ts := time .timestamp -}}
     {{- $entries = $entries | append (dict
       "item" $c
+      "timestamp" $ts
       "time" ($ts.Format "15:04")
       "end" (($ts.Add (time.ParseDuration .duration)).Format "15:04")
       "dayCol" (index $dateCols ($ts.Format "2006-01-02"))
@@ -45,27 +54,27 @@
     ) -}}
   {{- end -}}
 {{- end -}}
-{{- $entries = sort $entries "time" -}}
+{{- $entries = sort $entries "timestamp" -}}
 
 <div class="schedule">
 
   {{- /* ---- Day-header labels (top row) ---- */ -}}
   {{- range $sortedDates -}}
-    <div class="day-header" style="grid-column: {{ index $dateCols . }};">{{ time . | time.Format "Monday, January 2" }}</div>
+  <h3 class="day-header" style="grid-column: {{ index $dateCols . }};">{{ time . | time.Format "Monday, January 2" }}</h3>
   {{- end -}}
 
   {{- /* ---- Sessions (with inline time headings) ---- */ -}}
   {{- $prevTime := "" -}}
   {{- range $e := $entries -}}
     {{- if ne $e.time $prevTime -}}
-      <h3 class="time-slot" style="grid-row: time-{{ replace $e.time ":" "" }};">{{ $e.time }}</h3>
+      <h4 class="time-slot" style="grid-row: time-{{ replace $e.time ":" "" }};">{{ $e.time }}</h4>
       {{- $prevTime = $e.time -}}
     {{- end -}}
     {{- $c := $e.item -}}
     <div
       class="schedule-entry schedule-cat-{{ $c.category | default "" }}"
       style="grid-row: time-{{ replace $e.time ":" "" }} / time-{{ replace $e.end ":" "" }}; grid-column: {{ $e.dayCol }};"
-      {{- if $e.hasAbstract -}}
+      {{- if $e.hasAbstract }}
       id="schedule-{{ $c.title | urlize }}"
       {{- end -}}
     >

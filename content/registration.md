@@ -50,7 +50,7 @@ All prices are given in Swiss Franc (CHF).
           <td class="rate">770</td>
       </tr>
       <tr class="time-category">
-          <td colspan="4" class="time-category"><strong>Regular</strong> (June 1 – June 14)</td>
+          <td colspan="4" class="time-category"><strong>Regular</strong> (June 1 – June 16)</td>
       </tr>
       <tr>
           <td>EG member</td>
@@ -65,7 +65,7 @@ All prices are given in Swiss Franc (CHF).
           <td class="rate">820</td>
       </tr>
       <tr class="time-category">
-          <td colspan="4" class="time-category"><strong>Late</strong> (June 15 – June 24)</td>
+          <td colspan="4" class="time-category"><strong>Late</strong> (June 17 – June 24)</td>
       </tr>
       <tr>
           <td>EG member</td>

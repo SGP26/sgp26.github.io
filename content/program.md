@@ -297,7 +297,7 @@ events:
   papers:
     - id: CGF_3
       title: "Single Line Drawing Generation via Semantics-Driven Optimization"
-      authors: "T. Magne"
+      authors: "T. Magne, A. Binninger, R. Wiersma, O. Sorkine-Hornung"
     - id: 1_1013
       title: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"
       authors: "B. Gahtan, J. Shpund, A. M. Bronstein"

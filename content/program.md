@@ -3,47 +3,58 @@ title: "Program"
 layout: "program"
 type: "page"
 menu: program
+paperURL: "https://diglib.eg.org/collections/3f237102-ab23-4c97-9f95-b1e4275acc0c"
 
 
-keynotes:
-  - name: Justin Solomon
-    category: keynote
-    url: https://people.csail.mit.edu/jsolomon/
-    affiliation: MIT CSAIL
-    title: "Computational Optimal Transport: From Low to High Dimension and Back"
-    abstract: |
-        The *optimal transport* problem asks a simple geometric question:  What is the most efficient way to transform one probability distribution into another along a piece of geometry?  Beyond its mathematical interest, optimal transport underlies a variety of applications, from supply chains to mesh processing, statistics, and even generative AI.  Over the past two decades, research in geometry processing has played a central role in shaping algorithms for optimal transport, with foundational advances emerging from the SGP community.  At the same time, popular problems in applied optimal transport have shifted from low-dimensional settings in graphics and imaging to high-dimensional settings in machine learning.
+events:
+- category: keynote
+  timestamp: 2026-07-01T09:30:00+02:00
+  duration: "60m"
+  title: "Computational Optimal Transport: From Low to High Dimension and Back"
+  shortTitle: "Computational Optimal Transport"
+  speakers:
+    - name: Justin Solomon
+      url: https://people.csail.mit.edu/jsolomon/
+      affiliation: MIT CSAIL
+  portrait: /images/keynotes/justin_solomon.jpg
+  abstract: |
+      The *optimal transport* problem asks a simple geometric question:  What is the most efficient way to transform one probability distribution into another along a piece of geometry?  Beyond its mathematical interest, optimal transport underlies a variety of applications, from supply chains to mesh processing, statistics, and even generative AI.  Over the past two decades, research in geometry processing has played a central role in shaping algorithms for optimal transport, with foundational advances emerging from the SGP community.  At the same time, popular problems in applied optimal transport have shifted from low-dimensional settings in graphics and imaging to high-dimensional settings in machine learning.
 
-        In this retrospective keynote, I will trace how my team's work in computational optimal transport was shaped by studying its applications to geometry processing---even as the landscape of research in this area shifted in dimensionality and application.  Ultimately, this journey illustrates the broader value of "Geometric Data Processing" as a discipline: identifying shared geometric and variational principles across domains that differ dramatically in dimension, scale, and data fidelity.
-    bio: |
-        Justin Solomon is an associate professor of Electrical Engineering and Computer Science in MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL).  He leads the CSAIL Geometric Data Processing group, which studies problems at the intersection of geometry, large-scale optimization, and applications.
-    portrait: /images/keynotes/justin_solomon.jpg
+      In this retrospective keynote, I will trace how my team's work in computational optimal transport was shaped by studying its applications to geometry processing---even as the landscape of research in this area shifted in dimensionality and application.  Ultimately, this journey illustrates the broader value of "Geometric Data Processing" as a discipline: identifying shared geometric and variational principles across domains that differ dramatically in dimension, scale, and data fidelity.
+  bio: |
+      Justin Solomon is an associate professor of Electrical Engineering and Computer Science in MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL).  He leads the CSAIL Geometric Data Processing group, which studies problems at the intersection of geometry, large-scale optimization, and applications.
 
-  - name: Julie Digne
-    category: keynote
-    affiliation: "LIRIS - CNRS - Université Claude Bernard Lyon 1"
-    url: "https://perso.liris.cnrs.fr/julie.digne/"
-    title: "Geometric not-so-deep learning"
-    portrait: /images/keynotes/julie_digne.jpg
-    abstract: |
-        Over the past decade, deep learning for geometric data processing has advanced significantly, with numerous methods proposed to handle irregular, non-Euclidean data. However, 3D objects databases are scarce and only partially cover the variety of shapes practitioners want to analyze. As a consequence many shapes fall out-of-distribution. 
-        However, many tasks, such as compression, denoising or resampling, can already benefit from leveraging statistical geometric features, without requiring shape space priors.
-        In this talk, I will focus on lightweight methods that are computationally efficient, run on standard hardware by operating directly on individual shapes. Through a series of projects, I will show how modern optimization techniques, with or without neural networks, can address geometric challenges effectively, without relying on large datasets or heavy computational resources.
-    bio: |
-        Julie Digne is a Senior Researcher at CNRS, affiliated with the LIRIS laboratory in Lyon (Origami team). She earned her PhD in Applied Mathematics from École normale supérieure de Cachan in 2010. Following a postdoctoral position at INRIA, she joined LIRIS in 2012, where her research focuses on geometry processing and machine learning for geometric data.
+- category: keynote
+  timestamp: 2026-07-02T09:30:00+02:00
+  duration: "60m"
+  title: "Geometric not-so-deep learning"
+  speakers:
+    - name: Julie Digne
+      affiliation: "LIRIS - CNRS - Université Claude Bernard Lyon 1"
+      url: "https://perso.liris.cnrs.fr/julie.digne/"
+  portrait: /images/keynotes/julie_digne.jpg
+  abstract: |
+      Over the past decade, deep learning for geometric data processing has advanced significantly, with numerous methods proposed to handle irregular, non-Euclidean data. However, 3D objects databases are scarce and only partially cover the variety of shapes practitioners want to analyze. As a consequence many shapes fall out-of-distribution. 
+      However, many tasks, such as compression, denoising or resampling, can already benefit from leveraging statistical geometric features, without requiring shape space priors.
+      In this talk, I will focus on lightweight methods that are computationally efficient, run on standard hardware by operating directly on individual shapes. Through a series of projects, I will show how modern optimization techniques, with or without neural networks, can address geometric challenges effectively, without relying on large datasets or heavy computational resources.
+  bio: |
+      Julie Digne is a Senior Researcher at CNRS, affiliated with the LIRIS laboratory in Lyon (Origami team). She earned her PhD in Applied Mathematics from École normale supérieure de Cachan in 2010. Following a postdoctoral position at INRIA, she joined LIRIS in 2012, where her research focuses on geometry processing and machine learning for geometric data.
 
-  - name: "Bernhard Kerbl"
-    category: keynote
-    affiliation: "University of Copenhagen / Vienna University of Technology (TU Wien)"
-    url: "https://snosixtyboo.github.io/"
-    title: "Resource-Efficient Visual Computing – Frontiers and Applications of Real-Time Visual AI"
-    portrait: /images/keynotes/bernhard_kerbl.jpg
-    abstract: |
-        Modern visual computing is transforming the means and ways by which we map, understand and interact with the physical world. 3D and 4D reconstructions of real artefacts are now viable from just a handful of casual camera observations; object recognition and classification can be done with unprecedented accuracy and reliability. However, a key requirement for the overall usefulness of these methods is their efficiency: Efficiency dictates whether a solution can run in real-time; it governs the hardware requirements for execution, and wether it can be used without requiring massive, industry-grade infrastructure. Real-time performance enables crucial emerging trends, such as robots interacting with the real world, or visual AI providing on-line assistance in medical treatments on patients. Resource-efficiency, on the other hand, ensures that these breakthrough technologies can be employed by almost anyone. In this talk, Dr. Kerbl will discuss key challenges and opportunities of real-time, resource-efficient visual computing and AI, focusing on open tasks in fundamental research and applied fields, including biomedicine and robotics.
-    bio: |
-        Dr. Kerbl is a Tenure-track Assistant Professor at the University of Copenhagen and a Principal Project Investigator associated with the Vienna University of Technology (TU Wien). Before that, he was a Visiting Researcher at the Robotics Institute, Carnegie Mellon University, in the Human Sensing Lab under Fernando de La Torre. He obtained his PhD at Graz University of Technology in 2018. In 2019 he pursued a postdoc at TU Wien in 2019, followed by another in 2022 with INRIA in George Drettakis’ GraphDeco group. His research focuses on real-time graphics, parallel processing, point-based rendering, image-based rendering, radiance fields and novel-view synthesis. Through collaboration with mentors, colleagues and students, Dr. Kerbl's research has been honored with Best Paper awards at major graphics conferences, including SIGGRAPH, High-Performance Graphics, Pacific Graphics, EGPGV, and GRAPP. He has lectured on the topics of GPU programming, real-time rendering, physically-based rendering, game physics and scientific working at TU Wien, Graz University of Technology and FH Salzburg.
+- category: keynote
+  timestamp: 2026-07-03T09:30:00+02:00
+  duration: "60m"
+  title: "Resource-Efficient Visual Computing – Frontiers and Applications of Real-Time Visual AI"
+  shortTitle: "Resource-Efficient Visual Computing"
+  speakers:
+    - name: "Bernhard Kerbl"
+      affiliation: "University of Copenhagen / Vienna University of Technology (TU Wien)"
+      url: "https://snosixtyboo.github.io/"
+  portrait: /images/keynotes/bernhard_kerbl.jpg
+  abstract: |
+      Modern visual computing is transforming the means and ways by which we map, understand and interact with the physical world. 3D and 4D reconstructions of real artefacts are now viable from just a handful of casual camera observations; object recognition and classification can be done with unprecedented accuracy and reliability. However, a key requirement for the overall usefulness of these methods is their efficiency: Efficiency dictates whether a solution can run in real-time; it governs the hardware requirements for execution, and wether it can be used without requiring massive, industry-grade infrastructure. Real-time performance enables crucial emerging trends, such as robots interacting with the real world, or visual AI providing on-line assistance in medical treatments on patients. Resource-efficiency, on the other hand, ensures that these breakthrough technologies can be employed by almost anyone. In this talk, Dr. Kerbl will discuss key challenges and opportunities of real-time, resource-efficient visual computing and AI, focusing on open tasks in fundamental research and applied fields, including biomedicine and robotics.
+  bio: |
+      Dr. Kerbl is a Tenure-track Assistant Professor at the University of Copenhagen and a Principal Project Investigator associated with the Vienna University of Technology (TU Wien). Before that, he was a Visiting Researcher at the Robotics Institute, Carnegie Mellon University, in the Human Sensing Lab under Fernando de La Torre. He obtained his PhD at Graz University of Technology in 2018. In 2019 he pursued a postdoc at TU Wien in 2019, followed by another in 2022 with INRIA in George Drettakis’ GraphDeco group. His research focuses on real-time graphics, parallel processing, point-based rendering, image-based rendering, radiance fields and novel-view synthesis. Through collaboration with mentors, colleagues and students, Dr. Kerbl's research has been honored with Best Paper awards at major graphics conferences, including SIGGRAPH, High-Performance Graphics, Pacific Graphics, EGPGV, and GRAPP. He has lectured on the topics of GPU programming, real-time rendering, physically-based rendering, game physics and scientific working at TU Wien, Graz University of Technology and FH Salzburg.
 
-graduateSchoolCourses:
 - title: "Directional Fields"
   category: course
   timestamp: 2026-06-30T09:00:00+02:00
@@ -189,49 +200,279 @@ graduateSchoolCourses:
   category: welcome
   timestamp: 2026-06-30T08:30:00+02:00
   duration: "30m"
+
 - title: "_Coffee break_ (Foyer)"
   category: coffee
   timestamp: 2026-06-29T10:30:00+02:00
   duration: "30m"
 - title: "_Coffee break_ (Foyer)"
   category: coffee
-  timestamp: 2026-06-30T10:30:00+02:00
+  timestamp: 2026-06-29T15:30:00+02:00
   duration: "30m"
-- title: '_Lunch (restaurant "Grosse Schanze")_'
-  category: lunch
-  timestamp: 2026-06-29T12:30:00+02:00
-  duration: "90m"
-- title: '_Lunch (restaurant "Grosse Schanze")_'
-  category: lunch
-  timestamp: 2026-06-30T12:30:00+02:00
-  duration: "90m"
+
 - title: "_Coffee break_ (Foyer)"
   category: coffee
-  timestamp: 2026-06-29T15:30:00+02:00
+  timestamp: 2026-06-30T10:30:00+02:00
   duration: "30m"
 - title: "_Coffee break_ (Foyer)"
   category: coffee
   timestamp: 2026-06-30T15:30:00+02:00
   duration: "30m"
 
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
+  timestamp: 2026-07-01T10:30:00+02:00
+  duration: "30m"
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
+  timestamp: 2026-07-01T15:30:00+02:00
+  duration: "30m"
 
-paperSessions: 
-- name: Distances (Monday, June 24, 10:30 am - 12:00 pm)
-  chair: Marc Alexa
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
+  timestamp: 2026-07-02T10:30:00+02:00
+  duration: "30m"
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
+  timestamp: 2026-07-02T15:30:00+02:00
+  duration: "30m"
+
+- title: "_Coffee break_ (Foyer)"
+  category: coffee
+  timestamp: 2026-07-03T10:30:00+02:00
+  duration: "30m"
+
+- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  category: outside
+  timestamp: 2026-06-29T12:30:00+02:00
+  duration: "90m"
+- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  category: outside
+  timestamp: 2026-06-30T12:30:00+02:00
+  duration: "90m"
+- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  category: outside
+  timestamp: 2026-07-01T12:30:00+02:00
+  duration: "90m"
+- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  category: outside
+  timestamp: 2026-07-02T12:30:00+02:00
+  duration: "90m"
+- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  category: outside
+  timestamp: 2026-07-03T12:30:00+02:00
+  duration: "90m"
+
+
+
+# Wednesday:
+- title: "_Welcome Coffee_ (Foyer)"
+  category: coffee
+  location: Foyer
+  timestamp: 2026-07-01T08:30:00+02:00
+  duration: "45m"
+
+- title: "Opening Session"
+  category: welcome
+  location: Aula
+  timestamp: 2026-07-01T09:15:00+02:00
+  duration: "15m"
+
+- title: "_Welcome Coffee_ (Foyer)"
+  category: coffee
+  location: Foyer
+  timestamp: 2026-07-02T08:30:00+02:00
+  duration: "60m"
+
+- title: "_Welcome Coffee_ (Foyer)"
+  category: coffee
+  location: Foyer
+  timestamp: 2026-07-03T08:30:00+02:00
+  duration: "60m"
+
+- title: "Geometric Solvers"
+  category: session
+  timestamp: 2026-07-01T11:00:00+02:00
+  duration: "90m"
   papers:
-      - title: "1-Lipschitz Neural Distance Fields"
-        authors:
-          - name: Guillaume Coiffier
-          - name: Louis Bethune   
-      - title: "Triangle influence supersets for fast distance computation"
-        authors:
-          - name: Eduard Pujol          
-          - name: Antonio Chica                   
-      - title: "Cascading upper bounds for triangle soup Pompeiu-Hausdorff distance"
-        authors:
-          - name: Leonardo Sacht
-          - name: Alec Jacobson         
+    - id: CGF_3
+      title: "Single Line Drawing Generation via Semantics-Driven Optimization"
+      authors: "T. Magne"
+    - id: 1_1013
+      title: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"
+      authors: "B. Gahtan, J. Shpund, A. M. Bronstein"
+    - id: 1_1001
+      title: "Surface Multigrid via Global Parametric Domain Simplification"
+      authors: "Anyu Zhao, Qing Fang, Ligang Liu"
+    - id: 2_1036
+      title: "Circles of Confidence for Multi-Label Geometry Completion"
+      authors: "Z. Wei, C. Hafner, A. Kalinov, P. Heiss Synak, C. Wojtan"
 
+- title: "Deformation and Registration"
+  category: session
+  timestamp: 2026-07-01T14:00:00+02:00
+  duration: "90m"
+  papers:
+    - id: 2_1070
+      title: "As-Rigid-As-Possible Regularization for Implicit Surfaces"
+      authors: "T. Djuren, M. Worchel, U. Finnendahl, M. Alexa"
+    - id: 2_1071
+      title: "On Bending in the As-Rigid-As-Possible Deformation Energy"
+      authors: "U. Finnendahl, M. Alexa"
+    - id: 2_1030
+      title: "Spatial Eigenanalysis of 2D Deformation Energies"
+      authors: "H. Wu, K. Wu, T. Kim"
+    - id: 2_1105
+      title: "Attention Based Optimization for 3D Shape Registration"
+      authors: "A. Riva, L. Olearo, S. Melzi"
+
+- title: "Industrial Session"
+  category: industrial
+  timestamp: 2026-07-01T16:00:00+02:00
+  duration: "60m"
+
+- title: "Poster fast forward"
+  category: session
+  id: posters
+  timestamp: 2026-07-01T17:00:00+02:00
+  duration: "20m"
+  papers:
+    - id: P1
+      title: "TiGL 3.5 – An Open Source Parametric Geometry Library for Virtual Aircraft Design"
+      authors: "O. Albers, S. Goldberg, J. Kleinert, A. Reiswich"
+    - id: P2
+      title: "Exact 3D Elastica for Interactive Geometry Processing and Fabrication-Aware Design"
+      authors: "M. Isern"
+    - id: P3
+      title: "Topology and Combinatorics: Generalization in Deep Learning"
+      authors: "J.S. Schmidt, M. Carrasco, E. Röell, G. Wolf, N. Blaser, B. Rieck"
+    - id: P4
+      title: "Learning to Build Shapes by Extrusions"
+      authors: "T. Christiansen, K. Pandey, A. Reinders, K. Singh, M. Hannemose, J. A. Bærentzen"
+    - id: P5
+      title: "Neural Field-Based Sequence Planning for Additive-Subtractive Hybrid Manufacturing"
+      authors: "S. Guo, F. Zhong, L. Wang, H. Zhao"
+    - id: P6
+      title: "A Bayesian Approach to Ill-posed Geometric Primitive Fitting from Point Clouds Using Prior Knowledge"
+      authors: "P. Schiller, P. Raumonen, J. Peltonen, S. Ali-Löytyy"
+    - id: P7
+      title: "Geometry-Aware Edge Pooling for Graph Neural Networks"
+      authors: "K. Limbeck, L. Mezrag, G. Wolf, B. Rieck"
+    - id: P8
+      title: "Boundary-Aware Mesh Deformations"
+      authors: "F. Protais, G. Cherchi, M. Livesu"
+    - id: P9
+      title: "Mathematics of Surface Stackability"
+      authors: "Ander Chocarro Salaberria"
+    - id: P10
+      title: "Generalizable Dynamics Models for Deformable Objects: Tool-Agnostic Model for Tool Geometry Design"
+      authors: "N. Cugito, K. Allen"
+
+- title: "Poster Apero – Wine & Cheese (Foyer)"
+  category: apero
+  id: posters
+  timestamp: 2026-07-01T17:20:00+02:00
+  duration: "100m"
+
+- title: "Meshing and Vector Field Processing"
+  category: session
+  timestamp: 2026-07-02T11:00:00+02:00
+  duration: "90m"
+  papers:
+    - id: 1_1012
+      title: "Surface Quadrilateral Meshing from Integrable Odeco Fields"
+      authors: "M. Couplet , A. Chemin, D. Bommes , E. Chien"
+    - id: 2_1103
+      title: "Adaptive Meshing of Unsigned Distance Fields using Regular Triangulations"
+      authors: "M. Kohlbrenner, M. Alexa"
+    - id: 2_1031
+      title: "Phong-Rodrigues Extrinsic Vector-Field Processing"
+      authors: "H. Liu, O. Stein, A. Vaxman, M. Ben-Chen, M. Kazhdan"
+    - id: 2_1107
+      title: "Tangent Blow-Ups for Processing Non-Manifold Geometry"
+      authors: "A. Petrov, M. Nabizadeh, A. Dodik, J. Solomon"
+
+- title: "Distance Fields"
+  category: session
+  timestamp: 2026-07-02T14:00:00+02:00
+  duration: "90m"
+  papers:
+    - id: 2_1006
+      title: "Strictly Conservative Neural Distance Fields"
+      authors: "L. Ingmar, M. Campen"
+    - id: CGF_1
+      title: "SDFs from Unoriented Point Clouds using Neural Variational Heat Distances"
+      authors: "F. Hartwig"
+    - id: 2_1050
+      title: "Medial Axis Aware Learning of Signed Distance Functions"
+      authors: "S. Weidemaier, C. Norden-Smoch, M. Rumpf"
+    - id: 2_1106
+      title: "Compactly supported detail field for high quality neural implicit surfaces"
+      authors: "G. Coiffier, J. Basselin"
+
+- title: "Hulls"
+  category: session
+  timestamp: 2026-07-02T16:00:00+02:00
+  duration: "45m"
+  papers:
+    - id: 2_1052
+      title: "Progressive Convex Hull Simplification"
+      authors: "A. Jacobson"
+    - id: 2_1092
+      title: "A practical algorithm for weighted k-hulls"
+      authors: "N. Look, H. Meyer, M. Alexa"
+
+- title: "City Tour"
+  category: outside
+  timestamp: 2026-07-02T17:00:00+02:00
+  duration: "60m"
+
+- title: "Social Dinner"
+  category: outside
+  timestamp: 2026-07-02T19:00:00+02:00
+  duration: "240m"
+  url: "/venue/#social_events"
+
+
+- title: "Fabrication and Verification"
+  category: session
+  timestamp: 2026-07-03T11:00:00+02:00
+  duration: "90m"
+  papers:
+    - id: 1_1008
+      title: "Design and analysis of smooth conformal lattice microstructure via General Bézier patches"
+      authors: "J. C. Pareja-Corcho , T. Hirschler , R. Bouclier , G. Elber , M. Barton"
+    - id: 2_1008
+      title: "Wave-Guided Field-Aligned Volume-Filling Curves"
+      authors: "G. Cocco, X. Chermain"
+    - id: 2_1023
+      title: "Taking a Moment to Characterize the Bending Response of Thin Sheet Materials"
+      authors: "P. Xie, J. Montes, B. Thomaszewski, S. Coros"
+    - id: 2_1093
+      title: "UniGRe-3D: Unified Geometric Reconstruction for Multi-category 3D Anomaly Detection"
+      authors: "D. Han, Z. Zhang, Y. Gao, J. Li, M. Li, M. Zhou"
+
+- title: "Datasets and Analysis"
+  category: session
+  timestamp: 2026-07-03T14:00:00+02:00
+  duration: "45m"
+  papers:
+    - id: 2_1076
+      title: "Arti4D: Statistical Analysis and Modelling of the Spatio-temporal Variability in Articulated 4D Shapes"
+      authors: "Z. Li, A. Amrani, S. Rai, H. Laga"
+    - id: 2_1096
+      title: "MM-CAD: A Multi-Modal CAD Dataset and Benchmark for Cross-Modal Geometric Learning"
+      authors: "A. Bharathi, A. Aravindakshan, R. Muthuganapathy"
+
+- title: "Townhall meeting"
+  category: welcome
+  timestamp: 2026-07-03T14:45:00+02:00
+  duration: "45m"
+
+- title: "Awards ceremony & Closing session"
+  category: welcome
+  timestamp: 2026-07-03T15:30:00+02:00
+  duration: "30m"
 
 
 ---

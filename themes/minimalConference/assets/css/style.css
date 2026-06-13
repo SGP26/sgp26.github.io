@@ -751,22 +751,43 @@ div.graduate-school-text-container
 #conference-schedule .schedule {
   grid-template-rows:
     [day-headers] auto
-    [time-0830] 2fr 
-    [time-0915] 1.9fr [time-0930] 1fr [time-0945] 1fr
-    [time-1000] 1fr [time-1015] 1fr [time-1030] 1fr [time-1045] 1fr
-    [time-1100] 1fr [time-1115] 1fr [time-1130] 1fr [time-1145] 1fr
-    [time-1200] 1fr [time-1215] 1fr [time-1230] 1fr [time-1245] 1fr
-    [time-1300] 1fr [time-1315] 1fr [time-1330] 1fr [time-1345] 1fr
-    [time-1400] 1fr [time-1415] 1fr [time-1430] 1fr [time-1445] 1fr
-    [time-1500] 1fr [time-1515] 1fr [time-1530] 1fr [time-1545] 1fr
-    [time-1600] 1fr [time-1615] 1fr [time-1630] 1fr [time-1645] 1fr
-    [time-1700] 2fr [time-1720] 1fr [time-1730] 1fr [time-1745] 1fr 
-    [time-1800] 1fr [time-1815] 1fr [time-1830] 1fr [time-1845] 1fr
-    [time-1900] 5fr [time-2300]
+    /* rule of thumb (for the trade-off between a compact schedule
+     * and a linear mapping between vertical pixels and time):
+     * use 1fr for 30 minutes; round up smaller time slots
+     * */
+
+    [time-0830] 1.5fr 
+    /* [time-0845] 1fr [time-0900] 1fr 
+    */
+    [time-0915] 1fr
+    [time-0930] 3fr
+    /* [time-0945] 1fr [time-1000] 1fr [time-1015] 1fr */
+    [time-1030] 1fr
+    /*[time-1045] 1fr */
+    [time-1100] 3fr
+    /* [time-1115] 1fr [time-1130] 1fr [time-1145] 1fr [time-1200] 1fr [time-1215] 1fr */
+    [time-1230] 3fr
+    /* [time-1245] 1fr [time-1300] 1fr [time-1315] 1fr [time-1330] 1fr [time-1345] 1fr */
+    [time-1400] 1.5fr
+    /*[time-1415] 1fr [time-1430] 1fr */
+    [time-1445] 1.5fr
+    /*[time-1500] 1fr [time-1515] 1fr*/
+    [time-1530] 1fr
+    /*[time-1545] 1fr */
+    [time-1600] 1fr 
+    /*[time-1615] 1fr [time-1630] 1fr*/
+    [time-1645] .75fr
+    [time-1700] 1fr
+    [time-1720] 1.5fr
+    /*[time-1730] 1fr [time-1745] 1fr */
+    [time-1800] 2fr
+    /*[time-1815] 1fr [time-1830] 1fr [time-1845] 1fr*/
+    [time-1900] 3fr [time-2300]
     ;
 }
 .schedule
 {
+    line-height: 1.2; /* compress a bit compared to the main 1.5 to the schedule does not grow too tall */
   display: grid;
   grid-template-columns:
     [times] 4em
@@ -775,10 +796,12 @@ div.graduate-school-text-container
     [day];
   column-gap: 0.4em;
   row-gap: 0.15em;
-  padding: 0.5em;
+  padding: 0.0em;
   width: 100%;
+  /*
   margin-left: auto;
   margin-right: auto;
+  */
 }
 
 /* time-slot headings align to the time column */
@@ -787,6 +810,7 @@ div.graduate-school-text-container
   font-size: 0.85em;
   text-align: center;
   white-space: nowrap;
+  border-top: .5px solid rgba(0,0,0,.3);
   background-color: var(--planet-background);
   margin: 0;
   padding: 0.2em 0;

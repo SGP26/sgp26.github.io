@@ -469,7 +469,7 @@ events:
   timestamp: 2026-07-03T14:45:00+02:00
   duration: "45m"
 
-- title: "Awards ceremony & Closing session"
+- title: "Awards & Closing"
   category: welcome
   timestamp: 2026-07-03T15:30:00+02:00
   duration: "30m"

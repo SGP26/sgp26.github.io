@@ -39,7 +39,7 @@
 {{- if $keynotes -}}
 <h2 id=keynotes>{{T "keynotes" }}</h2>
 {{- range $keynotes -}}
-<div class=keynote-container>
+<div class=keynote-container id="{{ .id | default .shortTitle | default .title | urlize }}">
 
     {{ $speaker := (index .speakers 0) }}
     {{- if .portrait -}}
@@ -56,6 +56,7 @@
     <span class=keynote-affiliation>{{ $speaker.affiliation}}</span>
     </h3>
     <p>
+    {{- if and (.timestamp) (ne .timestamp "") -}}<a class="event-time" href="#schedule-{{ .id | default .shortTitle | default .title | urlize }}">{{ time .timestamp | time.Format "Monday, January 2, 15:04" }}</a>{{ end }}
     {{- if (not (isset . "title")) | or (eq .title "") -}}
     ({{T "stay_tuned_for_talk_information"}})
     {{- else -}}
@@ -86,7 +87,7 @@
 {{ $courses := where .Params.events "category" "course" }}
 {{- range (sort $courses "timestamp") -}}
 {{- if isset . "abstract" }}
-    <div id="{{ .title | urlize }}" class=graduate-school-text-container>
+    <div id="{{ .id | default .shortTitle | default .title | urlize }}" class=graduate-school-text-container>
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
     </h3>
@@ -127,7 +128,7 @@
 
 {{ $sessions := where .Params.events "category" "session" }}
 {{- range (sort $sessions "timestamp") -}}
-  <h3 class=sessionName id={{ .id | default (.title | urlize) }}>{{ .title}}
+  <h3 class=sessionName id={{ .id | default (.shortTitle | default .title | urlize) }}>{{ .title}}
       {{ if .chair }} <span class="sessionChair line">chaired by {{ .chair}}</span> {{end}}
   </h3>
     {{- if and (.timestamp) (ne .timestamp "") -}}<a class="event-time" href="#schedule-{{ .title | urlize }}">{{ time .timestamp | time.Format "Monday, January 2, 15:04" }}</a>{{ end }}

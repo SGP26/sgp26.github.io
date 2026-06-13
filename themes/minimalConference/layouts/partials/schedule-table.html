@@ -28,21 +28,17 @@
     {{- $timeStart := $ts.Format "15:04" -}}
     {{- $timeEnd := $tsEnd.Format "15:04" -}}
 
+    {{- $title := .shortTitle | default .title -}}
     {{- $entries = $entries | append (dict
       "item" $c
-      "speakers" ($c.speakers | default (slice (dict "speaker" $c.name)))
+      "speakers" ($c.speakers | default (cond $c.name (slice (dict "speaker" $c.name)) false))
       "dateStr" $date
       "timestamp" $ts
       "timeStart" $timeStart
       "timeEnd" $timeEnd
-      "title" ($c.shortTitle | default $c.title)
-      "end" $timeEnd
-      "hasAnchor" (or (eq $c.category "course" "session" "keynote") ($c.url) (isset . "id"))
-      "urlF" (cond (isset . "urxl") .url "abc")
-      "urlA" (.url | default (print "#" (.title | urlize)))
-      "urlZ" ($c.url | default ($c.id | default ($c.title | urlize)))
-      "url" ($c.url | default (print "#" ($c.id | default ($c.title | urlize))))
-      "urlX" ($c.url | default (cond $c.id (print "#" $c.id) (print "#" ($c.title | urlize))))
+      "title" $title
+      "hasAnchor" (or (eq .category "course" "session" "keynote") (.url) (.id))
+      "url" (.url | default (print "#" ($c.id | default ($title | urlize))))
     ) -}}
 {{- end -}}
 
@@ -98,15 +94,15 @@ We hardcode this in css now:
       class="schedule-entry schedule-cat-{{ $c.category }}"
       style="grid-row: time-{{ replace $e.timeStart ":" "" }} / time-{{ replace $e.timeEnd ":" "" }}; grid-column: date-{{- $e.dateStr -}};"
       {{- if $e.hasAnchor }}
-      id="schedule-{{ $c.title | urlize }}"
+      id="schedule-{{ $e.title | urlize }}"
       {{- end -}}
     >
       {{- if $e.hasAnchor -}}
       <a href="{{$e.url}}">{{ $e.title | markdownify }}</a>
       {{- else -}}
-        {{ $c.title | markdownify }}
+        {{ $e.title | markdownify }}
       {{- end -}}
-      {{- if isset $e "speakers" -}}
+      {{- if $e.speakers -}}
         <br>
         <span class="schedule-speakers">
           {{- range $si, $s := $e.speakers -}}

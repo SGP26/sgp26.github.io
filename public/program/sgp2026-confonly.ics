@@ -1,0 +1,221 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SGP 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SGP&#39;26 Conference Schedule
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T093000
+DTEND;TZID=Europe/Zurich:20260701T103000
+SUMMARY:Computational Optimal Transport: From Low to High Dimension and Back
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Speaker: Justin Solomon\n\nThe *optimal transport* problem asks a simple geometric question:  What is the most efficient way to transform one probability distribution into another along a piece of geometry?  Beyond its mathematical interest\, optimal transport underlies a variety of applications\, from supply chains to mesh processing\, statistics\, and even generative AI.  Over the past two decades\, research in geometry processing has played a central role in shaping algorithms for optimal transport\, with foundational advances emerging from the SGP community.  At the same time\, popular problems in applied optimal transport have shifted from low-dimensional settings in graphics and imaging to high-dimensional settings in machine learning.\n\nIn this retrospective keynote\, I will trace how my team's work in computational optimal transport was shaped by studying its applications to geometry processing---even as the landscape of research in this area shifted in dimensionality and application.  Ultimately\, this journey illustrates the broader value of "Geometric Data Processing" as a discipline: identifying shared geometric and variational principles across domains that differ dramatically in dimension\, scale\, and data fidelity.\n
+UID:computational-optimal-transport-20260701T093000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T093000
+DTEND;TZID=Europe/Zurich:20260702T103000
+SUMMARY:Geometric not-so-deep learning
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Speaker: Julie Digne\n\nOver the past decade\, deep learning for geometric data processing has advanced significantly\, with numerous methods proposed to handle irregular\, non-Euclidean data. However\, 3D objects databases are scarce and only partially cover the variety of shapes practitioners want to analyze. As a consequence many shapes fall out-of-distribution. \nHowever\, many tasks\, such as compression\, denoising or resampling\, can already benefit from leveraging statistical geometric features\, without requiring shape space priors.\nIn this talk\, I will focus on lightweight methods that are computationally efficient\, run on standard hardware by operating directly on individual shapes. Through a series of projects\, I will show how modern optimization techniques\, with or without neural networks\, can address geometric challenges effectively\, without relying on large datasets or heavy computational resources.\n
+UID:geometric-not-so-deep-learning-20260702T093000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T093000
+DTEND;TZID=Europe/Zurich:20260703T103000
+SUMMARY:Resource-Efficient Visual Computing – Frontiers and Applications of Real-Time Visual AI
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Speaker: Bernhard Kerbl\n\nModern visual computing is transforming the means and ways by which we map\, understand and interact with the physical world. 3D and 4D reconstructions of real artefacts are now viable from just a handful of casual camera observations\; object recognition and classification can be done with unprecedented accuracy and reliability. However\, a key requirement for the overall usefulness of these methods is their efficiency: Efficiency dictates whether a solution can run in real-time\; it governs the hardware requirements for execution\, and wether it can be used without requiring massive\, industry-grade infrastructure. Real-time performance enables crucial emerging trends\, such as robots interacting with the real world\, or visual AI providing on-line assistance in medical treatments on patients. Resource-efficiency\, on the other hand\, ensures that these breakthrough technologies can be employed by almost anyone. In this talk\, Dr. Kerbl will discuss key challenges and opportunities of real-time\, resource-efficient visual computing and AI\, focusing on open tasks in fundamental research and applied fields\, including biomedicine and robotics.\n
+UID:resource-efficient-visual-computing-20260703T093000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T103000
+DTEND;TZID=Europe/Zurich:20260701T110000
+SUMMARY:Coffee break
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:coffee-break-20260701T103000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T153000
+DTEND;TZID=Europe/Zurich:20260701T160000
+SUMMARY:Coffee break
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:coffee-break-20260701T153000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T103000
+DTEND;TZID=Europe/Zurich:20260702T110000
+SUMMARY:Coffee break
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:coffee-break-20260702T103000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T153000
+DTEND;TZID=Europe/Zurich:20260702T160000
+SUMMARY:Coffee break
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:coffee-break-20260702T153000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T103000
+DTEND;TZID=Europe/Zurich:20260703T110000
+SUMMARY:Coffee break
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:coffee-break-20260703T103000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T123000
+DTEND;TZID=Europe/Zurich:20260701T140000
+SUMMARY:Lunch
+LOCATION:Restaurant "Grosse Schanze"\, Parkterrasse 10\, 3012 Bern
+UID:lunch-20260701T123000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T123000
+DTEND;TZID=Europe/Zurich:20260702T140000
+SUMMARY:Lunch
+LOCATION:Restaurant "Grosse Schanze"\, Parkterrasse 10\, 3012 Bern
+UID:lunch-20260702T123000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T123000
+DTEND;TZID=Europe/Zurich:20260703T140000
+SUMMARY:Lunch
+LOCATION:Restaurant "Grosse Schanze"\, Parkterrasse 10\, 3012 Bern
+UID:lunch-20260703T123000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T083000
+DTEND;TZID=Europe/Zurich:20260701T091500
+SUMMARY:Welcome Coffee
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:welcome-coffee-20260701T083000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T091500
+DTEND;TZID=Europe/Zurich:20260701T093000
+SUMMARY:Opening Session
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+UID:opening-session-20260701T091500@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T083000
+DTEND;TZID=Europe/Zurich:20260702T093000
+SUMMARY:Welcome Coffee
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:welcome-coffee-20260702T083000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T083000
+DTEND;TZID=Europe/Zurich:20260703T093000
+SUMMARY:Welcome Coffee
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:welcome-coffee-20260703T083000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T110000
+DTEND;TZID=Europe/Zurich:20260701T123000
+SUMMARY:Geometric Solvers
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- Single Line Drawing Generation via Semantics-Driven Optimization (T. Magne\, A. Binninger\, R. Wiersma\, O. Sorkine-Hornung)\n- Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers (B. Gahtan\, J. Shpund\, A. M. Bronstein)\n- Surface Multigrid via Global Parametric Domain Simplification (Anyu Zhao\, Qing Fang\, Ligang Liu)\n- Circles of Confidence for Multi-Label Geometry Completion (Z. Wei\, C. Hafner\, A. Kalinov\, P. Heiss Synak\, C. Wojtan)
+UID:geometric-solvers-20260701T110000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T140000
+DTEND;TZID=Europe/Zurich:20260701T153000
+SUMMARY:Deformation and Registration
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- As-Rigid-As-Possible Regularization for Implicit Surfaces (T. Djuren\, M. Worchel\, U. Finnendahl\, M. Alexa)\n- On Bending in the As-Rigid-As-Possible Deformation Energy (U. Finnendahl\, M. Alexa)\n- Spatial Eigenanalysis of 2D Deformation Energies (H. Wu\, K. Wu\, T. Kim)\n- Attention Based Optimization for 3D Shape Registration (A. Riva\, L. Olearo\, S. Melzi)
+UID:deformation-and-registration-20260701T140000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T160000
+DTEND;TZID=Europe/Zurich:20260701T170000
+SUMMARY:Industrial Session
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+UID:industrial-session-20260701T160000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T170000
+DTEND;TZID=Europe/Zurich:20260701T172000
+SUMMARY:Poster fast forward
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- TiGL 3.5 – An Open Source Parametric Geometry Library for Virtual Aircraft Design (O. Albers\, S. Goldberg\, J. Kleinert\, A. Reiswich)\n- Exact 3D Elastica for Interactive Geometry Processing and Fabrication-Aware Design (M. Isern)\n- Topology and Combinatorics: Generalization in Deep Learning (J.S. Schmidt\, M. Carrasco\, E. Röell\, G. Wolf\, N. Blaser\, B. Rieck)\n- Learning to Build Shapes by Extrusions (T. Christiansen\, K. Pandey\, A. Reinders\, K. Singh\, M. Hannemose\, J. A. Bærentzen)\n- Neural Field-Based Sequence Planning for Additive-Subtractive Hybrid Manufacturing (S. Guo\, F. Zhong\, L. Wang\, H. Zhao)\n- A Bayesian Approach to Ill-posed Geometric Primitive Fitting from Point Clouds Using Prior Knowledge (P. Schiller\, P. Raumonen\, J. Peltonen\, S. Ali-Löytyy)\n- Geometry-Aware Edge Pooling for Graph Neural Networks (K. Limbeck\, L. Mezrag\, G. Wolf\, B. Rieck)\n- Boundary-Aware Mesh Deformations (F. Protais\, G. Cherchi\, M. Livesu)\n- Mathematics of Surface Stackability (Ander Chocarro Salaberria)\n- Generalizable Dynamics Models for Deformable Objects: Tool-Agnostic Model for Tool Geometry Design (N. Cugito\, K. Allen)
+UID:posters-20260701T170000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260701T172000
+DTEND;TZID=Europe/Zurich:20260701T190000
+SUMMARY:Poster Apero – Wine & Cheese (Foyer)
+LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
+UID:posters-20260701T172000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T110000
+DTEND;TZID=Europe/Zurich:20260702T123000
+SUMMARY:Meshing and Vector Field Processing
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- Surface Quadrilateral Meshing from Integrable Odeco Fields (M. Couplet \, A. Chemin\, D. Bommes \, E. Chien)\n- Adaptive Meshing of Unsigned Distance Fields using Regular Triangulations (M. Kohlbrenner\, M. Alexa)\n- Phong-Rodrigues Extrinsic Vector-Field Processing (H. Liu\, O. Stein\, A. Vaxman\, M. Ben-Chen\, M. Kazhdan)\n- Tangent Blow-Ups for Processing Non-Manifold Geometry (A. Petrov\, M. Nabizadeh\, A. Dodik\, J. Solomon)
+UID:meshing-and-vector-field-processing-20260702T110000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T140000
+DTEND;TZID=Europe/Zurich:20260702T153000
+SUMMARY:Distance Fields
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- Strictly Conservative Neural Distance Fields (L. Ingmar\, M. Campen)\n- SDFs from Unoriented Point Clouds using Neural Variational Heat Distances (F. Hartwig)\n- Medial Axis Aware Learning of Signed Distance Functions (S. Weidemaier\, C. Norden-Smoch\, M. Rumpf)\n- Compactly supported detail field for high quality neural implicit surfaces (G. Coiffier\, J. Basselin)
+UID:distance-fields-20260702T140000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T160000
+DTEND;TZID=Europe/Zurich:20260702T164500
+SUMMARY:Hulls
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- Progressive Convex Hull Simplification (A. Jacobson)\n- A practical algorithm for weighted k-hulls (N. Look\, H. Meyer\, M. Alexa)
+UID:hulls-20260702T160000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T170000
+DTEND;TZID=Europe/Zurich:20260702T180000
+SUMMARY:City Tour
+LOCATION:Meeting point: In front of Foyer
+UID:city-tour-20260702T170000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260702T190000
+DTEND;TZID=Europe/Zurich:20260702T230000
+SUMMARY:Social Dinner
+LOCATION:Rooftop Grill\, Kursaal Bern\, Kornhausstrasse 3\, 3013 Bern
+UID:social-dinner-20260702T190000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T110000
+DTEND;TZID=Europe/Zurich:20260703T123000
+SUMMARY:Fabrication and Verification
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- Design and analysis of smooth conformal lattice microstructure via General Bézier patches (J. C. Pareja-Corcho \, T. Hirschler \, R. Bouclier \, G. Elber \, M. Barton)\n- Wave-Guided Field-Aligned Volume-Filling Curves (G. Cocco\, X. Chermain)\n- Taking a Moment to Characterize the Bending Response of Thin Sheet Materials (P. Xie\, J. Montes\, B. Thomaszewski\, S. Coros)\n- UniGRe-3D: Unified Geometric Reconstruction for Multi-category 3D Anomaly Detection (D. Han\, Z. Zhang\, Y. Gao\, J. Li\, M. Li\, M. Zhou)
+UID:fabrication-and-verification-20260703T110000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T140000
+DTEND;TZID=Europe/Zurich:20260703T144500
+SUMMARY:Datasets and Analysis
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- Arti4D: Statistical Analysis and Modelling of the Spatio-temporal Variability in Articulated 4D Shapes (Z. Li\, A. Amrani\, S. Rai\, H. Laga)\n- MM-CAD: A Multi-Modal CAD Dataset and Benchmark for Cross-Modal Geometric Learning (A. Bharathi\, A. Aravindakshan\, R. Muthuganapathy)
+UID:datasets-and-analysis-20260703T140000@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T144500
+DTEND;TZID=Europe/Zurich:20260703T153000
+SUMMARY:Townhall meeting
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+UID:townhall-meeting-20260703T144500@sgp26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Zurich:20260703T153000
+DTEND;TZID=Europe/Zurich:20260703T160000
+SUMMARY:Awards & Closing
+LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+UID:awards-closing-20260703T153000@sgp26.org
+END:VEVENT
+END:VCALENDAR

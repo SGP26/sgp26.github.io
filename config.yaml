@@ -4,6 +4,12 @@ title: SGP 2026 - Symposium on Geometry Processing 2026
 theme: minimalConference
 disableKinds: ["taxonomy", "term", "RSS", "robotsTXT", "404"]
 
+outputFormats:
+  ICS:
+    mediaType: text/calendar
+    isPlainText: true
+    notAlternative: true
+
 module:
   imports:
   - path: github.com/future-wd/hugo-responsive-images

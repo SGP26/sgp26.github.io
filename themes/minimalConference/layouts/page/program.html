@@ -10,6 +10,44 @@
 
 <div id=simple-static>
 
+    <!--
+<details open>
+<summary>Add SGP 2026 events to your calendar</summary>
+<p>
+We recommend <i>subscribing</i> to our calendar instead of downloading the .ics, so your calendar can automatically update when the program is changed.
+</p>
+<div class=ics-subscribe-links style="display: grid; grid-template-rows: [full] auto [confonly] auto; grid-template-columns: [name] auto [ics] auto [webcal] auto [google] auto [outlook] auto; width: fit-content; column-gap: 1em; row-gap: 0.8em;">
+{{- range (slice
+(dict "short" "full" "long" "Full calendar")
+(dict "short" "confonly" "long" "Only conference"))
+-}}
+
+{{- $url := printf "/program/sgp2026-%s.ics" .short | absURL -}}
+{{- $url = printf "https://sgp26.org/program/sgp2026-%s.ics" .short |safeURL -}}
+{{- $webcalURL := printf "webcal://sgp26.org/program/sgp2026-%s.ics" .short |safeURL -}}
+<div style="grid-row: {{.short}}; grid-column: name">
+    {{- .long -}}
+</div>
+<div style="grid-row: {{.short}}; grid-column: ics">
+    <a href={{- $url -}}>.ics</a>
+    <button class=ics-copy-btn onclick="navigator.clipboard.writeText(this.dataset.url);this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',1500)" data-url="{{$url}}" title="Copy URL">Copy URL</button>
+</div>
+<div style="grid-row: {{.short}}; grid-column: webcal">
+    <a href="{{$webcalURL}}">WebCAL</a>
+</div>
+<div style="grid-row: {{.short}}; grid-column: google">
+    <a href="https://www.google.com/calendar/render?cid={{$webcalURL}}">Google Calendar</a>
+</div>
+<div style="grid-row: {{.short}}; grid-column: outlook">
+      <a href="https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url={{$webcalURL}}&name=SGP%202026">Outlook 365</a>
+      <a href="https://outlook.live.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url={{$webcalURL}}&name=SGP%202026">Outlook Live</a>
+</div>
+{{- end -}}
+</div>
+-->
+
+</details>
+
 <h2 id=schedule>{{T "graduate_school_schedule" }}</h2>
 
 <div id="gradschool-schedule">

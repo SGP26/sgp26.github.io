@@ -1,0 +1,16 @@
+{{- /* Consistent event ID: always unique, explicit id preferred */ -}}
+{{- if .id -}}
+{{- .id -}}
+{{- if .timestamp -}}
+{{- $ts := time .timestamp -}}
+{{- printf "-%s" ($ts | dateFormat "20060102T150405") -}}
+{{- end -}}
+{{- else -}}
+{{- $slug := .shortTitle | default .title | urlize -}}
+{{- if .timestamp -}}
+{{- $ts := time .timestamp -}}
+{{- $slug -}}-{{- $ts | dateFormat "20060102T150405" -}}
+{{- else -}}
+{{- $slug -}}
+{{- end -}}
+{{- end -}}

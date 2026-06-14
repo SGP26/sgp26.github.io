@@ -1,0 +1,6 @@
+{{- $programPage := site.GetPage "program.md" -}}
+{{- $events := $programPage.Params.events -}}
+{{- if .Params.timeFrom -}}
+{{-   $events = (where $events "timestamp" "ge" .Params.timeFrom) -}}
+{{- end -}}
+{{- partial "render-ics.html" (dict "events" $events "title" .Title) -}}

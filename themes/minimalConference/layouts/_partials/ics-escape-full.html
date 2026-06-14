@@ -1,0 +1,12 @@
+{{- /* RFC 5545 §3.3.11 full TEXT escaping — unescape HTML entities first, then apply ICS escaping */ -}}
+{{- $s := . -}}
+{{- $s = replace $s "&amp;" "&" -}}
+{{- $s = replace $s "&#34;" "\"" -}}
+{{- $s = replace $s "&#39;" "'" -}}
+{{- $s = replace $s "&lt;" "<" -}}
+{{- $s = replace $s "&gt;" ">" -}}
+{{- $s = replace $s "\\" "\\\\" -}}
+{{- $s = replace $s "\n" "\\n" -}}
+{{- $s = replace $s ";" "\\;" -}}
+{{- $s = replace $s "," "\\," -}}
+{{- safeHTML $s -}}

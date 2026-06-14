@@ -1,0 +1,73 @@
+{{- $events := .events -}}
+{{- $title := .title -}}
+{{- $tz := site.Params.timezone | default "Europe/Zurich" -}}
+{{- $eol := "\r\n" -}}
+
+BEGIN:VCALENDAR{{ $eol -}}
+VERSION:2.0{{ $eol -}}
+PRODID:-//SGP 2026//EN{{ $eol -}}
+CALSCALE:GREGORIAN{{ $eol -}}
+METHOD:PUBLISH{{ $eol -}}
+X-WR-CALNAME:{{ $title }}{{ $eol -}}
+
+{{ range $e := $events }}
+{{- if not $e.timestamp -}}{{- continue -}}{{- end -}}
+{{- $ts := time $e.timestamp -}}
+{{- $dur := time.ParseDuration $e.duration -}}
+{{- $tsEnd := $ts.Add $dur -}}
+{{- $id := partial "ics-event-id" $e -}}
+
+{{- $loc := "" -}}
+{{- if $e.location -}}
+{{- $loc = partial "ics-escape" $e.location -}}
+{{- else if $e.location_id -}}
+{{- with index site.Params.locations $e.location_id -}}
+{{- $loc = partial "ics-escape" . -}}
+{{- end -}}
+{{- end -}}
+
+{{- $cat := $e.category | default "" -}}
+{{- $raw := "" -}}
+{{- $desc := "" -}}
+
+{{- if or (eq $cat "keynote") (eq $cat "course") -}}
+{{- $speakers := slice -}}
+{{- range $s := $e.speakers -}}
+{{- $speakers = $speakers | append $s.name -}}
+{{- end -}}
+{{- if eq (len $speakers) 1 -}}
+{{- $raw = "Speaker: " -}}
+{{- end -}}
+{{- if gt (len $speakers) 1 -}}
+{{- $raw = "Speakers: " -}}
+{{- end -}}
+{{- if gt (len $speakers) 0 -}}
+{{- $raw = printf "Speaker%s: %s\n\n" (cond (eq (len $speakers) 1) "" "s") (delimit $speakers ", ") -}}
+{{- end -}}
+{{- if $e.abstract -}}
+{{- $raw = printf "%s%s" $raw $e.abstract -}}
+{{- end -}}
+{{- $desc = partial "ics-escape-full" $raw -}}
+
+{{- else if eq $cat "session" -}}
+{{- if $e.papers -}}
+{{- $lines := slice "Papers:" -}}
+{{- range $p := $e.papers -}}
+{{- $line := printf "- %s (%s)" $p.title $p.authors -}}
+{{- $lines = $lines | append $line -}}
+{{- end -}}
+{{- $desc = partial "ics-escape-full" (delimit $lines "\n") -}}
+{{- end -}}
+{{- end -}}
+
+BEGIN:VEVENT{{ $eol -}}
+DTSTART;TZID={{ $tz }}:{{ $ts | dateFormat "20060102T150405" }}{{ $eol -}}
+DTEND;TZID={{ $tz }}:{{ $tsEnd | dateFormat "20060102T150405" }}{{ $eol -}}
+SUMMARY:{{ partial "ics-escape" $e.title }}{{ $eol -}}
+{{- if $loc -}}LOCATION:{{ $loc }}{{ $eol -}}{{- end -}}
+{{- if $desc -}}DESCRIPTION:{{ $desc }}{{ $eol -}}{{- end -}}
+UID:{{ $id }}@sgp26.org{{ $eol -}}
+END:VEVENT{{ $eol -}}
+
+{{ end -}}
+END:VCALENDAR{{ $eol -}}

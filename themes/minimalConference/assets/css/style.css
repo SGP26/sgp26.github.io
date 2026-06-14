@@ -715,15 +715,6 @@ ul.graduate-school-speakers
   column-count: auto;
 }
 
-button
-{
-  color: inherit;
-  background-color: inherit;
-  border: none;
-  font-family: var(--headerfont);
-  font-size: 14pt;
-  color: var(--dark-blue);
-}
 .event-time
 {
   font-style: italic;
@@ -1116,7 +1107,9 @@ a {
     padding-left: 0px !important;
 }
 
-a[href^="http"] {
+a[href^="http"],
+a[href^="webcal"]
+{
     background-image: url('/icons/link.svg');
     padding-left: 1.4em;
 
@@ -1220,3 +1213,10 @@ table.rates {
   text-align: center !important;
 }
 
+details {
+  margin: 1.5em 0;
+  padding: 0 1.5em;
+  border-radius: var(--border-rad);
+  border: 1px solid var(--border-color, #ddd);
+  outline: none;
+}

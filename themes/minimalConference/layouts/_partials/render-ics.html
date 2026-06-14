@@ -9,7 +9,24 @@ PRODID:-//SGP 2026//EN{{ $eol -}}
 CALSCALE:GREGORIAN{{ $eol -}}
 METHOD:PUBLISH{{ $eol -}}
 X-WR-CALNAME:{{ $title }}{{ $eol -}}
-
+NAME:{{ $title }}{{ $eol -}}
+BEGIN:VTIMEZONE{{ $eol -}}
+TZID:Europe/Zurich{{ $eol -}}
+BEGIN:DAYLIGHT{{ $eol -}}
+DTSTART:19810329T020000{{ $eol -}}
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU{{ $eol -}}
+TZNAME:GMT+2{{ $eol -}}
+TZOFFSETFROM:+0100{{ $eol -}}
+TZOFFSETTO:+0200{{ $eol -}}
+END:DAYLIGHT{{ $eol -}}
+BEGIN:STANDARD{{ $eol -}}
+DTSTART:19961027T030000{{ $eol -}}
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU{{ $eol -}}
+TZNAME:GMT+1{{ $eol -}}
+TZOFFSETFROM:+0200{{ $eol -}}
+TZOFFSETTO:+0100{{ $eol -}}
+END:STANDARD{{ $eol -}}
+END:VTIMEZONE{{ $eol -}}
 {{ range $e := $events }}
 {{- if not $e.timestamp -}}{{- continue -}}{{- end -}}
 {{- $ts := time $e.timestamp -}}
@@ -61,6 +78,7 @@ X-WR-CALNAME:{{ $title }}{{ $eol -}}
 {{- end -}}
 
 BEGIN:VEVENT{{ $eol -}}
+DTSTAMP:20260601T000000Z{{ $eol -}}
 DTSTART;TZID={{ $tz }}:{{ $ts | dateFormat "20060102T150405" }}{{ $eol -}}
 DTEND;TZID={{ $tz }}:{{ $tsEnd | dateFormat "20060102T150405" }}{{ $eol -}}
 SUMMARY:{{ partial "ics-escape" $e.title }}{{ $eol -}}

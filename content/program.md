@@ -10,6 +10,7 @@ events:
 - category: keynote
   timestamp: 2026-07-01T09:30:00+02:00
   duration: "60m"
+  location_id: aula
   title: "Computational Optimal Transport: From Low to High Dimension and Back"
   shortTitle: "Computational Optimal Transport"
   speakers:
@@ -27,6 +28,7 @@ events:
 - category: keynote
   timestamp: 2026-07-02T09:30:00+02:00
   duration: "60m"
+  location_id: aula
   title: "Geometric not-so-deep learning"
   speakers:
     - name: Julie Digne
@@ -43,6 +45,7 @@ events:
 - category: keynote
   timestamp: 2026-07-03T09:30:00+02:00
   duration: "60m"
+  location_id: aula
   title: "Resource-Efficient Visual Computing – Frontiers and Applications of Real-Time Visual AI"
   shortTitle: "Resource-Efficient Visual Computing"
   speakers:
@@ -58,6 +61,7 @@ events:
 - title: "Directional Fields"
   category: course
   timestamp: 2026-06-30T09:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/dir-fields.png
   speakers:
@@ -70,6 +74,7 @@ events:
 - title: "Differentiable Geometry Processing in Python"
   category: course
   timestamp: 2026-06-30T11:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/diff-geom.png
   speakers:
@@ -87,6 +92,7 @@ events:
 - title: "Geometry Processing from 2D Image Priors"
   category: course
   timestamp: 2026-06-29T16:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/image-priors.png
   speakers:
@@ -105,6 +111,7 @@ events:
 - title: "Shape Spaces"
   category: course
   timestamp: 2026-06-29T09:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/shape-spaces.png
   speakers:
@@ -125,6 +132,7 @@ events:
 - title: "Cone-Nets: Theory and Interactive Design"
   category: course
   timestamp: 2026-06-29T14:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/cone-nets.jpg
   speakers:
@@ -147,6 +155,7 @@ events:
 - title: "Spatial acceleration structures: Bounding Volume Hierarchies"
   category: course
   timestamp: 2026-06-30T16:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/bvh.png
   speakers:
@@ -162,6 +171,7 @@ events:
 - title: "Closest Point Geometry Processing"
   category: course
   timestamp: 2026-06-30T14:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/closest-point.png
   speakers:
@@ -177,6 +187,7 @@ events:
 - title: "Computational Geometric Fluid Mechanics"
   category: course
   timestamp: 2026-06-29T11:00:00+02:00
+  location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/fluids.jpg
   speakers:
@@ -192,108 +203,125 @@ events:
     We then discuss how smooth geometric structures can be translated into discrete settings, where fluid motion becomes a constrained geodesic flow on a sub-Riemannian manifold induced by discretization. Finally, we will analyze modern methods grounded in these principles from computer graphics and computational fluid mechanics.
 
 
-- title: "_Registration (Foyer)_"
+- title: "Registration"
   category: welcome
   timestamp: 2026-06-29T08:30:00+02:00
   duration: "30m"
-- title: "_Registration (Foyer)_"
+  location_id: foyer
+- title: "Registration"
   category: welcome
   timestamp: 2026-06-30T08:30:00+02:00
   duration: "30m"
+  location_id: foyer
 
-- title: "_Coffee break_ (Foyer)"
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-06-29T10:30:00+02:00
   duration: "30m"
-- title: "_Coffee break_ (Foyer)"
+  location_id: foyer
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-06-29T15:30:00+02:00
   duration: "30m"
+  location_id: foyer
 
-- title: "_Coffee break_ (Foyer)"
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-06-30T10:30:00+02:00
   duration: "30m"
-- title: "_Coffee break_ (Foyer)"
+  location_id: foyer
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-06-30T15:30:00+02:00
   duration: "30m"
+  location_id: foyer
 
-- title: "_Coffee break_ (Foyer)"
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-07-01T10:30:00+02:00
   duration: "30m"
-- title: "_Coffee break_ (Foyer)"
+  location_id: foyer
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-07-01T15:30:00+02:00
   duration: "30m"
+  location_id: foyer
 
-- title: "_Coffee break_ (Foyer)"
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-07-02T10:30:00+02:00
   duration: "30m"
-- title: "_Coffee break_ (Foyer)"
+  location_id: foyer
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-07-02T15:30:00+02:00
   duration: "30m"
+  location_id: foyer
 
-- title: "_Coffee break_ (Foyer)"
+- title: "Coffee break"
   category: coffee
   timestamp: 2026-07-03T10:30:00+02:00
   duration: "30m"
+  location_id: foyer
 
-- title: '_Lunch_ (restaurant "Grosse Schanze")'
+- title: 'Lunch'
   category: outside
   timestamp: 2026-06-29T12:30:00+02:00
   duration: "90m"
-- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  location_id: gs
+- title: 'Lunch'
   category: outside
   timestamp: 2026-06-30T12:30:00+02:00
   duration: "90m"
-- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  location_id: gs
+- title: 'Lunch'
   category: outside
   timestamp: 2026-07-01T12:30:00+02:00
   duration: "90m"
-- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  location_id: gs
+- title: 'Lunch'
   category: outside
   timestamp: 2026-07-02T12:30:00+02:00
   duration: "90m"
-- title: '_Lunch_ (restaurant "Grosse Schanze")'
+  location_id: gs
+- title: 'Lunch'
   category: outside
   timestamp: 2026-07-03T12:30:00+02:00
   duration: "90m"
+  location_id: gs
 
 
 
 # Wednesday:
-- title: "_Welcome Coffee_ (Foyer)"
+- title: "Welcome Coffee"
   category: coffee
-  location: Foyer
   timestamp: 2026-07-01T08:30:00+02:00
   duration: "45m"
+  location_id: foyer
 
 - title: "Opening Session"
   category: welcome
-  location: Aula
   timestamp: 2026-07-01T09:15:00+02:00
   duration: "15m"
+  location_id: aula
 
-- title: "_Welcome Coffee_ (Foyer)"
+- title: "Welcome Coffee"
   category: coffee
-  location: Foyer
   timestamp: 2026-07-02T08:30:00+02:00
   duration: "60m"
+  location_id: foyer
 
-- title: "_Welcome Coffee_ (Foyer)"
+- title: "Welcome Coffee"
   category: coffee
-  location: Foyer
   timestamp: 2026-07-03T08:30:00+02:00
   duration: "60m"
+  location_id: foyer
 
 - title: "Geometric Solvers"
   category: session
   timestamp: 2026-07-01T11:00:00+02:00
   duration: "90m"
+  location_id: aula
   papers:
     - id: CGF_3
       title: "Single Line Drawing Generation via Semantics-Driven Optimization"
@@ -312,6 +340,7 @@ events:
   category: session
   timestamp: 2026-07-01T14:00:00+02:00
   duration: "90m"
+  location_id: aula
   papers:
     - id: 2_1070
       title: "As-Rigid-As-Possible Regularization for Implicit Surfaces"
@@ -330,12 +359,14 @@ events:
   category: industrial
   timestamp: 2026-07-01T16:00:00+02:00
   duration: "60m"
+  location_id: aula
 
 - title: "Poster fast forward"
   category: session
   id: posters
   timestamp: 2026-07-01T17:00:00+02:00
   duration: "20m"
+  location_id: aula
   papers:
     - id: P1
       title: "TiGL 3.5 – An Open Source Parametric Geometry Library for Virtual Aircraft Design"
@@ -373,11 +404,13 @@ events:
   id: posters
   timestamp: 2026-07-01T17:20:00+02:00
   duration: "100m"
+  location_id: foyer
 
 - title: "Meshing and Vector Field Processing"
   category: session
   timestamp: 2026-07-02T11:00:00+02:00
   duration: "90m"
+  location_id: aula
   papers:
     - id: 1_1012
       title: "Surface Quadrilateral Meshing from Integrable Odeco Fields"
@@ -396,6 +429,7 @@ events:
   category: session
   timestamp: 2026-07-02T14:00:00+02:00
   duration: "90m"
+  location_id: aula
   papers:
     - id: 2_1006
       title: "Strictly Conservative Neural Distance Fields"
@@ -414,6 +448,7 @@ events:
   category: session
   timestamp: 2026-07-02T16:00:00+02:00
   duration: "45m"
+  location_id: aula
   papers:
     - id: 2_1052
       title: "Progressive Convex Hull Simplification"
@@ -426,11 +461,13 @@ events:
   category: outside
   timestamp: 2026-07-02T17:00:00+02:00
   duration: "60m"
+  location_id: city-tour
 
 - title: "Social Dinner"
   category: outside
   timestamp: 2026-07-02T19:00:00+02:00
   duration: "240m"
+  location_id: social-dinner
   url: "/venue/#social_events"
 
 
@@ -438,6 +475,7 @@ events:
   category: session
   timestamp: 2026-07-03T11:00:00+02:00
   duration: "90m"
+  location_id: aula
   papers:
     - id: 1_1008
       title: "Design and analysis of smooth conformal lattice microstructure via General Bézier patches"
@@ -456,6 +494,7 @@ events:
   category: session
   timestamp: 2026-07-03T14:00:00+02:00
   duration: "45m"
+  location_id: aula
   papers:
     - id: 2_1076
       title: "Arti4D: Statistical Analysis and Modelling of the Spatio-temporal Variability in Articulated 4D Shapes"
@@ -468,11 +507,13 @@ events:
   category: welcome
   timestamp: 2026-07-03T14:45:00+02:00
   duration: "45m"
+  location_id: aula
 
 - title: "Awards & Closing"
   category: welcome
   timestamp: 2026-07-03T15:30:00+02:00
   duration: "30m"
+  location_id: aula
 
 
 ---

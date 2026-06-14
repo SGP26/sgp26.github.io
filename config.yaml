@@ -64,6 +64,13 @@ menu:
 Params:
   sponsorContact: "sgp2026-admin@list.inf.unibe.ch"
   submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP2026_FP2"
+  locations:
+    room-201: "Room 201, Hochschulstrasse 4, 3012 Bern"
+    aula: "Room 210 / Aula, Hochschulstrasse 4, 3012 Bern"
+    foyer: "Foyer, Hochschulstrasse 4, 3012 Bern"
+    gs: "Restaurant \"Grosse Schanze\", Parkterrasse 10, 3012 Bern"
+    social-dinner: "Rooftop Grill, Kursaal Bern, Kornhausstrasse 3, 3013 Bern"
+    city-tour: "Meeting point: In front of Foyer"
   events: 
     #- id: "conference_location"
     - id: "graduate_school"

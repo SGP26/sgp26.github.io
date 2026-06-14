@@ -1,5 +1,5 @@
 ---
-title: "SGP'26 Full Schedule"
+title: "SGP 2026"
 outputs: ["ICS"]
 url: "/program/sgp2026-full.ics"
 outputFormats:

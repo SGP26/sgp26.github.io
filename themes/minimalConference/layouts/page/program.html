@@ -45,7 +45,7 @@
                         <button class=ics-copy-btn onclick="navigator.clipboard.writeText(this.dataset.url);this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',1500)" data-url="{{$url}}" title="Copy URL">Copy</button>
                     </li>
                     <li>
-                        <a href="https://www.google.com/calendar/render?cid={{$webcalURL}}">Google Calendar</a>
+                        <a href="https://www.google.com/calendar/render?cid={{$webcalURL|urls.PathEscape}}">Google Calendar</a>
                     </li>
                 </ul>
             </div>

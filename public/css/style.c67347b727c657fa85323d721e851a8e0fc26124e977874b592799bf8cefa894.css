@@ -9,6 +9,7 @@ figure {
     margin: 0 0 1rem;
 }
 :root {
+      interpolate-size: allow-keywords;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   --parchment: #eafaef;
@@ -1219,4 +1220,21 @@ details {
   border-radius: var(--border-rad);
   border: 1px solid var(--border-color, #ddd);
   outline: none;
+}
+
+
+summary {
+  cursor: pointer;
+  list-style: none; /* Removes default arrow */
+}
+
+summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 8px;
+  transition: transform 0.1s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg); /* Rotates the arrow smoothly */
 }

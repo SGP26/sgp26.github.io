@@ -436,7 +436,7 @@ events:
       authors: "L. Ingmar, M. Campen"
     - id: CGF_1
       title: "SDFs from Unoriented Point Clouds using Neural Variational Heat Distances"
-      authors: "F. Hartwig"
+      authors: "S. Weidemaier, F. Hartwig, J. Sassen, S. Conti, M. Ben-Chen, M. Rumpf"
     - id: 2_1050
       title: "Medial Axis Aware Learning of Signed Distance Functions"
       authors: "S. Weidemaier, C. Norden-Smoch, M. Rumpf"

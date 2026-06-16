@@ -14,17 +14,18 @@
     <summary>Add SGP events to your calendar</summary>
     <div class="content">
         <p>
-        We recommend <i>subscribing</i> to our calendar instead of downloading the .ics, so your calendar can automatically update when the program is changed.
+        We recommend <i>subscribing</i> to our calendar using the <i>WebCal</i> URL below instead of downloading the .ics, so your calendar can automatically update when the program is changed.
+        (<b>Note:</b> Depending on your calendar this may actually not work very well, so adding it to your calendar just before the conference is the safest bet).
         <br>
         <ul>
             <li><i>MacOS Calendar.app:</i> File | New Calendar Subscription</li>
             <li><i>Outlook Web:</i> Add Calendar | Subscribe from web</li>
-            <li><i>Google:</i> Click link below, or: Other Calendars + | From URL</li>
+            <li><i>Google Calendar (web):</i> Click link below, or: Other Calendars + | From URL</li>
         </ul>
         </p>
         <div class=ics-subscribe-links style="display: grid; grid-template-rows: [full] auto [confonly] auto; grid-template-columns: [name] auto [links] auto; width: fit-content; column-gap: 1em; row-gap: 0.8em;">
             {{- range (slice
-            (dict "short" "full" "long" "All events:")
+            (dict "short" "full" "long" "All days:")
             (dict "short" "confonly" "long" "July 1-3 only:"))
             -}}
 
@@ -44,9 +45,11 @@
                         <a href={{- $url -}}>.ics</a>
                         <button class=ics-copy-btn onclick="navigator.clipboard.writeText(this.dataset.url);this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',1500)" data-url="{{$url}}" title="Copy URL">Copy</button>
                     </li>
+                    <!-- [This does not really work on the Android app :'( (Even on desktop, the polling interval is so low to make subscription useless...]
                     <li>
                         <a href="https://www.google.com/calendar/render?cid={{$webcalURL|urls.PathEscape}}">Google Calendar</a>
                     </li>
+                    -->
                 </ul>
             </div>
             {{- end -}}

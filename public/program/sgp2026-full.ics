@@ -339,7 +339,7 @@ DTSTART;TZID=Europe/Zurich:20260702T140000
 DTEND;TZID=Europe/Zurich:20260702T153000
 SUMMARY:Distance Fields
 LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
-DESCRIPTION:Papers:\n- Strictly Conservative Neural Distance Fields (L. Ingmar\, M. Campen)\n- SDFs from Unoriented Point Clouds using Neural Variational Heat Distances (S. Weidemaier\, F. Hartwig\, J. Sassen\, S. Conti\, M. Ben-Chen\, M. Rumpf)\n- Medial Axis Aware Learning of Signed Distance Functions (S. Weidemaier\, C. Norden-Smoch\, M. Rumpf)\n- Compactly supported detail field for high quality neural implicit surfaces (G. Coiffier\, J. Basselin)
+DESCRIPTION:Papers:\n- Strictly Conservative Neural Distance Fields (I. Ludwig\, M. Campen)\n- SDFs from Unoriented Point Clouds using Neural Variational Heat Distances (S. Weidemaier\, F. Hartwig\, J. Sassen\, S. Conti\, M. Ben-Chen\, M. Rumpf)\n- Medial Axis Aware Learning of Signed Distance Functions (S. Weidemaier\, C. Norden-Smoch\, M. Rumpf)\n- Compactly supported detail field for high quality neural implicit surfaces (G. Coiffier\, J. Basselin)
 UID:distance-fields-20260702T140000@sgp26.org
 END:VEVENT
 BEGIN:VEVENT

@@ -433,7 +433,7 @@ events:
   papers:
     - id: 2_1006
       title: "Strictly Conservative Neural Distance Fields"
-      authors: "L. Ingmar, M. Campen"
+      authors: "I. Ludwig, M. Campen"
     - id: CGF_1
       title: "SDFs from Unoriented Point Clouds using Neural Variational Heat Distances"
       authors: "S. Weidemaier, F. Hartwig, J. Sassen, S. Conti, M. Ben-Chen, M. Rumpf"

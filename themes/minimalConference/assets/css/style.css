@@ -855,15 +855,22 @@ div.schedule-entry.schedule-cat-apero {
 div.schedule-entry.schedule-cat-keynote::before{ content: "Keynote: "; }
 div.schedule-entry.schedule-cat-session::before{ content: "Session: "; }
 */
+
 div.schedule-entry.schedule-cat-keynote {
   background-color: #f0e5f6;
 }
-div.schedule-entry.schedule-cat-session {
+div.schedule-entry.schedule-cat-session,
+div.schedule-entry.schedule-cat-industrial,
+div.schedule-entry.schedule-cat-poster
+{
   background-color: #D2E7ED;
 }
-div.schedule-entry.schedule-cat-industrial {
-  background-color: #D2E7ED;
+
+div.schedule-entry .schedule-entry-type
+{
+    font-style: oblique 6deg;
 }
+
 
 div.sessionContainer
 {

@@ -172,7 +172,7 @@
 <h4><a href={{.Params.paperUSB}}>Virtual USB Key (1.1GB)</a></h4>
 -->
 
-{{ $sessions := where .Params.events "category" "session" }}
+{{ $sessions := where .Params.events "category" "in" (slice "session" "poster") }}
 {{- range (sort $sessions "timestamp") -}}
   <h3 class=sessionName id={{ .id | default (.shortTitle | default .title | urlize) }}>{{ .title}}
       {{ if .chair }} <span class="sessionChair line">chaired by {{ .chair}}</span> {{end}}

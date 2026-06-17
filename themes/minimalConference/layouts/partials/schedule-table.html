@@ -37,7 +37,8 @@
       "timeStart" $timeStart
       "timeEnd" $timeEnd
       "title" $title
-      "hasAnchor" (or (eq .category "course" "session" "keynote") (.url) (.id))
+      "prefix" (index (dict "session" "Session" "keynote" "Keynote") .category)
+      "hasAnchor" (or (eq .category "course" "session" "keynote" "poster") (.url) (.id))
       "url" (.url | default (print "#" ($c.id | default ($title | urlize))))
     ) -}}
 {{- end -}}
@@ -97,6 +98,9 @@ We hardcode this in css now:
       id="schedule-{{ $e.title | urlize }}"
       {{- end -}}
     >
+      {{- if $e.prefix -}}
+      <span class="schedule-entry-type">{{$e.prefix}}:</span><br>
+      {{- end -}}
       {{- if $e.hasAnchor -}}
       <a href="{{$e.url}}">{{ $e.title | markdownify }}</a>
       {{- else -}}

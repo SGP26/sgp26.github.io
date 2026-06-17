@@ -362,7 +362,7 @@ events:
   location_id: aula
 
 - title: "Poster fast forward"
-  category: session
+  category: poster
   id: posters
   timestamp: 2026-07-01T17:00:00+02:00
   duration: "20m"

@@ -81,7 +81,7 @@ BEGIN:VEVENT{{ $eol -}}
 DTSTAMP:20260601T000000Z{{ $eol -}}
 DTSTART;TZID={{ $tz }}:{{ $ts | dateFormat "20060102T150405" }}{{ $eol -}}
 DTEND;TZID={{ $tz }}:{{ $tsEnd | dateFormat "20060102T150405" }}{{ $eol -}}
-SUMMARY:{{ partial "ics-escape" $e.title }}{{ $eol -}}
+SUMMARY:{{- if (eq $e.category "keynote") -}}Keynote: {{ end -}}{{ partial "ics-escape" $e.title }}{{ $eol -}}
 {{- if $loc -}}LOCATION:{{ $loc }}{{ $eol -}}{{- end -}}
 {{- if $desc -}}DESCRIPTION:{{ $desc }}{{ $eol -}}{{- end -}}
 UID:{{ $id }}@sgp26.org{{ $eol -}}

@@ -84,7 +84,7 @@
 {{ $keynotes := where .Params.events "category" "keynote" }}
 {{- if $keynotes -}}
 <h2 id=keynotes>{{T "keynotes" }}</h2>
-{{- range $keynotes -}}
+{{- range (sort $keynotes "timestamp") -}}
 <div class=keynote-container id="{{ .id | default .shortTitle | default .title | urlize }}">
 
     {{ $speaker := (index .speakers 0) }}

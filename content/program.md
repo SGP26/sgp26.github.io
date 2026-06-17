@@ -8,7 +8,7 @@ paperURL: "https://diglib.eg.org/collections/3f237102-ab23-4c97-9f95-b1e4275acc0
 
 events:
 - category: keynote
-  timestamp: 2026-07-01T09:30:00+02:00
+  timestamp: 2026-07-02T09:30:00+02:00
   duration: "60m"
   location_id: aula
   title: "Computational Optimal Transport: From Low to High Dimension and Back"
@@ -26,7 +26,7 @@ events:
       Justin Solomon is an associate professor of Electrical Engineering and Computer Science in MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL).  He leads the CSAIL Geometric Data Processing group, which studies problems at the intersection of geometry, large-scale optimization, and applications.
 
 - category: keynote
-  timestamp: 2026-07-02T09:30:00+02:00
+  timestamp: 2026-07-01T09:30:00+02:00
   duration: "60m"
   location_id: aula
   title: "Geometric not-so-deep learning"

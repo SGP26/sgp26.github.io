@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sgp26.org/awards/</loc>
+    <loc>http://localhost:58882/awards/</loc>
   </url><url>
-    <loc>https://sgp26.org/</loc>
+    <loc>http://localhost:58882/</loc>
   </url><url>
-    <loc>https://sgp26.org/organization/</loc>
+    <loc>http://localhost:58882/organization/</loc>
   </url><url>
-    <loc>https://sgp26.org/past/</loc>
+    <loc>http://localhost:58882/past/</loc>
   </url><url>
-    <loc>https://sgp26.org/program/</loc>
+    <loc>http://localhost:58882/program/</loc>
   </url><url>
-    <loc>https://sgp26.org/registration/</loc>
+    <loc>http://localhost:58882/registration/</loc>
   </url><url>
-    <loc>https://sgp26.org/program/sgp2026-full.ics</loc>
+    <loc>http://localhost:58882/program/sgp2026-full.ics</loc>
   </url><url>
-    <loc>https://sgp26.org/program/sgp2026-confonly.ics</loc>
+    <loc>http://localhost:58882/program/sgp2026-confonly.ics</loc>
   </url><url>
-    <loc>https://sgp26.org/submit/</loc>
+    <loc>http://localhost:58882/submit/</loc>
   </url><url>
-    <loc>https://sgp26.org/venue/</loc>
+    <loc>http://localhost:58882/venue/</loc>
   </url>
 </urlset>

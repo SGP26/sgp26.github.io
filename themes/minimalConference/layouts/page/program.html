@@ -191,23 +191,23 @@
   {{ range .papers}}
     <li>
       <span class=paper-title>{{ .title }}</span>
-      {{ if (isset . "note") }}
+      {{ if (isset . "note") -}}
         <span class=paper-note>{{ .note}}</span>
-      {{ end }}
-      {{ if (isset . "authors") }}
+      {{ end -}}
+      {{ if (isset . "authors") -}}
         <div class=authorList>
-        {{ .authors}}
-            {{/*
+        {{- .authors -}}
+            {{- /*
         {{ range .authors}}
           <div class=paper-author>
             <span class=line> {{.name}} </span>
           </div>
         {{end}}
-        */}}
+        */ -}}
         </div>
-      {{end}}
+      {{- end}}
     </li>
-  {{end}}
+  {{- end}}
   </ul>
   </div>
   </div>

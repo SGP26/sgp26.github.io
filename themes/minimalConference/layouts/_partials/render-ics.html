@@ -85,6 +85,8 @@ SUMMARY:{{- if (eq $e.category "keynote") -}}Keynote: {{ end -}}{{ partial "ics-
 {{- if $loc -}}LOCATION:{{ $loc }}{{ $eol -}}{{- end -}}
 {{- if $desc -}}DESCRIPTION:{{ $desc }}{{ $eol -}}{{- end -}}
 UID:{{ $id }}@sgp26.org{{ $eol -}}
+{{- if (or (eq .category "course" "session" "keynote" "poster") (.url) (.id)) -}}
+URL;VALUE=URI:{{partial "ics-escape" (.url | default (print "https://sgp26.org/program/#" (.id | default ((.shortTitle | default .title) | urlize))))}}{{ $eol -}}{{- end -}}
 END:VEVENT{{ $eol -}}
 
 {{ end -}}

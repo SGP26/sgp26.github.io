@@ -99,7 +99,9 @@ We hardcode this in css now:
       {{- end -}}
     >
       {{- if $e.prefix -}}
-      <span class="schedule-entry-type">{{$e.prefix}}:</span><br>
+      <span class="schedule-entry-type">{{$e.prefix}}:</span>
+      {{/* HACK: avoid newline for short session to keep schedule compact */}}
+      {{- if eq $e.title "Hulls" "Datasets and Analysis" }} {{else}}<br>{{ end -}}
       {{- end -}}
       {{- if $e.hasAnchor -}}
       <a href="{{$e.url}}">{{ $e.title | markdownify }}</a>

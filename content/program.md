@@ -355,7 +355,7 @@ events:
       title: "Attention Based Optimization for 3D Shape Registration"
       authors: "A. Riva, L. Olearo, S. Melzi"
 
-- title: "Industrial Session"
+- title: "Industry Session"
   category: industrial
   timestamp: 2026-07-01T16:00:00+02:00
   duration: "60m"

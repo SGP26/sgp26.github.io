@@ -393,8 +393,8 @@ events:
       title: "Boundary-Aware Mesh Deformations"
       authors: "F. Protais, G. Cherchi, M. Livesu"
     - id: P9
-      title: "Mathematics of Surface Stackability"
-      authors: "Ander Chocarro Salaberria"
+      title: "Stackability of architectural freeform surfaces"
+      authors: "A. Chocarro , K. Gavriil"
     - id: P10
       title: "Generalizable Dynamics Models for Deformable Objects: Tool-Agnostic Model for Tool Geometry Design"
       authors: "N. Cugito, K. Allen"

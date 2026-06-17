@@ -326,6 +326,7 @@ DTSTART;TZID=Europe/Zurich:20260701T170000
 DTEND;TZID=Europe/Zurich:20260701T172000
 SUMMARY:Poster fast forward
 LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
+DESCRIPTION:Papers:\n- TiGL 3.5 – An Open Source Parametric Geometry Library for Virtual Aircraft Design (O. Albers\, S. Goldberg\, J. Kleinert\, A. Reiswich)\n- Exact 3D Elastica for Interactive Geometry Processing and Fabrication-Aware Design (M. Isern)\n- Topology and Combinatorics: Generalization in Deep Learning (J.S. Schmidt\, M. Carrasco\, E. Röell\, G. Wolf\, N. Blaser\, B. Rieck)\n- Learning to Build Shapes by Extrusions (T. Christiansen\, K. Pandey\, A. Reinders\, K. Singh\, M. Hannemose\, J. A. Bærentzen)\n- Neural Field-Based Sequence Planning for Additive-Subtractive Hybrid Manufacturing (S. Guo\, F. Zhong\, L. Wang\, H. Zhao)\n- A Bayesian Approach to Ill-posed Geometric Primitive Fitting from Point Clouds Using Prior Knowledge (P. Schiller\, P. Raumonen\, J. Peltonen\, S. Ali-Löytyy)\n- Geometry-Aware Edge Pooling for Graph Neural Networks (K. Limbeck\, L. Mezrag\, G. Wolf\, B. Rieck)\n- Boundary-Aware Mesh Deformations (F. Protais\, G. Cherchi\, M. Livesu)\n- Stackability of architectural freeform surfaces (A. Chocarro \, K. Gavriil)\n- Generalizable Dynamics Models for Deformable Objects: Tool-Agnostic Model for Tool Geometry Design (N. Cugito\, K. Allen)
 UID:posters-20260701T170000@sgp26.org
 URL;VALUE=URI:https://sgp26.org/program/#posters
 END:VEVENT

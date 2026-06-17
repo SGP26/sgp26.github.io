@@ -66,7 +66,7 @@ END:VTIMEZONE{{ $eol -}}
 {{- end -}}
 {{- $desc = partial "ics-escape-full" $raw -}}
 
-{{- else if eq $cat "session" -}}
+{{- else if eq $cat "session" "poster" -}}
 {{- if $e.papers -}}
 {{- $lines := slice "Papers:" -}}
 {{- range $p := $e.papers -}}

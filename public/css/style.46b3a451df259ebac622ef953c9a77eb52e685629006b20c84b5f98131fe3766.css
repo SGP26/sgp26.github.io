@@ -748,7 +748,7 @@ div.graduate-school-text-container
      * use 1fr for 30 minutes; round up smaller time slots
      * */
 
-    [time-0830] 1.5fr 
+    [time-0830] 3fr /* extended to avoid table elongation when 'welcome coffe & registration' is broken into 3 lines */
     /* [time-0845] 1fr [time-0900] 1fr 
     */
     [time-0915] 1fr

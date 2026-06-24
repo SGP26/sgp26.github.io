@@ -293,7 +293,7 @@ events:
 
 
 # Wednesday:
-- title: "Welcome Coffee"
+- title: "Welcome Coffee & Registration"
   category: coffee
   timestamp: 2026-07-01T08:30:00+02:00
   duration: "45m"
@@ -305,13 +305,13 @@ events:
   duration: "15m"
   location_id: aula
 
-- title: "Welcome Coffee"
+- title: "Welcome Coffee & Registration"
   category: coffee
   timestamp: 2026-07-02T08:30:00+02:00
   duration: "60m"
   location_id: foyer
 
-- title: "Welcome Coffee"
+- title: "Welcome Coffee & Registration"
   category: coffee
   timestamp: 2026-07-03T08:30:00+02:00
   duration: "60m"

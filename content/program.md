@@ -326,6 +326,8 @@ events:
     - id: CGF_3
       title: "Single Line Drawing Generation via Semantics-Driven Optimization"
       authors: "T. Magne, A. Binninger, R. Wiersma, O. Sorkine-Hornung"
+      doi: "https://doi.org/10.1111/cgf.70502"
+      project: "https://igl.ethz.ch/projects/sldgen/"
     - id: 1_1013
       title: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"
       authors: "B. Gahtan, J. Shpund, A. M. Bronstein"
@@ -335,6 +337,7 @@ events:
     - id: 2_1036
       title: "Circles of Confidence for Multi-Label Geometry Completion"
       authors: "Z. Wei, C. Hafner, A. Kalinov, P. Heiss Synak, C. Wojtan"
+      url: "https://diglib.eg.org/items/3cc51d8e-8095-49a4-9788-694c39bb51d5"
 
 - title: "Deformation and Registration"
   category: session
@@ -345,15 +348,19 @@ events:
     - id: 2_1070
       title: "As-Rigid-As-Possible Regularization for Implicit Surfaces"
       authors: "T. Djuren, M. Worchel, U. Finnendahl, M. Alexa"
+      url: "https://diglib.eg.org/items/de832211-9ab2-431d-bb2b-cde770a5b5ca"
     - id: 2_1071
       title: "On Bending in the As-Rigid-As-Possible Deformation Energy"
       authors: "U. Finnendahl, M. Alexa"
+      url: "https://diglib.eg.org/items/c95e8641-d91e-48f5-a38a-784ed9c3ce4c"
     - id: 2_1030
       title: "Spatial Eigenanalysis of 2D Deformation Energies"
       authors: "H. Wu, K. Wu, T. Kim"
+      url: "https://diglib.eg.org/items/3796fd1e-c8d2-42c8-bd41-5edcfd637e43"
     - id: 2_1105
       title: "Attention Based Optimization for 3D Shape Registration"
       authors: "A. Riva, L. Olearo, S. Melzi"
+      url: "https://diglib.eg.org/items/4f607b66-3c08-4ed6-b7e8-0b12cf1acc2d"
 
 - title: "Industry Session"
   category: industrial
@@ -418,12 +425,16 @@ events:
     - id: 2_1103
       title: "Adaptive Meshing of Unsigned Distance Fields using Regular Triangulations"
       authors: "M. Kohlbrenner, M. Alexa"
+      url: "https://diglib.eg.org/items/484ab232-99c0-47bd-8e7f-5d7e027142e2"
+      doi: "https://doi.org/10.1111/cgf.70524"
     - id: 2_1031
       title: "Phong-Rodrigues Extrinsic Vector-Field Processing"
       authors: "H. Liu, O. Stein, A. Vaxman, M. Ben-Chen, M. Kazhdan"
+      url: "https://diglib.eg.org/items/3cd715de-b067-4ee1-be06-bf1aca8947d8"
     - id: 2_1107
       title: "Tangent Blow-Ups for Processing Non-Manifold Geometry"
       authors: "A. Petrov, M. Nabizadeh, A. Dodik, J. Solomon"
+      url: "https://diglib.eg.org/items/7ab9fd2a-ce77-4a96-b04a-44ce8c672edc"
 
 - title: "Distance Fields"
   category: session
@@ -440,9 +451,11 @@ events:
     - id: 2_1050
       title: "Medial Axis Aware Learning of Signed Distance Functions"
       authors: "S. Weidemaier, C. Norden-Smoch, M. Rumpf"
+      url: "https://diglib.eg.org/items/29587948-7a25-4566-b40c-63cf7122d1c1"
     - id: 2_1106
       title: "Compactly supported detail field for high quality neural implicit surfaces"
       authors: "G. Coiffier, J. Basselin"
+      url: "https://diglib.eg.org/items/e8c106cd-12fe-429c-ab1a-d73d0426933b"
 
 - title: "Hulls"
   category: session
@@ -453,9 +466,11 @@ events:
     - id: 2_1052
       title: "Progressive Convex Hull Simplification"
       authors: "A. Jacobson"
+      url: "https://diglib.eg.org/items/088ad63c-6e5d-4a90-98f9-5526212faecd"
     - id: 2_1092
       title: "A practical algorithm for weighted k-hulls"
       authors: "N. Look, H. Meyer, M. Alexa"
+      url: "https://diglib.eg.org/items/f396debc-ffa9-4d9c-a9f6-671cb9fd614a"
 
 - title: "City Tour"
   category: outside
@@ -483,9 +498,11 @@ events:
     - id: 2_1008
       title: "Wave-Guided Field-Aligned Volume-Filling Curves"
       authors: "G. Cocco, X. Chermain"
+      url: "https://diglib.eg.org/items/662913b7-a699-46c1-ba5f-d3a9fb5193be"
     - id: 2_1023
       title: "Taking a Moment to Characterize the Bending Response of Thin Sheet Materials"
       authors: "P. Xie, J. Montes, B. Thomaszewski, S. Coros"
+      url: "https://diglib.eg.org/items/6a652695-9faf-45d8-b5de-14d55128e5c0"
     - id: 2_1093
       title: "UniGRe-3D: Unified Geometric Reconstruction for Multi-category 3D Anomaly Detection"
       authors: "D. Han, Z. Zhang, Y. Gao, J. Li, M. Li, M. Zhou"
@@ -499,9 +516,11 @@ events:
     - id: 2_1076
       title: "Arti4D: Statistical Analysis and Modelling of the Spatio-temporal Variability in Articulated 4D Shapes"
       authors: "Z. Li, A. Amrani, S. Rai, H. Laga"
+      url: "https://diglib.eg.org/items/9e778b4f-f12e-44e9-b811-1d140634d527"
     - id: 2_1096
       title: "MM-CAD: A Multi-Modal CAD Dataset and Benchmark for Cross-Modal Geometric Learning"
       authors: "A. Bharathi, A. Aravindakshan, R. Muthuganapathy"
+      url: "https://diglib.eg.org/items/61d4455b-21f4-42aa-b64c-e691c117e5d9"
 
 - title: "Townhall meeting"
   category: welcome

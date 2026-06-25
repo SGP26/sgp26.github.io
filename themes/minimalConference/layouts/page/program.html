@@ -212,8 +212,8 @@
       {{ if (.poster_url) -}}
         <a href="{{ .poster_url}}">Poster</a>
       {{ end -}}
-      {{ if (.project) -}}
-        <a href="{{ .project}}">Project page</a>
+      {{ if (.project_url) -}}
+        <a href="{{ .project_url}}">Project page</a>
       {{ end -}}
       </div>
       {{ if (isset . "note") -}}

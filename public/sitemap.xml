@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:62187/awards/</loc>
+    <loc>http://localhost:62293/awards/</loc>
   </url><url>
-    <loc>http://localhost:62187/</loc>
+    <loc>http://localhost:62293/</loc>
   </url><url>
-    <loc>http://localhost:62187/organization/</loc>
+    <loc>http://localhost:62293/organization/</loc>
   </url><url>
-    <loc>http://localhost:62187/past/</loc>
+    <loc>http://localhost:62293/past/</loc>
   </url><url>
-    <loc>http://localhost:62187/program/</loc>
+    <loc>http://localhost:62293/program/</loc>
   </url><url>
-    <loc>http://localhost:62187/registration/</loc>
+    <loc>http://localhost:62293/registration/</loc>
   </url><url>
-    <loc>http://localhost:62187/program/sgp2026-full.ics</loc>
+    <loc>http://localhost:62293/program/sgp2026-full.ics</loc>
   </url><url>
-    <loc>http://localhost:62187/program/sgp2026-confonly.ics</loc>
+    <loc>http://localhost:62293/program/sgp2026-confonly.ics</loc>
   </url><url>
-    <loc>http://localhost:62187/submit/</loc>
+    <loc>http://localhost:62293/submit/</loc>
   </url><url>
-    <loc>http://localhost:62187/venue/</loc>
+    <loc>http://localhost:62293/venue/</loc>
   </url>
 </urlset>

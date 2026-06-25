@@ -215,6 +215,9 @@
       {{ if (.project_url) -}}
         <a href="{{ .project_url}}">Project page</a>
       {{ end -}}
+      {{ if (.code_url) -}}
+        <a href="{{ .code_url}}">Code</a>
+      {{ end -}}
       </div>
       {{ if (isset . "note") -}}
         <span class=paper-note>{{ .note}}</span>

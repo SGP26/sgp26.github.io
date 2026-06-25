@@ -499,12 +499,12 @@ events:
       doi: "https://doi.org/10.1111/cgf.70528"
       paper_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70528/cgf70528.pdf"
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70528"
-      project_url: "https://github.com/IngmarLudwig/ConservativeNeuralDistanceFields"
+      code_url: "https://github.com/IngmarLudwig/ConservativeNeuralDistanceFields"
     - id: CGF_1
       title: "SDFs from Unoriented Point Clouds using Neural Variational Heat Distances"
       authors: "S. Weidemaier, F. Hartwig, J. Sassen, S. Conti, M. Ben-Chen, M. Rumpf"
       doi: "https://doi.org/10.1111/cgf.70296"
-      project_url: "https://github.com/sweidemaier/HeatSDF"
+      code_url: "https://github.com/sweidemaier/HeatSDF"
     - id: 2_1050
       title: "Medial Axis Aware Learning of Signed Distance Functions"
       authors: "S. Weidemaier, C. Norden-Smoch, M. Rumpf"

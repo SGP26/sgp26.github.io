@@ -199,6 +199,23 @@
   {{ range .papers}}
     <li>
       <span class=paper-title>{{ .title }}</span>
+      <div class="paper-urls">
+      {{ if (.digilib_url) -}}
+        <a href="{{ .digilib_url}}">DigiLib</a>
+      {{ end -}}
+      {{ if (.doi) -}}
+        <a href="{{ .doi}}">DOI</a>
+      {{ end -}}
+      {{ if (.pdf_url) -}}
+        <a href="{{ .pdf_url}}">PDF</a>
+      {{ end -}}
+      {{ if (.poster_url) -}}
+        <a href="{{ .poster_url}}">Poster</a>
+      {{ end -}}
+      {{ if (.project) -}}
+        <a href="{{ .project}}">Project page</a>
+      {{ end -}}
+      </div>
       {{ if (isset . "note") -}}
         <span class=paper-note>{{ .note}}</span>
       {{ end -}}

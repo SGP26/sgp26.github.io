@@ -91,10 +91,10 @@ All prices are given in Swiss Franc (CHF).
 <div class="text_img_right_container">
 <div class="text-part">
 <p>
-Additionally, you can purchase a limited-edition SGP 2026 coffee mug for <b>CHF 15</b> via the registration system.
+Additionally, you can purchase a limited-edition SGP 2026 coffee mug for <b>CHF 15</b> via the registration system until the end of the <i>Late</i> registration period. We ordered a limited number of additional mugs that can be purchased on-site for <b>CHF 20</b>, with payment being handled via Conftool as well (no cash accepted). First-come, first-serve!
 </p>
 <p>
-The mug is made of double-walled stainless steel for insulation. It features a laser-engraved SGP 2026 mountainside logo all around, based on <a href="https://www.swisstopo.admin.ch/en/height-model-swissalti3d">a real elevation model of the Swiss Alps</a>.
+The 330ml mug is made of double-walled stainless steel for insulation. It features a laser-engraved SGP 2026 mountainside logo all around, based on <a href="https://www.swisstopo.admin.ch/en/height-model-swissalti3d">a real elevation model of the Swiss Alps</a>.
 Note that it is not dishwasher safe due to the wooden handle.
 </p>
 

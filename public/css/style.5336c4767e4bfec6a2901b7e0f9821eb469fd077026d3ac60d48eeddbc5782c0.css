@@ -930,9 +930,18 @@ td.teaserColumn
 }
 
 
+.paperList li {
+    /*
+    border: 1px solid black;
+    border-radius: var(--border-rad);
+    padding-left: .5em;
+    */
+    margin-bottom: .5em;
+}
 .paper-title
 {
   font-size: 1.1em;
+  font-weight: 400;
 }
 .paper-title:before
 {
@@ -949,6 +958,7 @@ td.teaserColumn
 .authorList
 {
   overflow: auto;
+  font-style: italic;
 }
 .paper-author
 {

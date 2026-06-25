@@ -240,7 +240,6 @@ DTEND;TZID=Europe/Zurich:20260702T230000
 SUMMARY:Social Dinner
 LOCATION:Rooftop Grill\, Kursaal Bern\, Kornhausstrasse 3\, 3013 Bern
 UID:social-dinner-20260702T190000@sgp26.org
-URL;VALUE=URI:/venue/#social_events
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260601T000000Z

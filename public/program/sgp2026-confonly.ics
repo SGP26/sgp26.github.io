@@ -201,7 +201,7 @@ DTSTART;TZID=Europe/Zurich:20260702T110000
 DTEND;TZID=Europe/Zurich:20260702T123000
 SUMMARY:Meshing and Vector Field Processing
 LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
-DESCRIPTION:Papers:\n- Surface Quadrilateral Meshing from Integrable Odeco Fields (M. Couplet \, A. Chemin\, D. Bommes \, E. Chien)\n- Adaptive Meshing of Unsigned Distance Fields using Regular Triangulations (M. Kohlbrenner\, M. Alexa)\n- Phong-Rodrigues Extrinsic Vector-Field Processing (H. Liu\, O. Stein\, A. Vaxman\, M. Ben-Chen\, M. Kazhdan)\n- Tangent Blow-Ups for Processing Non-Manifold Geometry (A. Petrov\, M. Nabizadeh\, A. Dodik\, J. Solomon)
+DESCRIPTION:Papers:\n- Surface Quadrilateral Meshing from Integrable Odeco Fields (M. Couplet \, A. Chemin\, D. Bommes \, E. Chien)\n- Meshing Unsigned Distance Fields with Regular Triangulations (M. Kohlbrenner\, M. Alexa)\n- Phong-Rodrigues Extrinsic Vector-Field Processing (H. Liu\, O. Stein\, A. Vaxman\, M. Ben-Chen\, M. Kazhdan)\n- Tangent Blow-Ups for Processing Non-Manifold Geometry (A. Petrov\, M. Nabizadeh\, A. Dodik\, J. Solomon)
 UID:meshing-and-vector-field-processing-20260702T110000@sgp26.org
 URL;VALUE=URI:https://sgp26.org/program/#meshing-and-vector-field-processing
 END:VEVENT

@@ -469,7 +469,7 @@ events:
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70492"
 
     - id: 2_1103
-      title: "Adaptive Meshing of Unsigned Distance Fields using Regular Triangulations"
+      title: "Meshing Unsigned Distance Fields with Regular Triangulations"
       authors: "M. Kohlbrenner, M. Alexa"
       digilib_url: "https://diglib.eg.org/items/484ab232-99c0-47bd-8e7f-5d7e027142e2"
       doi: "https://doi.org/10.1111/cgf.70524"

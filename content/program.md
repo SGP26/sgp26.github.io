@@ -322,6 +322,7 @@ events:
   timestamp: 2026-07-01T11:00:00+02:00
   duration: "90m"
   location_id: aula
+  chair: "Mark Gillespie"
   papers:
     - id: CGF_3
       title: "Single Line Drawing Generation via Semantics-Driven Optimization"
@@ -349,6 +350,7 @@ events:
   timestamp: 2026-07-01T14:00:00+02:00
   duration: "90m"
   location_id: aula
+  chair: "Pierre Alliez"
   papers:
     - id: 2_1070
       title: "As-Rigid-As-Possible Regularization for Implicit Surfaces"
@@ -460,6 +462,7 @@ events:
   timestamp: 2026-07-02T11:00:00+02:00
   duration: "90m"
   location_id: aula
+  chair: "Guillaume Coiffier"
   papers:
     - id: 1_1012
       title: "Surface Quadrilateral Meshing from Integrable Odeco Fields"
@@ -492,6 +495,7 @@ events:
   timestamp: 2026-07-02T14:00:00+02:00
   duration: "90m"
   location_id: aula
+  chair: "Amir Vaxman"
   papers:
     - id: 2_1006
       title: "Strictly Conservative Neural Distance Fields"
@@ -521,6 +525,7 @@ events:
   timestamp: 2026-07-02T16:00:00+02:00
   duration: "45m"
   location_id: aula
+  chair: "Stephanie Wang"
   papers:
     - id: 2_1052
       title: "Progressive Convex Hull Simplification"
@@ -552,6 +557,7 @@ events:
   timestamp: 2026-07-03T11:00:00+02:00
   duration: "90m"
   location_id: aula
+  chair: "Mirela Ben-Chen"
   papers:
     - id: 1_1008
       title: "Design and analysis of smooth conformal lattice microstructure via General Bézier patches"
@@ -587,6 +593,7 @@ events:
   timestamp: 2026-07-03T14:00:00+02:00
   duration: "45m"
   location_id: aula
+  chair: "Alec Jacobson"
   papers:
     - id: 2_1076
       title: "Arti4D: Statistical Analysis and Modelling of the Spatio-temporal Variability in Articulated 4D Shapes"

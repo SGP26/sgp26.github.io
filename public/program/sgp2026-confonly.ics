@@ -190,7 +190,7 @@ BEGIN:VEVENT
 DTSTAMP:20260601T000000Z
 DTSTART;TZID=Europe/Zurich:20260701T172000
 DTEND;TZID=Europe/Zurich:20260701T190000
-SUMMARY:Poster Apero – Wine & Cheese (Foyer)
+SUMMARY:Poster Apéro – Wine & Cheese (Foyer)
 LOCATION:Foyer\, Hochschulstrasse 4\, 3012 Bern
 UID:posters-20260701T172000@sgp26.org
 URL;VALUE=URI:https://sgp26.org/program/#posters

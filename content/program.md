@@ -450,7 +450,7 @@ events:
       doi: "https://doi.org/10.2312/sgpp.20261009"
       digilib_url: "https://diglib.eg.org/handle/10.2312/sgpp20261009"
 
-- title: "Poster Apero – Wine & Cheese (Foyer)"
+- title: "Poster Apéro – Wine & Cheese (Foyer)"
   category: apero
   id: posters
   timestamp: 2026-07-01T17:20:00+02:00

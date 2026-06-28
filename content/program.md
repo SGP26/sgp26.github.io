@@ -544,7 +544,7 @@ events:
   duration: "60m"
   location_id: city-tour
 
-- title: "Social Dinner"
+- title: "Conference Dinner"
   category: outside
   timestamp: 2026-07-02T19:00:00+02:00
   duration: "240m"

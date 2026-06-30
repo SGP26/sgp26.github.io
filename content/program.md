@@ -71,6 +71,10 @@ events:
   abstract: |
     I will discuss classic and state-of-the-art methods to design directional fields on discrete surfaces, with applications to meshing, solving PDEs, and visualization.
 
+  links:
+    - name: "Directional - A Directional-Field Processing Library"
+      url: "https://avaxman.github.io/Directional/"
+
 - title: "Differentiable Geometry Processing in Python"
   category: course
   timestamp: 2026-06-30T11:00:00+02:00
@@ -86,6 +90,10 @@ events:
       affiliation: "MIT"
   abstract: |
     Inverse problems have a long history in computer graphics with applications ranging from fabrication to computer vision. While existing software packages such as Taichi, Mitsuba, Warp, and PyTorch3D focus primarily on differentiating through simulations of physical systems such as elasticity or light transport, differentiating through geometry processing algorithms is relatively underexplored. Existing geometry-processing-focused libraries for gradient computation (e.g., TinyAD) have poor operability with machine learning frameworks and no GPU support, limiting their practicality. This course explores how PyTorch, with its automatic differentiation and GPU acceleration capabilities, can be leveraged for differentiable geometry processing. We begin with the fundamentals of PyTorch, covering its computational model and automatic differentiation mechanisms, before introducing key optimization techniques for geometric data, focusing on meshes and other common representations. The course will include real-world applications of these concepts such as mesh smoothing and parameterization, meta-optimization, as well as machine-learning workflows. By the end of the session, attendees will have a practical understanding of how to integrate PyTorch into their own differentiable geometry processing workflows.
+
+  links:
+   - name: "iskra ✨ Modern Geometry Processing"
+     url: "https://github.com/anadodik/iskra"
 
 
 
@@ -148,6 +156,12 @@ events:
     This lecture focuses on cone-nets as a class of surface parameterizations and on their semi-discrete and discrete counterparts, which form special classes of structures composed of developable strips and regular planar quad meshes, respectively. We discuss the theoretical framework underlying these structures and present a novel construction method implemented as interactive design tools for Grasshopper / Rhinoceros 3D, the CNets and C-tubes plugins. These tools enable real-time exploration of the design space with intuitive controls and support form-finding optimization to meet user-specified objectives. 
 
     By the end of the lecture, attendees will understand the theoretical foundations of cone-nets and be equipped to explore their design space using the presented tools.
+
+  links:
+   - name: C-Tubes Python Code
+     url: "https://github.com/EPFL-LGG/C-tubes"
+   - name: Rhino/Grasshopper plugins
+     url: "https://klaramundilova.com/software/"
 
 
 

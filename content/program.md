@@ -279,11 +279,19 @@ events:
   timestamp: 2026-07-01T12:30:00+02:00
   duration: "90m"
   location_id: gs
+
+- title: 'Group Photo'
+  category: welcome
+  timestamp: 2026-07-02T12:30:00+02:00
+  duration: "10m"
+  location_id: tba
+
 - title: 'Lunch'
   category: outside
-  timestamp: 2026-07-02T12:30:00+02:00
-  duration: "90m"
+  timestamp: 2026-07-02T12:40:00+02:00
+  duration: "80m"
   location_id: gs
+
 - title: 'Lunch'
   category: outside
   timestamp: 2026-07-03T12:30:00+02:00

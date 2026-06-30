@@ -75,6 +75,7 @@ Params:
     aula: "Room 210 / Aula, Hochschulstrasse 4, 3012 Bern"
     foyer: "Foyer, Hochschulstrasse 4, 3012 Bern"
     gs: "Restaurant \"Grosse Schanze\", Parkterrasse 10, 3012 Bern"
+    lawn: "Lawn outside of Foyer"
     social-dinner: "Rooftop Grill, Kursaal Bern, Kornhausstrasse 3, 3013 Bern"
     city-tour: "Meeting point: In front of Foyer"
   events: 

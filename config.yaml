@@ -114,7 +114,7 @@ Params:
       id: "bronze"
       items:
         - name: "GeometryFactory"
-          logo: "images/sponsors/geometryfactory.png"
+          logo: "images/sponsors/geometryfactory.jpg"
           url: "https://geometryfactory.com/"
     - name: "Beverage Sponsor"
       id: "bronze"

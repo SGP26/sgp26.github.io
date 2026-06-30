@@ -360,13 +360,13 @@ events:
       authors: "B. Gahtan, J. Shpund, A. M. Bronstein"
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70489"
       doi: "https://doi.org/10.1111/cgf.70489"
-      #pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70489/cgf70489.pdf"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70489/cgf70489.pdf" # not working as of Jun 30
     - id: 1_1001
       title: "Surface Multigrid via Global Parametric Domain Simplification"
       authors: "Anyu Zhao, Qing Fang, Ligang Liu"
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70491"
       doi: "https://doi.org/10.1111/cgf.70491"
-      #pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70491/cgf70491.pdf"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70491/cgf70491.pdf" # not working as of Jun 30
     - id: 2_1036
       title: "Circles of Confidence for Multi-Label Geometry Completion"
       authors: "Z. Wei, C. Hafner, A. Kalinov, P. Heiss Synak, C. Wojtan"
@@ -501,7 +501,7 @@ events:
       title: "Surface Quadrilateral Meshing from Integrable Odeco Fields"
       authors: "M. Couplet , A. Chemin, D. Bommes , E. Chien"
       doi: "https://doi.org/10.1111/cgf.70492"
-      paper_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70492/cgf70492.pdf"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70492/cgf70492.pdf"  # Not yet working as of Jun 30
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70492"
 
     - id: 2_1103
@@ -537,7 +537,7 @@ events:
       title: "Strictly Conservative Neural Distance Fields"
       authors: "I. Ludwig, M. Campen"
       doi: "https://doi.org/10.1111/cgf.70528"
-      paper_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70528/cgf70528.pdf"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70528/cgf70528.pdf" # Not yet working as of Jun 30
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70528"
       code_url: "https://github.com/IngmarLudwig/ConservativeNeuralDistanceFields"
     - id: CGF_1
@@ -545,16 +545,19 @@ events:
       authors: "S. Weidemaier, F. Hartwig, J. Sassen, S. Conti, M. Ben-Chen, M. Rumpf"
       doi: "https://doi.org/10.1111/cgf.70296"
       code_url: "https://github.com/sweidemaier/HeatSDF"
+      pdf_url: "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.70296?download=true&format=.pdf"
     - id: 2_1050
       title: "Medial Axis Aware Learning of Signed Distance Functions"
       authors: "S. Weidemaier, C. Norden-Smoch, M. Rumpf"
       digilib_url: "https://diglib.eg.org/items/29587948-7a25-4566-b40c-63cf7122d1c1"
       doi: "https://doi.org/10.1111/cgf.70517"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70517/cgf70517.pdf"
     - id: 2_1106
       title: "Compactly supported detail field for high quality neural implicit surfaces"
       authors: "G. Coiffier, J. Basselin"
       digilib_url: "https://diglib.eg.org/items/e8c106cd-12fe-429c-ab1a-d73d0426933b"
       doi: "https://doi.org/10.1111/cgf.70526"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70526/cgf70526.pdf"
 
 - title: "Hulls"
   category: session
@@ -568,11 +571,13 @@ events:
       authors: "A. Jacobson"
       digilib_url: "https://diglib.eg.org/items/088ad63c-6e5d-4a90-98f9-5526212faecd"
       doi: "https://doi.org/10.1111/cgf.70518"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70518/cgf70518.pdf"
     - id: 2_1092
       title: "A practical algorithm for weighted k-hulls"
       authors: "N. Look, H. Meyer, M. Alexa"
       digilib_url: "https://diglib.eg.org/items/f396debc-ffa9-4d9c-a9f6-671cb9fd614a"
       doi: "https://doi.org/10.1111/cgf.70529"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70529/cgf70529.pdf"
 
 - title: "City Tour"
   category: outside
@@ -607,14 +612,13 @@ events:
       authors: "G. Cocco, X. Chermain"
       doi: "https://doi.org/10.1111/cgf.70512"
       digilib_url: "https://diglib.eg.org/items/662913b7-a699-46c1-ba5f-d3a9fb5193be"
-      pdf_url: "https://diglib.eg.org/bitstreams/a573f7a2-f230-4b8f-bed8-012cc8b8c6b9/download"
-      future_pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70512/cgf70512.pdf"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70512/cgf70512.pdf"
 
     - id: 2_1023
       title: "Taking a Moment to Characterize the Bending Response of Thin Sheet Materials"
       authors: "P. Xie, J. Montes, B. Thomaszewski, S. Coros"
       digilib_url: "https://diglib.eg.org/items/6a652695-9faf-45d8-b5de-14d55128e5c0"
-      future_pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70513/cgf70513.pdf"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70513/cgf70513.pdf"
       doi: "https://doi.org/10.1111/cgf.70513"
 
     - id: 2_1093

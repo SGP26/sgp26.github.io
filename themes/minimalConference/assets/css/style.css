@@ -456,6 +456,10 @@ ul#institutional-sponsor-list
   margin: 0;
 }
 
+img[title="Ingwerer"] {
+    border: 1px solid black;
+}
+
 li
 {
   list-style-type: none;
@@ -643,35 +647,35 @@ img.logo_institutional
   6em /* square unibe logo is visually heavy, dont grow it as much as the others!*/
   , 40%));
   max-width: calc(0.5 * var(--logoMaxWidth));
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 img.logo_bronze
 {
   width: calc(max(10em, 50%));
   max-width: calc(0.5 * var(--logoMaxWidth));
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 img.logo_silver
 {
   width: calc(max(10em, 70%));
   max-width: calc(0.7 * var(--logoMaxWidth));
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 img.logo_gold
 {
   width: calc(max(10em, 85%));
   max-width: calc(0.85 * var(--logoMaxWidth));
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 img.logo_platinum
 {
   width: 100%;
   max-width: calc(1.00 * var(--logoMaxWidth));
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 img[src$='#logo_award']

@@ -116,6 +116,13 @@ Params:
         - name: "GeometryFactory"
           logo: "images/sponsors/geometryfactory.png"
           url: "https://geometryfactory.com/"
+    - name: "Beverage Sponsor"
+      id: "bronze"
+      items:
+        - name: "Ingwerer"
+          logo: "images/sponsors/ingwerer_2025_zenzero_schriftzug_mit_00_schwarz-blau_weiss.jpg"
+          url: "https://www.ingwerer.ch/"
+
   importantDates:
     round_one:
       - id: abstract_submission

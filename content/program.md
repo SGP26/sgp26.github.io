@@ -158,7 +158,9 @@ events:
     By the end of the lecture, attendees will understand the theoretical foundations of cone-nets and be equipped to explore their design space using the presented tools.
 
   links:
-   - name: C-Tubes Python Code
+   - name: C-Tubes project page
+     url: "https://go.epfl.ch/c-tubes"
+   - name: Python Code
      url: "https://github.com/EPFL-LGG/C-tubes"
    - name: Rhino/Grasshopper plugins
      url: "https://klaramundilova.com/software/"

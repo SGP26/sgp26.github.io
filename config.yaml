@@ -53,7 +53,7 @@ menu:
       url: /program/
       weight: 20
     - name: registration
-      url: /registration/ 
+      url: /registration/
       weight: 30
     - name: venue
       url: /venue/
@@ -76,6 +76,7 @@ Params:
     foyer: "Foyer, Hochschulstrasse 4, 3012 Bern"
     gs: "Restaurant \"Grosse Schanze\", Parkterrasse 10, 3012 Bern"
     lawn: "Lawn outside of Foyer"
+    tba: "To be announced"
     social-dinner: "Rooftop Grill, Kursaal Bern, Kornhausstrasse 3, 3013 Bern"
     city-tour: "Meeting point: In front of Foyer"
   events: 

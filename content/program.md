@@ -609,7 +609,7 @@ events:
       doi: "https://doi.org/10.1111/cgf.70523"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70523/cgf70523.pdf"
 
-- title: "Townhall meeting"
+- title: "Town Hall Meeting"
   category: welcome
   timestamp: 2026-07-03T14:45:00+02:00
   duration: "45m"

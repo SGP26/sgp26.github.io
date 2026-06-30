@@ -353,21 +353,26 @@ events:
       authors: "T. Magne, A. Binninger, R. Wiersma, O. Sorkine-Hornung"
       doi: "https://doi.org/10.1111/cgf.70502"
       project_url: "https://igl.ethz.ch/projects/sldgen/"
+      pdf_url: "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.70502?download=true&ext=.pdf"
     - id: 1_1013
-      title: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"
+      title_old: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"
+      title: "Differentiable Randers-Finsler Eikonal Solvers"
       authors: "B. Gahtan, J. Shpund, A. M. Bronstein"
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70489"
       doi: "https://doi.org/10.1111/cgf.70489"
+      #pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70489/cgf70489.pdf"
     - id: 1_1001
       title: "Surface Multigrid via Global Parametric Domain Simplification"
       authors: "Anyu Zhao, Qing Fang, Ligang Liu"
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70491"
       doi: "https://doi.org/10.1111/cgf.70491"
+      #pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70491/cgf70491.pdf"
     - id: 2_1036
       title: "Circles of Confidence for Multi-Label Geometry Completion"
       authors: "Z. Wei, C. Hafner, A. Kalinov, P. Heiss Synak, C. Wojtan"
       digilib_url: "https://diglib.eg.org/handle/10.2312/cgf70516"
       doi: "https://doi.org/10.1111/cgf.70516"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70516/cgf70516.pdf"
 
 - title: "Deformation and Registration"
   category: session
@@ -381,21 +386,25 @@ events:
       authors: "T. Djuren, M. Worchel, U. Finnendahl, M. Alexa"
       digilib_url: "https://diglib.eg.org/items/de832211-9ab2-431d-bb2b-cde770a5b5ca"
       doi: "https://doi.org/10.1111/cgf.70519"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70519/cgf70519.pdf"
     - id: 2_1071
       title: "On Bending in the As-Rigid-As-Possible Deformation Energy"
       authors: "U. Finnendahl, M. Alexa"
       digilib_url: "https://diglib.eg.org/items/c95e8641-d91e-48f5-a38a-784ed9c3ce4c"
       doi: "https://doi.org/10.1111/cgf.70520"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70520/cgf70520.pdf"
     - id: 2_1030
       title: "Spatial Eigenanalysis of 2D Deformation Energies"
       authors: "H. Wu, K. Wu, T. Kim"
       digilib_url: "https://diglib.eg.org/items/3796fd1e-c8d2-42c8-bd41-5edcfd637e43"
       doi: "https://doi.org/10.1111/cgf.70514"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70514/cgf70514.pdf"
     - id: 2_1105
       title: "Attention Based Optimization for 3D Shape Registration"
       authors: "A. Riva, L. Olearo, S. Melzi"
       digilib_url: "https://diglib.eg.org/items/4f607b66-3c08-4ed6-b7e8-0b12cf1acc2d"
       doi: "https://doi.org/10.1111/cgf.70525"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70525/cgf70525.pdf"
 
 - title: "Industry Session"
   category: industrial
@@ -501,18 +510,21 @@ events:
       digilib_url: "https://diglib.eg.org/items/484ab232-99c0-47bd-8e7f-5d7e027142e2"
       doi: "https://doi.org/10.1111/cgf.70524"
       digilib_url_future: "https://diglib.eg.org/handle/10.1111/cgf.70524"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70524/cgf70524.pdf"
 
     - id: 2_1031
       title: "Phong-Rodrigues Extrinsic Vector-Field Processing"
       authors: "H. Liu, O. Stein, A. Vaxman, M. Ben-Chen, M. Kazhdan"
       digilib_url: "https://diglib.eg.org/items/3cd715de-b067-4ee1-be06-bf1aca8947d8"
       doi: "https://doi.org/10.1111/cgf.70515"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70515/cgf70515.pdf"
 
     - id: 2_1107
       title: "Tangent Blow-Ups for Processing Non-Manifold Geometry"
       authors: "A. Petrov, M. Nabizadeh, A. Dodik, J. Solomon"
       digilib_url: "https://diglib.eg.org/items/7ab9fd2a-ce77-4a96-b04a-44ce8c672edc"
       doi: "https://doi.org/10.1111/cgf.70527"
+      pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70527/cgf70527.pdf"
 
 - title: "Distance Fields"
   category: session

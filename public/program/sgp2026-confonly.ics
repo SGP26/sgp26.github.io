@@ -162,7 +162,7 @@ DTSTART;TZID=Europe/Zurich:20260701T110000
 DTEND;TZID=Europe/Zurich:20260701T123000
 SUMMARY:Geometric Solvers
 LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
-DESCRIPTION:Papers:\n- Single Line Drawing Generation via Semantics-Driven Optimization (T. Magne\, A. Binninger\, R. Wiersma\, O. Sorkine-Hornung)\n- Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers (B. Gahtan\, J. Shpund\, A. M. Bronstein)\n- Surface Multigrid via Global Parametric Domain Simplification (Anyu Zhao\, Qing Fang\, Ligang Liu)\n- Circles of Confidence for Multi-Label Geometry Completion (Z. Wei\, C. Hafner\, A. Kalinov\, P. Heiss Synak\, C. Wojtan)
+DESCRIPTION:Papers:\n- Single Line Drawing Generation via Semantics-Driven Optimization (T. Magne\, A. Binninger\, R. Wiersma\, O. Sorkine-Hornung)\n- Differentiable Randers-Finsler Eikonal Solvers (B. Gahtan\, J. Shpund\, A. M. Bronstein)\n- Surface Multigrid via Global Parametric Domain Simplification (Anyu Zhao\, Qing Fang\, Ligang Liu)\n- Circles of Confidence for Multi-Label Geometry Completion (Z. Wei\, C. Hafner\, A. Kalinov\, P. Heiss Synak\, C. Wojtan)
 UID:geometric-solvers-20260701T110000@sgp26.org
 URL;VALUE=URI:https://sgp26.org/program/#geometric-solvers
 END:VEVENT

@@ -67,7 +67,11 @@
 (where .Params.events "timestamp" "lt" "2026-07-01")) }}
 </details>
 
-<h2 id=conference-schedule>{{T "conference_schedule" }}</h2>
+<h2 id=conference-schedule>{{T "conference_schedule" }}
+    <a href="/program/sgp2026-confonly.ics" style="font-size: 13pt">(Download timetable .ics)</a>
+</h2>
+<div style="margin-left: auto">
+</div>
 <div id="conference-schedule">
 {{ partial "schedule-table.html" (dict "events"
 (where .Params.events "timestamp" "ge" "2026-07-01")) }}
@@ -180,7 +184,7 @@
 {{ end }}
 </div>
 
-<h2 id=technical-papers>{{T "technical_papers" }}</h2>
+<h2 id=technical-papers>{{T "technical_papers" }}/h2>
 
 <h4 style="margin-top: 2em; margin-bottom: 1.5em"><a href={{.Params.paperURL}}>Proceedings in EG Digital Library</a></h4>
 

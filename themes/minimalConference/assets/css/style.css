@@ -734,6 +734,9 @@ div.graduate-school-text-container
 {
   overflow: auto;
 }
+div.graduate-school-text-container h3 {
+  margin-top: revert;
+}
 
 #simple-static p.code-of-conduct
 {

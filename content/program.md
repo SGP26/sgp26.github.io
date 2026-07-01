@@ -199,6 +199,12 @@ events:
 
     By requiring only closest points, these methods become universally applicable across the above representations and more. Furthermore, objects can be manifold or nonmanifold, open or closed, orientable or not, and of any codimension or even mixed codimension. We provide an introduction to the closest point method (CPM) for solving PDEs and discuss extensions for applications commonly encountered in geometry processing.
 
+  links:
+   - name: "Nathan King's website"
+     url: "https://nathandking.github.io/"
+   - name: "Presentation slides"
+     url: "https://tmp.cgg.unibe.ch/SGP26/SGP26_gradschool_CPGP.pdf"
+
 
 - title: "Computational Geometric Fluid Mechanics"
   category: course

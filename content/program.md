@@ -478,6 +478,7 @@ events:
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.2312/sgpp20261006/sgpp20261006.pdf"
       doi: "https://doi.org/10.2312/sgpp.20261006"
       digilib_url: "https://diglib.eg.org/handle/10.2312/sgpp20261006"
+      code_url: "https://github.com/fprotais/Mesh_optimization"
     - id: P9
       title: "Stackability of architectural freeform surfaces"
       authors: "A. Chocarro , K. Gavriil"

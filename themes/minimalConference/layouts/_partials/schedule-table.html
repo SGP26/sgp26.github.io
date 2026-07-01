@@ -85,7 +85,8 @@ We hardcode this in css now:
 
   {{- /* ---- Time labels (first column) ---- */ -}}
   {{- range $e := $uniqueTimes -}}
-    {{- if ne $e "12:40" "23:00" -}}
+      {{/* HACK: avoid showing some end times that clutter the schedule: */}}
+    {{- if ne $e "12:40" "16:45" -}}
         <h4 class="time-slot" style="grid-row: time-{{ replace $e ":" "" }};">{{ $e }}</h4>
     {{- end -}}
   {{- end -}}

@@ -412,6 +412,7 @@ events:
       digilib_url: "https://diglib.eg.org/items/4f607b66-3c08-4ed6-b7e8-0b12cf1acc2d"
       doi: "https://doi.org/10.1111/cgf.70525"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70525/cgf70525.pdf"
+      code_url: "https://github.com/ariva00/Attention4ShapeRegistration"
 
 - title: "Industry Session"
   category: industrial

@@ -393,6 +393,7 @@ events:
       digilib_url: "https://diglib.eg.org/items/de832211-9ab2-431d-bb2b-cde770a5b5ca"
       doi: "https://doi.org/10.1111/cgf.70519"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70519/cgf70519.pdf"
+      code_url: "https://gitlab.com/tobidju/arap-regularization-for-implicit-surfaces"
     - id: 2_1071
       title: "On Bending in the As-Rigid-As-Possible Deformation Energy"
       authors: "U. Finnendahl, M. Alexa"

@@ -598,6 +598,7 @@ events:
       digilib_url: "https://diglib.eg.org/items/f396debc-ffa9-4d9c-a9f6-671cb9fd614a"
       doi: "https://doi.org/10.1111/cgf.70529"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70529/cgf70529.pdf"
+      code_url: "https://github.com/hndm/weighted-k-hulls"
 
 - title: "City Tour (meet on lawn)"
   category: outside

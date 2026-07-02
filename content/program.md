@@ -591,6 +591,7 @@ events:
       digilib_url: "https://diglib.eg.org/items/088ad63c-6e5d-4a90-98f9-5526212faecd"
       doi: "https://doi.org/10.1111/cgf.70518"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70518/cgf70518.pdf"
+      code_url: "https://github.com/alecjacobson/progressive-convex-hull-simplification"
     - id: 2_1092
       title: "A practical algorithm for weighted k-hulls"
       authors: "N. Look, H. Meyer, M. Alexa"

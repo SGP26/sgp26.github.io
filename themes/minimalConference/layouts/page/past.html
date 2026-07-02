@@ -9,7 +9,7 @@
 {{ range .Params.pastEvents }}
       <li>
           <span class="sgp-past-year">
-          <a href={{ .url }}>{{ .year }}</a>:<!--{{ .date }}, -->
+          <a href="{{ .url }}">{{ .year }}</a>:<!--{{ .date }}, -->
           </span>
           <span classs="sgp-past-place">{{ if .country }}{{ index $flags .country }}&nbsp;{{ end }}{{ .city }}</span>
       </li>

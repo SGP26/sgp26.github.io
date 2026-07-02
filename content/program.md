@@ -553,18 +553,22 @@ events:
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70528/cgf70528.pdf" # Not yet working as of Jun 30
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70528"
       code_url: "https://github.com/IngmarLudwig/ConservativeNeuralDistanceFields"
+
     - id: CGF_1
       title: "SDFs from Unoriented Point Clouds using Neural Variational Heat Distances"
       authors: "S. Weidemaier, F. Hartwig, J. Sassen, S. Conti, M. Ben-Chen, M. Rumpf"
       doi: "https://doi.org/10.1111/cgf.70296"
       code_url: "https://github.com/sweidemaier/HeatSDF"
       pdf_url: "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.70296?download=true&format=.pdf"
+
     - id: 2_1050
       title: "Medial Axis Aware Learning of Signed Distance Functions"
       authors: "S. Weidemaier, C. Norden-Smoch, M. Rumpf"
       digilib_url: "https://diglib.eg.org/items/29587948-7a25-4566-b40c-63cf7122d1c1"
       doi: "https://doi.org/10.1111/cgf.70517"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70517/cgf70517.pdf"
+      code_url: "https://github.com/sweidemaier/Neat_SDF"
+
     - id: 2_1106
       title: "Compactly supported detail field for high quality neural implicit surfaces"
       authors: "G. Coiffier, J. Basselin"

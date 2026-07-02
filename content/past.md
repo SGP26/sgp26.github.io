@@ -78,7 +78,7 @@ pastEvents:
       country: "Switzerland"
       date: "July 20-22"
     - year: "2010"
-      url: "https://web.archive.org/web/20220327080550/https://sgp2010.liris.cnrs.fr/index.php"
+      url: "https://sgp2010.liris.cnrs.fr/"
       city: "Lyon"
       country: "France"
       date: "July 5-7"

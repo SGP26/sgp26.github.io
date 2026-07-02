@@ -11,7 +11,7 @@ Following its traditions, SGP 2026 will attribute three best paper awards as wel
 Please send nominations to <awardnominations@geometryprocessing.org>.
 
 
-Previous awardees are listed at <http://awards.geometryprocessing.org/>.
+Previous awardees are listed at <https://awards.geometryprocessing.org/>.
 
 
 ## Software Award

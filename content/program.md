@@ -575,6 +575,8 @@ events:
       digilib_url: "https://diglib.eg.org/items/e8c106cd-12fe-429c-ab1a-d73d0426933b"
       doi: "https://doi.org/10.1111/cgf.70526"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70526/cgf70526.pdf"
+      code_url: "https://github.com/GCoiffier/neural-sdf-detail-field"
+      project_url: "https://gcoiffier.github.io/publications/neural_detail_field/"
 
 - title: "Hulls"
   category: session

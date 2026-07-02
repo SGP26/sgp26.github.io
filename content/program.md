@@ -596,7 +596,7 @@ events:
       doi: "https://doi.org/10.1111/cgf.70529"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70529/cgf70529.pdf"
 
-- title: "City Tour"
+- title: "City Tour (meet on lawn)"
   category: outside
   timestamp: 2026-07-02T17:00:00+02:00
   duration: "60m"

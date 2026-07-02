@@ -224,6 +224,10 @@ events:
     This course develops geometric fluid mechanics from first principles. We first introduce the geometric formulation following Arnold’s interpretation of the Euler equations, in which fluid motion is described as geodesic flow on the infinite-dimensional Riemannian manifold of volume-preserving diffeomorphisms. We present the necessary background, ranging from Lie groups and variational principles to Lagrangian and Hamiltonian mechanics, and elucidate the invariant structures that arise from this geometric perspective.
     We then discuss how smooth geometric structures can be translated into discrete settings, where fluid motion becomes a constrained geodesic flow on a sub-Riemannian manifold induced by discretization. Finally, we will analyze modern methods grounded in these principles from computer graphics and computational fluid mechanics.
 
+  links:
+   - name: "Presentation slides"
+     url: "https://tmp.cgg.unibe.ch/SGP26/SGP26_gradschool_Geometric_Fluid_Mechanics.pdf"
+
 
 - title: "Registration"
   category: welcome

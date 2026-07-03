@@ -78,8 +78,9 @@ END:VTIMEZONE{{ $eol -}}
 {{- end -}}
 
 BEGIN:VEVENT{{ $eol -}}
-DTSTAMP:20260601T000000Z{{ $eol -}}
+DTSTAMP:20260703T000000Z{{ $eol -}}
 DTSTART;TZID={{ $tz }}:{{ $ts | dateFormat "20060102T150405" }}{{ $eol -}}
+SEQUENCE:42
 DTEND;TZID={{ $tz }}:{{ $tsEnd | dateFormat "20060102T150405" }}{{ $eol -}}
 SUMMARY:{{- if (eq $e.category "keynote") -}}Keynote: {{ end -}}{{ partial "ics-escape" $e.title }}{{ $eol -}}
 {{- if $loc -}}LOCATION:{{ $loc }}{{ $eol -}}{{- end -}}

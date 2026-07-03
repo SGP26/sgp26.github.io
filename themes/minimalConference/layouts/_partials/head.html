@@ -4,7 +4,7 @@
     <meta name="author" content="SGP organizers"/>
 
     {{ $styles := resources.Get "css/style.css" | fingerprint }}
-    <link rel="stylesheet" type="text/css" href="{{ $styles.Permalink}}">
+    <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink}}">
     <link rel="me" href="https://mastodon.social/@sgp2026">
     <link rel="me" href="https://bsky.app/profile/sgp2026.bsky.social">
 

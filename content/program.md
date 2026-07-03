@@ -635,6 +635,7 @@ events:
       digilib_url: "https://diglib.eg.org/items/662913b7-a699-46c1-ba5f-d3a9fb5193be"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70512/cgf70512.pdf"
       code_url: "https://github.com/iota97/Volume-Filling-Curve"
+      project_url: "https://xavierchermain.github.io/publications/volume-filling-curve"
 
     - id: 2_1023
       title: "Taking a Moment to Characterize the Bending Response of Thin Sheet Materials"

@@ -600,7 +600,7 @@ events:
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70529/cgf70529.pdf"
       code_url: "https://github.com/hndm/weighted-k-hulls"
 
-- title: "City Tour (meet on lawn)"
+- title: "City Tour"
   category: outside
   timestamp: 2026-07-02T17:00:00+02:00
   duration: "60m"

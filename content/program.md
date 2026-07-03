@@ -674,6 +674,8 @@ events:
       digilib_url: "https://diglib.eg.org/items/61d4455b-21f4-42aa-b64c-e691c117e5d9"
       doi: "https://doi.org/10.1111/cgf.70523"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70523/cgf70523.pdf"
+      project_url: "https://exanos.github.io/MMCAD/"
+      code_url: "https://github.com/exanos/MMCAD"
 
 - title: "Town Hall Meeting"
   category: welcome

@@ -663,6 +663,7 @@ events:
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70521/cgf70521.pdf"
       doi: "https://doi.org/10.1111/cgf.70521"
       project_url: "https://arti4d.github.io/Arti4D/"
+      code_url: "https://github.com/Arti4D/Arti4D_code"
 
     - id: 2_1096
       title: "MM-CAD: A Multi-Modal CAD Dataset and Benchmark for Cross-Modal Geometric Learning"

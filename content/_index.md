@@ -4,6 +4,10 @@ layout: "landing"
 type: page
 ---
 
+## See you next year!
+
+SGP 2026 unfortunately is already over. See you next year at SGP in Singapore as part of the [International Geometry Summit 2027](https://igs2027singapore.github.io/)!
+
 ## About
 
 The Eurographics Symposium on Geometry Processing (SGP) is the premier venue for disseminating new research ideas and cutting-edge results in geometry processing. In this research area, concepts from mathematics, computer science, and engineering are studied and applied to offer new insights and design efficient algorithms for acquisition, modeling, analysis, manipulation, simulation and other types of processing of 3D models and shape collections.

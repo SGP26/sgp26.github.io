@@ -643,6 +643,7 @@ events:
       digilib_url: "https://diglib.eg.org/items/6a652695-9faf-45d8-b5de-14d55128e5c0"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70513/cgf70513.pdf"
       doi: "https://doi.org/10.1111/cgf.70513"
+      project_url: "https://thomaszewski.com/projects/shell-homogenization/"
 
     - id: 2_1093
       title: "UniGRe-3D: Unified Geometric Reconstruction for Multi-category 3D Anomaly Detection"

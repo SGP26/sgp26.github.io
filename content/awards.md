@@ -6,7 +6,7 @@ type: "page"
 
 ## Awards
 
-Following its traditions, SGP 2026 attributed three best paper awards as well as the software award recognising the authors of an open-source software project that has greatly influenced the field.
+Following its tradition, SGP 2026 presented three Best Paper Awards as well as a Software Award recognising the authors of an open-source software project that has greatly influenced the field.
 
 <!--
 Please send nominations to <awardnominations@geometryprocessing.org>.
@@ -18,7 +18,7 @@ Previous awardees are listed at <https://awards.geometryprocessing.org/>.
 
 ## Software Award
 
-This recognition is awarded to the authors who follow the open source code principles and share their source code. The Software Award Committee 2026 consisted of Marco Livesu, Amir Vaxman, Pierre Alliez, and Daniele Panozzo.
+This recognition is awarded to the authors who follow open source code principles and share their source code. The Software Award Committee 2026 consisted of Marco Livesu, Amir Vaxman, Pierre Alliez, and Daniele Panozzo.
 
 The SGP Software Award 2026 comes with a prize sponsored by [GeometryFactory](https://geometryfactory.com/).
 
@@ -32,7 +32,7 @@ The SGP Software Award 2026 comes with a prize sponsored by [GeometryFactory](ht
 
 ## Best Paper Awards
 
-The SGP 2026 Best Paper awaerds consist of one _Best Paper Award_, and two runner-up _Honorable Mentions_. Both the scores from the review cycle and the quality of the presentation were evaluated.
+The SGP 2026 Best Paper awards consist of one _Best Paper Award_, and two runner-up _Honorable Mentions_. Both the scores from the review cycle and the quality of the presentation were evaluated.
 
 The Best Paper Award Committee 2026 consisted of the conference co-chairs, technical program co-chairs, and the graduate school co-chairs.
 
@@ -46,9 +46,9 @@ The Best Paper Award Committee 2026 consisted of the conference co-chairs, techn
 
 [_Tangent Blow-Ups for Processing Non-Manifold Geometry_](https://diglib.eg.org/bitstream/handle/10.1111/cgf70527/cgf70527.pdf) by **Alice Petrov**, **Mohammad Sina Nabizadeh**, **Ana Dodik**, and **Justin Solomon**
 
-## Test of Time Award
+## Test-of-time Award
 
-Starting in 2021, a test-of-time award is given each year to a paper that appeared at least 10 years before and has generated the most impact. The test-of-time award is based on a vote by all IPC members. The Test of Time Award Chair 2026 was Marc Alexa.
+Starting in 2021, a Test-of-time Award is given each year to a paper that was published at least 10 years prior and has generated the most impact. The Test-of-time Award is based on a vote by all technical papers committee members. The Test of Time Award Chair 2026 was Marc Alexa.
 
 ### Winner
 [_Laplace-Beltrami Eigenfunctions for Deformation Invariant Shape Representation_ (SGP 2007)](https://dl.acm.org/doi/10.5555/1281991.1282022) by **Raif M. Rustamov**

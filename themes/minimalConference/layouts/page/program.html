@@ -56,16 +56,10 @@
         </div>
 </details>
 
-<details>
-    <summary>
-        Graduate school schedule
-    </summary>
-
-        <h2 id=schedule>{{T "graduate_school_schedule" }}</h2>
+<h2 id=schedule>{{T "graduate_school_schedule" }}</h2>
 <div id="gradschool-schedule">
 {{ partial "schedule-table.html" (dict "events"
 (where .Params.events "timestamp" "lt" "2026-07-01")) }}
-</details>
 
 <h2 id=conference-schedule>{{T "conference_schedule" }}
     <a href="/program/sgp2026-confonly.ics" style="font-size: 12pt; font-weight: 400;">(Download .ics)</a>

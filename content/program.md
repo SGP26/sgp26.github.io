@@ -92,6 +92,8 @@ events:
     Inverse problems have a long history in computer graphics with applications ranging from fabrication to computer vision. While existing software packages such as Taichi, Mitsuba, Warp, and PyTorch3D focus primarily on differentiating through simulations of physical systems such as elasticity or light transport, differentiating through geometry processing algorithms is relatively underexplored. Existing geometry-processing-focused libraries for gradient computation (e.g., TinyAD) have poor operability with machine learning frameworks and no GPU support, limiting their practicality. This course explores how PyTorch, with its automatic differentiation and GPU acceleration capabilities, can be leveraged for differentiable geometry processing. We begin with the fundamentals of PyTorch, covering its computational model and automatic differentiation mechanisms, before introducing key optimization techniques for geometric data, focusing on meshes and other common representations. The course will include real-world applications of these concepts such as mesh smoothing and parameterization, meta-optimization, as well as machine-learning workflows. By the end of the session, attendees will have a practical understanding of how to integrate PyTorch into their own differentiable geometry processing workflows.
 
   links:
+   - name: "Presentation slides"
+     url: "https://tmp.cgg.unibe.ch/SGP26/SGP26_gradschool_DiffGP.pdf"
    - name: "iskra ✨ Modern Geometry Processing"
      url: "https://github.com/anadodik/iskra"
 

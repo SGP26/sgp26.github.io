@@ -25,3 +25,8 @@ arrays/lists/maps in `config.yaml` (or `content/*.md` markdown files).
 **Note:** Currently, the implementation of this is a mess and a lot of content is in the theme.
 This needs to be cleaned up.
 
+
+
+## Known issues
+
+- `.ics` file generation must update `DTSTAMP` with each change, otherwise some consumers of webcal uris will not update.

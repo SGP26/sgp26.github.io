@@ -3,7 +3,7 @@ title: "Program"
 layout: "program"
 type: "page"
 menu: program
-paperURL: "https://diglib.eg.org/collections/3f237102-ab23-4c97-9f95-b1e4275acc0c"
+paperURL: "https://diglib.eg.org/handle/10.2312/3607312"
 
 
 events:
@@ -396,26 +396,26 @@ events:
     - id: 2_1070
       title: "As-Rigid-As-Possible Regularization for Implicit Surfaces"
       authors: "T. Djuren, M. Worchel, U. Finnendahl, M. Alexa"
-      digilib_url: "https://diglib.eg.org/items/de832211-9ab2-431d-bb2b-cde770a5b5ca"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70519"
       doi: "https://doi.org/10.1111/cgf.70519"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70519/cgf70519.pdf"
       code_url: "https://gitlab.com/tobidju/arap-regularization-for-implicit-surfaces"
     - id: 2_1071
       title: "On Bending in the As-Rigid-As-Possible Deformation Energy"
       authors: "U. Finnendahl, M. Alexa"
-      digilib_url: "https://diglib.eg.org/items/c95e8641-d91e-48f5-a38a-784ed9c3ce4c"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70520"
       doi: "https://doi.org/10.1111/cgf.70520"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70520/cgf70520.pdf"
     - id: 2_1030
       title: "Spatial Eigenanalysis of 2D Deformation Energies"
       authors: "H. Wu, K. Wu, T. Kim"
-      digilib_url: "https://diglib.eg.org/items/3796fd1e-c8d2-42c8-bd41-5edcfd637e43"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70514"
       doi: "https://doi.org/10.1111/cgf.70514"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70514/cgf70514.pdf"
     - id: 2_1105
       title: "Attention Based Optimization for 3D Shape Registration"
       authors: "A. Riva, L. Olearo, S. Melzi"
-      digilib_url: "https://diglib.eg.org/items/4f607b66-3c08-4ed6-b7e8-0b12cf1acc2d"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70525"
       doi: "https://doi.org/10.1111/cgf.70525"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70525/cgf70525.pdf"
       code_url: "https://github.com/ariva00/Attention4ShapeRegistration"
@@ -522,7 +522,7 @@ events:
     - id: 2_1103
       title: "Meshing Unsigned Distance Fields with Regular Triangulations"
       authors: "M. Kohlbrenner, M. Alexa"
-      digilib_url: "https://diglib.eg.org/items/484ab232-99c0-47bd-8e7f-5d7e027142e2"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70524"
       doi: "https://doi.org/10.1111/cgf.70524"
       digilib_url_future: "https://diglib.eg.org/handle/10.1111/cgf.70524"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70524/cgf70524.pdf"
@@ -530,14 +530,14 @@ events:
     - id: 2_1031
       title: "Phong-Rodrigues Extrinsic Vector-Field Processing"
       authors: "H. Liu, O. Stein, A. Vaxman, M. Ben-Chen, M. Kazhdan"
-      digilib_url: "https://diglib.eg.org/items/3cd715de-b067-4ee1-be06-bf1aca8947d8"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70515"
       doi: "https://doi.org/10.1111/cgf.70515"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70515/cgf70515.pdf"
 
     - id: 2_1107
       title: "Tangent Blow-Ups for Processing Non-Manifold Geometry"
       authors: "A. Petrov, M. Nabizadeh, A. Dodik, J. Solomon"
-      digilib_url: "https://diglib.eg.org/items/7ab9fd2a-ce77-4a96-b04a-44ce8c672edc"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70527"
       doi: "https://doi.org/10.1111/cgf.70527"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70527/cgf70527.pdf"
 
@@ -566,7 +566,7 @@ events:
     - id: 2_1050
       title: "Medial Axis Aware Learning of Signed Distance Functions"
       authors: "S. Weidemaier, C. Norden-Smoch, M. Rumpf"
-      digilib_url: "https://diglib.eg.org/items/29587948-7a25-4566-b40c-63cf7122d1c1"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70517"
       doi: "https://doi.org/10.1111/cgf.70517"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70517/cgf70517.pdf"
       code_url: "https://github.com/sweidemaier/Neat_SDF"
@@ -574,7 +574,7 @@ events:
     - id: 2_1106
       title: "Compactly supported detail field for high quality neural implicit surfaces"
       authors: "G. Coiffier, J. Basselin"
-      digilib_url: "https://diglib.eg.org/items/e8c106cd-12fe-429c-ab1a-d73d0426933b"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70526"
       doi: "https://doi.org/10.1111/cgf.70526"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70526/cgf70526.pdf"
       code_url: "https://github.com/GCoiffier/neural-sdf-detail-field"
@@ -590,14 +590,14 @@ events:
     - id: 2_1052
       title: "Progressive Convex Hull Simplification"
       authors: "A. Jacobson"
-      digilib_url: "https://diglib.eg.org/items/088ad63c-6e5d-4a90-98f9-5526212faecd"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70518"
       doi: "https://doi.org/10.1111/cgf.70518"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70518/cgf70518.pdf"
       code_url: "https://github.com/alecjacobson/progressive-convex-hull-simplification"
     - id: 2_1092
       title: "A practical algorithm for weighted k-hulls"
       authors: "N. Look, H. Meyer, M. Alexa"
-      digilib_url: "https://diglib.eg.org/items/f396debc-ffa9-4d9c-a9f6-671cb9fd614a"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70529"
       doi: "https://doi.org/10.1111/cgf.70529"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70529/cgf70529.pdf"
       code_url: "https://github.com/hndm/weighted-k-hulls"
@@ -613,7 +613,7 @@ events:
   timestamp: 2026-07-02T19:00:00+02:00
   duration: "240m"
   location_id: social-dinner
-  digilib_url: "/venue/#social_events"
+  url: "https://sgp26.org/venue/#social_events"
 
 
 - title: "Fabrication and Verification"
@@ -634,7 +634,7 @@ events:
       title: "Wave-Guided Field-Aligned Volume-Filling Curves"
       authors: "G. Cocco, X. Chermain"
       doi: "https://doi.org/10.1111/cgf.70512"
-      digilib_url: "https://diglib.eg.org/items/662913b7-a699-46c1-ba5f-d3a9fb5193be"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70512"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70512/cgf70512.pdf"
       code_url: "https://github.com/iota97/Volume-Filling-Curve"
       project_url: "https://xavierchermain.github.io/publications/volume-filling-curve"
@@ -642,7 +642,7 @@ events:
     - id: 2_1023
       title: "Taking a Moment to Characterize the Bending Response of Thin Sheet Materials"
       authors: "P. Xie, J. Montes, B. Thomaszewski, S. Coros"
-      digilib_url: "https://diglib.eg.org/items/6a652695-9faf-45d8-b5de-14d55128e5c0"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70513"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70513/cgf70513.pdf"
       doi: "https://doi.org/10.1111/cgf.70513"
       project_url: "https://thomaszewski.com/projects/shell-homogenization/"
@@ -651,7 +651,7 @@ events:
       title: "UniGRe-3D: Unified Geometric Reconstruction for Multi-category 3D Anomaly Detection"
       authors: "D. Han, Z. Zhang, Y. Gao, J. Li, M. Li, M. Zhou"
       doi: "https://doi.org/10.1111/cgf.70522"
-      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70522"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70522"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70522/cgf70522.pdf"
 
 - title: "Datasets and Analysis"
@@ -664,7 +664,7 @@ events:
     - id: 2_1076
       title: "Arti4D: Statistical Analysis and Modelling of the Spatio-temporal Variability in Articulated 4D Shapes"
       authors: "Z. Li, A. Amrani, S. Rai, H. Laga"
-      digilib_url: "https://diglib.eg.org/items/9e778b4f-f12e-44e9-b811-1d140634d527"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70521"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70521/cgf70521.pdf"
       doi: "https://doi.org/10.1111/cgf.70521"
       project_url: "https://arti4d.github.io/Arti4D/"
@@ -673,7 +673,7 @@ events:
     - id: 2_1096
       title: "MM-CAD: A Multi-Modal CAD Dataset and Benchmark for Cross-Modal Geometric Learning"
       authors: "A. Bharathi, A. Aravindakshan, R. Muthuganapathy"
-      digilib_url: "https://diglib.eg.org/items/61d4455b-21f4-42aa-b64c-e691c117e5d9"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70523"
       doi: "https://doi.org/10.1111/cgf.70523"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70523/cgf70523.pdf"
       project_url: "https://exanos.github.io/MMCAD/"

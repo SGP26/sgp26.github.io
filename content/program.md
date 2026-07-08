@@ -645,7 +645,7 @@ events:
 
     - id: 2_1023
       title: "Taking a Moment to Characterize the Bending Response of Thin Sheet Materials"
-      authors: "P. Xie, J. Montes, B. Thomaszewski, S. Coros"
+      authors: "P. Xie, J. S. Montes Maestre, S. Coros, B. Thomaszewski"
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70513"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70513/cgf70513.pdf"
       doi: "https://doi.org/10.1111/cgf.70513"

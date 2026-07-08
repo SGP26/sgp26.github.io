@@ -366,6 +366,7 @@ events:
       doi: "https://doi.org/10.1111/cgf.70502"
       project_url: "https://igl.ethz.ch/projects/sldgen/"
       pdf_url: "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.70502?download=true&ext=.pdf"
+      code_url: "https://github.com/tanguymagne/SLDgen"
     - id: 1_1013
       title_old: "Wildfire Simulation with Differentiable Randers-Finsler Eikonal Solvers"
       title: "Differentiable Randers-Finsler Eikonal Solvers"
@@ -373,6 +374,7 @@ events:
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70489"
       doi: "https://doi.org/10.1111/cgf.70489"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70489/cgf70489.pdf" # not working as of Jun 30
+      code_url: "https://github.com/BarakGahtan/differentiable-eikonal-wildfire"
     - id: 1_1001
       title: "Surface Multigrid via Global Parametric Domain Simplification"
       authors: "Anyu Zhao, Qing Fang, Ligang Liu"
@@ -385,6 +387,7 @@ events:
       digilib_url: "https://diglib.eg.org/handle/10.2312/cgf70516"
       doi: "https://doi.org/10.1111/cgf.70516"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70516/cgf70516.pdf"
+      project_url: "https://visualcomputing.ist.ac.at/publications/2026/CirclesConfidence/"
 
 - title: "Deformation and Registration"
   category: session
@@ -533,6 +536,7 @@ events:
       digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70515"
       doi: "https://doi.org/10.1111/cgf.70515"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70515/cgf70515.pdf"
+      code_url: "https://github.com/mkazhdan/PhongRodriguesVF"
 
     - id: 2_1107
       title: "Tangent Blow-Ups for Processing Non-Manifold Geometry"
@@ -624,7 +628,7 @@ events:
   chair: "Mirela Ben-Chen"
   papers:
     - id: 1_1008
-      title: "Design and analysis of smooth conformal lattice microstructure via General Bézier patches"
+      title: "Design and analysis of smooth geometry-conforming lattices via Generalized Bézier patches"
       authors: "J. C. Pareja-Corcho , T. Hirschler , R. Bouclier , G. Elber , M. Barton"
       doi: "https://doi.org/10.1111/cgf.70490"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70490/cgf70490.pdf"

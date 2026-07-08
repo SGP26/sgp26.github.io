@@ -443,7 +443,7 @@ SEQUENCE:42
 DTEND;TZID=Europe/Zurich:20260703T123000
 SUMMARY:Fabrication and Verification
 LOCATION:Room 210 / Aula\, Hochschulstrasse 4\, 3012 Bern
-DESCRIPTION:Papers:\n- Design and analysis of smooth conformal lattice microstructure via General Bézier patches (J. C. Pareja-Corcho \, T. Hirschler \, R. Bouclier \, G. Elber \, M. Barton)\n- Wave-Guided Field-Aligned Volume-Filling Curves (G. Cocco\, X. Chermain)\n- Taking a Moment to Characterize the Bending Response of Thin Sheet Materials (P. Xie\, J. Montes\, B. Thomaszewski\, S. Coros)\n- UniGRe-3D: Unified Geometric Reconstruction for Multi-category 3D Anomaly Detection (D. Han\, Z. Zhang\, Y. Gao\, J. Li\, M. Li\, M. Zhou)
+DESCRIPTION:Papers:\n- Design and analysis of smooth geometry-conforming lattices via Generalized Bézier patches (J. C. Pareja-Corcho \, T. Hirschler \, R. Bouclier \, G. Elber \, M. Barton)\n- Wave-Guided Field-Aligned Volume-Filling Curves (G. Cocco\, X. Chermain)\n- Taking a Moment to Characterize the Bending Response of Thin Sheet Materials (P. Xie\, J. Montes\, B. Thomaszewski\, S. Coros)\n- UniGRe-3D: Unified Geometric Reconstruction for Multi-category 3D Anomaly Detection (D. Han\, Z. Zhang\, Y. Gao\, J. Li\, M. Li\, M. Zhou)
 UID:fabrication-and-verification-20260703T110000@sgp26.org
 URL;VALUE=URI:https://sgp26.org/program/#fabrication-and-verification
 END:VEVENT

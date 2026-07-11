@@ -116,7 +116,10 @@ events:
       url: "https://people.cs.uchicago.edu/~namanh/"
       affiliation: "University of Chicago"
   abstract: |
-    2D foundation models have exploded in popularity and capability in recent years. While text-to-image generative models, image feature encoders, and VLMs (vision-language models) are widely used in 2D contexts such as image processing and chatbots, they also facilitate numerous applications to traditionally 3D domains such as robotics, self-driving, and 3D generation. This course explores how 3D understanding can emerge from 2D priors, and how we can leverage these priors towards tasks in geometry processing. We summarize the literature on 3D awareness in 2D models and dive into the details on different approaches for lifting information from 2D to 3D. In doing so, we address common challenges in this field and conclude with three specific applications: mesh stylization, cross field generation, and mesh deformation.
+    2D foundation models have exploded in popularity in recent years. While text-to-image generative models, image feature encoders, and VLMs (vision-language models) are widely used in 2D contexts such as image processing, they also facilitate numerous applications to traditionally 3D domains such as robotics, self-driving, and 3D generation. This course explores how 3D understanding can emerge from 2D priors, and how we can leverage these priors towards tasks in geometry processing. We summarize the literature on lifting 2D supervision to 3D tasks, covering both optimization and back projection methods. In doing so, we address common challenges in this field and discuss several applications: stylization, localization, and deformation.
+  links:
+   - name: "Presentation slides"
+     url: "https://tmp.cgg.unibe.ch/SGP26/SGP26_gradschool_GP2DPrior.pdf"
 
 - title: "Shape Spaces"
   category: course

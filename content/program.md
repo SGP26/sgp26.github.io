@@ -104,7 +104,7 @@ events:
   timestamp: 2026-06-29T16:00:00+02:00
   location_id: room-201
   duration: "90m"
-  teaser: /images/gradschool/image-priors.png
+  teaser: /images/gradschool/image-priors.jpg
   speakers:
     - name: "Dale Decatur"
       url: "https://ddecatur.github.io/"

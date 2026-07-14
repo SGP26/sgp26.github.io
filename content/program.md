@@ -387,7 +387,7 @@ events:
     - id: 2_1036
       title: "Circles of Confidence for Multi-Label Geometry Completion"
       authors: "Z. Wei, C. Hafner, A. Kalinov, P. Heiss Synak, C. Wojtan"
-      digilib_url: "https://diglib.eg.org/handle/10.2312/cgf70516"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf70516"
       doi: "https://doi.org/10.1111/cgf.70516"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70516/cgf70516.pdf"
       project_url: "https://visualcomputing.ist.ac.at/publications/2026/CirclesConfidence/"

@@ -4,6 +4,7 @@ layout: "program"
 type: "page"
 menu: program
 paperURL: "https://diglib.eg.org/handle/10.2312/3607312"
+gradschoolPlaylist: "https://www.youtube.com/playlist?list=PLA29N7301yZQ"
 
 
 events:
@@ -64,6 +65,7 @@ events:
   location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/dir-fields.png
+  video_url: "https://www.youtube.com/watch?v=YmHep-AON-I&list=PLA29N7301yZQ"
   speakers:
     - name: Amir Vaxman
       url: https://avaxman.github.io/
@@ -81,6 +83,7 @@ events:
   location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/diff-geom.png
+  video_url: "https://www.youtube.com/watch?v=Eg5EJZhYoGE&list=PLA29N7301yZQ"
   speakers:
     - name: "Ana Dodik"
       url: "https://anadodik.github.io/"
@@ -105,6 +108,7 @@ events:
   location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/image-priors.jpg
+  video_url: "https://www.youtube.com/watch?v=Aqdwa18H-Rg&list=PLA29N7301yZQ"
   speakers:
     - name: "Dale Decatur"
       url: "https://ddecatur.github.io/"
@@ -126,6 +130,7 @@ events:
   timestamp: 2026-06-29T09:00:00+02:00
   location_id: room-201
   duration: "90m"
+  video_url: "https://www.youtube.com/watch?v=kyqyFFysGWU&list=PLA29N7301yZQ"
   teaser: /images/gradschool/shape-spaces.png
   speakers:
     - name: "Josua Sassen"
@@ -148,6 +153,7 @@ events:
   location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/cone-nets.jpg
+  video_url: "https://www.youtube.com/watch?v=G5_odTMT7dY&list=PLA29N7301yZQ"
   speakers:
     - name: "Klara Mundilova"
       url: "https://klaramundilova.com/"
@@ -179,6 +185,7 @@ events:
   location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/bvh.png
+  video_url: "https://www.youtube.com/watch?v=az6nYX-XikE&list=PLA29N7301yZQ"
   speakers:
     - name: Markus Billeter
       url: "https://vcg.leeds.ac.uk/profiles/billeter/"
@@ -195,6 +202,7 @@ events:
   location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/closest-point.png
+  video_url: "https://www.youtube.com/watch?v=Y6bupYhym4k&list=PLA29N7301yZQ"
   speakers:
     - name: "Nathan King"
       url: "https://nathandking.github.io/"
@@ -217,6 +225,7 @@ events:
   location_id: room-201
   duration: "90m"
   teaser: /images/gradschool/fluids.jpg
+  video_url: "https://www.youtube.com/watch?v=c-iGLl4rPik&list=PLA29N7301yZQ"
   speakers:
     - name: "Sina Nabizadeh"
       url: "https://sinabiz.github.io/"

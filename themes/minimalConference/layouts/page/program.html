@@ -131,7 +131,12 @@
 {{- else}}
 {{ end}}
 
-<h2 id=graduate-school>{{T "graduate_school" }}</h2>
+
+<h2 id=graduate-school>{{T "graduate_school" }}
+{{- if .Params.gradschoolPlaylist }}
+ (<a href="{{.Params.gradschoolPlaylist}}">YouTube playlist</a>)
+{{- end -}}
+</h2>
 
 <div class=graduate-school-container>
 {{ $courses := where .Params.events "category" "course" }}
@@ -140,6 +145,9 @@
     <div id="{{ .id | default .shortTitle | default .title | urlize }}" class=graduate-school-text-container>
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
+      {{- if .video_url }}
+        (<a href="{{.video_url}}">Video</a>)
+      {{- end -}}
     </h3>
     {{- if (isset . "youtube") -}}
       <iframe class=embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -180,7 +188,9 @@
 
 <h2 id=technical-papers>{{T "technical_papers" }}</h2>
 
+{{- if .Params.paperURL -}}
 <h4 style="margin-top: 2em; margin-bottom: 1.5em"><a href="{{.Params.paperURL}}">Proceedings in EG Digital Library</a></h4>
+{{- end -}}
 
 <details>
     <summary>Note to authors</summary>

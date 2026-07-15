@@ -5,6 +5,7 @@ type: "page"
 menu: program
 paperURL: "https://diglib.eg.org/handle/10.2312/3607312"
 gradschoolPlaylist: "https://www.youtube.com/playlist?list=PLA29N7301yZQ"
+keynotesPlaylist: "https://www.youtube.com/playlist?list=PLWE8oPKu88DM"
 
 
 events:
@@ -14,6 +15,7 @@ events:
   location_id: aula
   title: "Computational Optimal Transport: From Low to High Dimension and Back"
   shortTitle: "Computational Optimal Transport"
+  video_url: "https://www.youtube.com/watch?v=Qe9EadUqAEc&list=PLWE8oPKu88DM"
   speakers:
     - name: Justin Solomon
       url: https://people.csail.mit.edu/jsolomon/
@@ -31,6 +33,7 @@ events:
   duration: "60m"
   location_id: aula
   title: "Geometric not-so-deep learning"
+  video_url: "https://www.youtube.com/watch?v=plW3e-KlUkg&list=PLWE8oPKu88DM"
   speakers:
     - name: Julie Digne
       affiliation: "LIRIS - CNRS - Université Claude Bernard Lyon 1"
@@ -371,6 +374,7 @@ events:
   duration: "90m"
   location_id: aula
   chair: "Mark Gillespie"
+  playlist_url: "https://www.youtube.com/playlist?list=PLepN7zEeKiEM"
   papers:
     - id: CGF_3
       title: "Single Line Drawing Generation via Semantics-Driven Optimization"
@@ -407,6 +411,7 @@ events:
   duration: "90m"
   location_id: aula
   chair: "Pierre Alliez"
+  playlist_url: "https://www.youtube.com/playlist?list=PLWfwX11lQH7g"
   papers:
     - id: 2_1070
       title: "As-Rigid-As-Possible Regularization for Implicit Surfaces"
@@ -447,6 +452,7 @@ events:
   timestamp: 2026-07-01T17:00:00+02:00
   duration: "20m"
   location_id: aula
+  video_url: "https://www.youtube.com/watch?v=9tajLLh1_dw"
   papers:
     - id: P1
       title: "TiGL 3.5 – An Open Source Parametric Geometry Library for Virtual Aircraft Design"
@@ -526,6 +532,7 @@ events:
   duration: "90m"
   location_id: aula
   chair: "Guillaume Coiffier"
+  playlist_url: "https://www.youtube.com/playlist?list=PLTKjYRUVabDk"
   papers:
     - id: 1_1012
       title: "Surface Quadrilateral Meshing from Integrable Odeco Fields"
@@ -563,6 +570,7 @@ events:
   duration: "90m"
   location_id: aula
   chair: "Amir Vaxman"
+  playlist_url: "https://www.youtube.com/playlist?list=PLfYxhXWCn8es"
   papers:
     - id: 2_1006
       title: "Strictly Conservative Neural Distance Fields"
@@ -602,6 +610,7 @@ events:
   duration: "45m"
   location_id: aula
   chair: "Stephanie Wang"
+  playlist_url: "https://www.youtube.com/playlist?list=PLFy9VMPpHO2k"
   papers:
     - id: 2_1052
       title: "Progressive Convex Hull Simplification"
@@ -638,6 +647,7 @@ events:
   duration: "90m"
   location_id: aula
   chair: "Mirela Ben-Chen"
+  playlist_url: "https://www.youtube.com/playlist?list=PLWPTfhqHc2Y0"
   papers:
     - id: 1_1008
       title: "Design and analysis of smooth geometry-conforming lattices via Generalized Bézier patches"
@@ -676,6 +686,7 @@ events:
   duration: "45m"
   location_id: aula
   chair: "Alec Jacobson"
+  playlist_url: "https://www.youtube.com/playlist?list=PLIqle8KuFbGI"
   papers:
     - id: 2_1076
       title: "Arti4D: Statistical Analysis and Modelling of the Spatio-temporal Variability in Articulated 4D Shapes"

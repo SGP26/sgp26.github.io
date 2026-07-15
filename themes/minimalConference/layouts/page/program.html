@@ -87,7 +87,11 @@
 
 {{ $keynotes := where .Params.events "category" "keynote" }}
 {{- if $keynotes -}}
-<h2 id=keynotes>{{T "keynotes" }}</h2>
+<h2 id=keynotes>{{T "keynotes" }}
+{{- if .Params.gradschoolPlaylist }}
+ (<a href="{{.Params.keynotesPlaylist}}">YouTube playlist</a>)
+{{- end -}}
+</h2>
 {{- range (sort $keynotes "timestamp") -}}
 <div class=keynote-container id="{{ .id | default .shortTitle | default .title | urlize }}">
 
@@ -110,7 +114,11 @@
     {{- if (not (isset . "title")) | or (eq .title "") -}}
     ({{T "stay_tuned_for_talk_information"}})
     {{- else -}}
-    <h3><span class=keynote-title>{{.title}}</span></h3>
+    <h3><span class=keynote-title>{{.title}}</span>
+      {{- if .video_url }}
+        (<a href="{{.video_url}}">Video</a>)
+      {{- end -}}
+    </h3>
     <p>
       {{ $.Page.RenderString .abstract }}
     </p>
@@ -206,7 +214,13 @@
 {{ $sessions := where .Params.events "category" "in" (slice "session" "poster") }}
 {{- range (sort $sessions "timestamp") -}}
   <h3 class=sessionName id={{ .id | default (.shortTitle | default .title | urlize) }}>{{ .title}}
-      {{ if .chair }} <span class="sessionChair line">chaired by {{ .chair}}</span> {{end}}
+      {{- if .video_url }}
+        (<a href="{{.video_url}}">Video</a>)
+      {{- end -}}
+      {{- if .playlist_url }}
+        (<a href="{{.playlist_url}}">Playlist</a>)
+      {{- end -}}
+      {{ if .chair }} <br><span class="sessionChair line">chaired by {{ .chair}}</span> {{end}}
   </h3>
     {{- if and (.timestamp) (ne .timestamp "") -}}<a class="event-time" href="#schedule-{{ .title | urlize }}">{{ time .timestamp | time.Format "Monday, January 2, 15:04" }}</a>{{ end }}
   <div class=sessionContainer>

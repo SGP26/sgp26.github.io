@@ -56,12 +56,31 @@
         </div>
 </details>
 
-<h2 id=schedule>{{T "graduate_school_schedule" }}</h2>
+{{ if .Params.hide_schedule_gs }}
+<details>
+    <summary>{{T "graduate_school_schedule" }}</summary>
+{{ end }}
+
+<h2 id=schedule>
+    {{T "graduate_school_schedule" }}
+</h2>
 <div id="gradschool-schedule">
 {{ partial "schedule-table.html" (dict "events"
 (where .Params.events "timestamp" "lt" "2026-07-01")) }}
 
-<h2 id=conference-schedule>{{T "conference_schedule" }}
+{{ if .Params.hide_schedule_gs }}
+</details>
+{{end}}
+
+{{ if .Params.hide_schedule_conf }}
+<details>
+    <summary>
+    {{T "conference_schedule" }}
+    </summary>
+{{ end }}
+
+<h2 id=conference-schedule>
+    {{T "conference_schedule" }}
     <a href="/program/sgp2026-confonly.ics" style="font-size: 12pt; font-weight: 400;">(Download .ics)</a>
 </h2>
 <div style="margin-left: auto">
@@ -70,6 +89,9 @@
 {{ partial "schedule-table.html" (dict "events"
 (where .Params.events "timestamp" "ge" "2026-07-01")) }}
 </div>
+{{ if .Params.hide_schedule_conf }}
+</details>
+{{end}}
 
 
 

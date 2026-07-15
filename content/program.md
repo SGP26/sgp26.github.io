@@ -6,6 +6,8 @@ menu: program
 paperURL: "https://diglib.eg.org/handle/10.2312/3607312"
 gradschoolPlaylist: "https://www.youtube.com/playlist?list=PLA29N7301yZQ"
 keynotesPlaylist: "https://www.youtube.com/playlist?list=PLWE8oPKu88DM"
+hide_schedule_gs: true
+hide_schedule_conf: true
 
 
 events:

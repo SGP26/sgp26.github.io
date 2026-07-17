@@ -579,7 +579,7 @@ events:
       authors: "I. Ludwig, M. Campen"
       doi: "https://doi.org/10.1111/cgf.70528"
       pdf_url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf70528/cgf70528.pdf" # Not yet working as of Jun 30
-      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf.70528"
+      digilib_url: "https://diglib.eg.org/handle/10.1111/cgf0528"
       code_url: "https://github.com/IngmarLudwig/ConservativeNeuralDistanceFields"
 
     - id: CGF_1

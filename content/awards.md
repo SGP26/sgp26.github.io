@@ -22,7 +22,15 @@ This recognition is awarded to the authors who follow open source code principle
 
 The SGP Software Award 2026 comes with a prize sponsored by [GeometryFactory](https://geometryfactory.com/).
 
-### Winner
+### Winner: _RXMesh_
+
+Authors: **Ahmed H. Mahmoud**, **Serban D. Porumbescu**, and **John D. Owens**
+
+- [GitHub](https://github.com/owensgroup/RXMesh)
+- [Documentation](https://ahdhn.github.io/RXMeshDocs/)
+- [Paper: _RXMesh: a GPU mesh data structure_ (2021)](https://dl.acm.org/doi/10.1145/3450626.3459748)
+- [Paper: _Dynamic Mesh Processing on the GPU_ (2025)](https://dl.acm.org/doi/10.1145/3731162)
+
 {{<rawhtml>}}
     <div class="text_img_right_container">
         <div class="image-part" style="flex: 0.3; align-items: normal">
@@ -33,8 +41,7 @@ The SGP Software Award 2026 comes with a prize sponsored by [GeometryFactory](ht
         <div class="text-part">
             <p>
 {{</rawhtml>}}
-[**RXMesh**](https://github.com/owensgroup/RXMesh) by
-**Ahmed H. Mahmoud**, **Serban D. Porumbescu**, and **John D. Owens**
+
 
 > A library for processing triangle mesh entirely on the GPU.
 > It lets you write geometry processing applications (e.g., smoothing, remeshing, parameterization, simulation, and more) that run entirely on the GPU, without manually managing connectivity data structures, memory layouts, or kernel launch configurations.
@@ -52,16 +59,15 @@ The SGP 2026 Best Paper awards consist of one _Best Paper Award_, and two runner
 
 The Best Paper Award Committee 2026 consisted of the conference co-chairs, technical program co-chairs, and the graduate school co-chairs.
 
-### Winner
-
-[_Phong-Rodrigues Extrinsic Vector-Field Processing_](https://diglib.eg.org/bitstream/handle/10.1111/cgf70515/cgf70515.pdf)
+### Winner: _Phong-Rodrigues Extrinsic Vector-Field Processing_
 
 _Authors_: **Hongyi Liu**, **Oded Stein**, **Amir Vaxman**, **Mirela Ben-Chen**, and **Misha Kazhdan** 
 
+[[PDF]](https://diglib.eg.org/bitstream/handle/10.1111/cgf70515/cgf70515.pdf)
 [[Presentation video]](https://www.youtube.com/watch?v=OQS0wOqVcpQ&list=PLczjMYjix1EM)
 
 {{<rawhtml>}}
-    <div class="text_img_right_container" style="gap: 20px">
+    <div class="text_img_right_container" style="gap: 20px; margin-bottom: 3em">
         <div class="image-part" style="align-items: normal">
             <figure>
                 <img src="/images/awardees/misha.jpg" alt="Misha Kazhdan receiving the award certificate from Marco Livesu" style="max-width: 30em">
@@ -74,16 +80,15 @@ We introduce a new extrinsic discretization of tangent vector fields on triangle
 {{</rawhtml>}}
 
 
-### Honorable Mention
-
-[_Strictly Conservative Neural Distance Fields_](https://diglib.eg.org/bitstream/handle/10.1111/cgf70528/cgf70528.pdf)
+### Honorable Mention: _Strictly Conservative Neural Distance Fields_
 
 _Authors_: **Ingmar Ludwig** and **Marcel Campen**
 
+[[PDF]](https://diglib.eg.org/bitstream/handle/10.1111/cgf70528/cgf70528.pdf)
 [[Presentation video]](https://www.youtube.com/watch?v=cPVUpl4Cjww&list=PLczjMYjix1EM)
 
 {{<rawhtml>}}
-    <div class="text_img_right_container" style="gap: 20px">
+    <div class="text_img_right_container" style="gap: 20px; margin-bottom: 3em">
         <div class="image-part" style="align-items: normal">
             <figure>
                 <img src="/images/awardees/ingmar.jpg" alt="Ingmar Ludwig receiving the award certificate from Marco Livesu" style="max-width: 30em">
@@ -96,17 +101,16 @@ We propose a first method to generate neural unsigned or signed distance fields 
     </div>
 {{</rawhtml>}}
 
-### Honorable Mention
-
-[_Tangent Blow-Ups for Processing Non-Manifold Geometry_](https://diglib.eg.org/bitstream/handle/10.1111/cgf70527/cgf70527.pdf)
+### Honorable Mention: _Tangent Blow-Ups for Processing Non-Manifold Geometry_
 
 Authors: **Alice Petrov**, **Mohammad Sina Nabizadeh**, **Ana Dodik**, and **Justin Solomon**
 
+[[PDF]](https://diglib.eg.org/bitstream/handle/10.1111/cgf70527/cgf70527.pdf)
 [[Presentation video]](https://www.youtube.com/watch?v=6G1aSS4EKGw&list=PLczjMYjix1EM)
 
 
 {{<rawhtml>}}
-    <div class="text_img_right_container" style="gap: 20px">
+    <div class="text_img_right_container" style="gap: 20px; margin-bottom: 3em">
         <div class="image-part" style="align-items: normal">
             <figure>
                 <img src="/images/awardees/alice.jpg" alt="Alice Petrov receiving the award certificate from Marco Livesu" style="max-width: 30em">
@@ -116,17 +120,21 @@ Authors: **Alice Petrov**, **Mohammad Sina Nabizadeh**, **Ana Dodik**, and **Jus
 Many geometry processing pipelines implicitly assume their input data is a manifold, or is sampled from one, with a unique tangent plane at every point. Geometric data, however, routinely contains sharp features like edges, corners, self-intersections, branching junctions, and other singularities, rendering standard methods ill-defined at these points. To bring geometry processing to these and other singular spaces, we introduce the “tangent blow-up,” a representation inspired by algebraic geometry that restores structure at singularities by lifting to the product of the ambient space and the Grassmannian of tangent planes. After iterating this construction, points that coincide in position but differ in tangent direction, curvature, or higher-order contact become well-separated. We equip the tangent blow-up with a product metric and define discretized differential operators, such as the gradient, divergence, and Laplacian, directly in the lifted domain. We demonstrate our framework across geodesic computation, segmentation, surface parameterization, and curvature estimation.
         </div>
     </div>
+
 {{</rawhtml>}}
+
 
 
 ## Test-of-time Award
 
 Starting in 2021, a Test-of-time Award is given each year to a paper that was published at least 10 years prior and has generated the most impact. The Test-of-time Award is based on a vote by all technical papers committee members. The Test of Time Award Chair 2026 was Marc Alexa.
 
-### Winner
-[_Laplace-Beltrami Eigenfunctions for Deformation Invariant Shape Representation_ (SGP 2007)](/images/awardees/rustamovSGP2007.pdf) by **Raif M. Rustamov**
+### Winner: _Laplace-Beltrami Eigenfunctions for Deformation Invariant Shape Representation_ (SGP 2007)
 
-[ACM Digital Library](https://dl.acm.org/doi/10.5555/1281991.1282022)
+Author: **Raif M. Rustamov**
+
+[[PDF]](/images/awardees/rustamovSGP2007.pdf)
+[[ACM Digital Library]](https://dl.acm.org/doi/10.5555/1281991.1282022)
 
 
 

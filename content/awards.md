@@ -117,10 +117,31 @@ Many geometry processing pipelines implicitly assume their input data is a manif
         </div>
     </div>
 {{</rawhtml>}}
+
+
 ## Test-of-time Award
 
 Starting in 2021, a Test-of-time Award is given each year to a paper that was published at least 10 years prior and has generated the most impact. The Test-of-time Award is based on a vote by all technical papers committee members. The Test of Time Award Chair 2026 was Marc Alexa.
 
 ### Winner
-[_Laplace-Beltrami Eigenfunctions for Deformation Invariant Shape Representation_ (SGP 2007)](https://dl.acm.org/doi/10.5555/1281991.1282022) by **Raif M. Rustamov**
+[_Laplace-Beltrami Eigenfunctions for Deformation Invariant Shape Representation_ (SGP 2007)](/images/awardees/rustamovSGP2007.pdf) by **Raif M. Rustamov**
+
+[ACM Digital Library](https://dl.acm.org/doi/10.5555/1281991.1282022)
+
+
+
+{{<rawhtml>}}
+    <div class="text_img_right_container" style="gap: 20px">
+        <div class="image-part" style="align-items: normal">
+            <figure>
+                <img src="/images/awardees/lbe-disrep.png" alt="A rendering of three differently deformed Armadillo models with very similar segmentations into 6 parts" title="Figure 1: The k-means clustering on the GPS coordinates results in a pose invariant segmentation." style="max-width: 30em">
+            </figure>
+        </div>
+        <div class="text-part" style="padding-right: 0px;">
+A deformation invariant representation of surfaces, the GPS embedding, is introduced using the eigenvalues and eigenfunctions of the Laplace-Beltrami differential operator. Notably, since the definition of the GPS embedding completely avoids the use of geodesic distances, and is based on objects of global character, the obtained representation is robust to local topology changes. The GPS embedding captures enough information to handle various shape processing tasks as shape classification, segmentation, and correspondence. To demonstrate the practical relevance of the GPS embedding, we introduce a deformation invariant shape descriptor called G2-distributions, and demonstrate their discriminative power, invariance under natural deformations, and robustness.
+        </div>
+    </div>
+{{</rawhtml>}}
+
+
 

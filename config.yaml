@@ -10,9 +10,6 @@ outputFormats:
     isPlainText: true
     notAlternative: true
 
-module:
-  imports:
-  - path: github.com/future-wd/hugo-responsive-images
 params:
   timezone: Europe/Zurich
   image:

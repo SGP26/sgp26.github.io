@@ -1,0 +1,9 @@
+{{ $page := . }}
+<div id=program-banner>
+  <nav id=photos-nav class="nav justify-content-center">
+    {{ range $day := (slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday") }}
+    <a class="nav-link{{ if eq $day $page.Params.photosDir }} active{{ end }}"
+       href="{{ printf "/photos/%s/" (lower $day) | relLangURL }}">{{ $day }}</a>
+    {{ end }}
+  </nav>
+</div>

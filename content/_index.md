@@ -16,19 +16,28 @@ Video recordings of graduate school and conference will be made available [on ou
 
 {{<rawhtml>}}
 
+<div style="background:rgba(39,168,162,0.12); border-left:4px solid #27a8a2;
+     padding:0.6em 1em; margin:1em 0;">
+  The <strong>SGP&nbsp;2026 photos are now available</strong> —
+  browse the daily gallery on the
+  <a href="/photos/">photos page</a>.
+</div>
+
+{{</rawhtml>}}
+
+{{<rawhtml>}}
+
 <a href="/images/group_photo/sgp26_group_building_hires.jpg" target="_blank">
-    <img src="/images/group_photo/sgp26_group_building_lores.jpg" style="max-width:100%"
+    <img src="/images/group_photo/sgp26_group_building_lores.jpg" loading="lazy" style="max-width:100%"
     alt="SGP 2026 group photo in front of UniBE main building" title="Where's Waldo?"/>
 </a>
 <a href="/images/group_photo/sgp26_group_grass_hires.jpg" target="_blank">
-    <img src="/images/group_photo/sgp26_group_grass_lores.jpg" style="max-width:100%"
+    <img src="/images/group_photo/sgp26_group_grass_lores.jpg" loading="lazy" style="max-width:100%"
     alt="SGP 2026 group photo on lawn photographed from above" title="Where's Wally?"/>
 </a>
 {{</rawhtml>}}
 
 (click on photos for full resolution)
-
-We'll soon send out a private link to a curated collection of photos by email.
 
 
 ## About

@@ -26,3 +26,9 @@ This needs to be cleaned up.
 ## Known issues
 
 - `.ics` file generation must update `DTSTAMP` with each change, otherwise some consumers of webcal uris will not update.
+
+
+## Notes
+
+When deploying on github pages, media stored in LFS is not deployed, at least not when using the standard
+actions (as of Jul 2026). We avoid LFS for that reason.

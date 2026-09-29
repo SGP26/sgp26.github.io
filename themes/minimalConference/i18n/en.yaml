@@ -32,6 +32,8 @@
   translation: "Awards"
 - id: previous_sgps
   translation: "Previous SGPs"
+- id: photos
+  translation: "Photos"
 - id: abstract_submission
   translation: "(Recommended) Abstract submission"
 - id: paper_submission

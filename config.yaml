@@ -64,6 +64,9 @@ menu:
     - name: previous_sgps
       url: /past/
       weight: 70
+    - name: photos
+      url: /photos/
+      weight: 80
 Params:
   sponsorContact: "sgp2026-admin@list.inf.unibe.ch"
   submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP2026_FP2"
